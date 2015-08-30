@@ -1,0 +1,10 @@
+D:\MyRoom\20150623Optimize\CommonDll\VA.AllNotifications.dll
+D:\MyRoom\20150623Optimize\CommonDll\VA.AllNotifications.pdb
+D:\MyRoom\20150623Optimize\AllNotifications\obj\Debug\AllNotifications.csprojResolveAssemblyReference.cache
+D:\MyRoom\20150623Optimize\AllNotifications\obj\Debug\VA.AllNotifications.dll
+D:\MyRoom\20150623Optimize\AllNotifications\obj\Debug\VA.AllNotifications.pdb
+D:\MyRoom\Project\20150623Optimize\CommonDll\VA.AllNotifications.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\VA.AllNotifications.pdb
+D:\MyRoom\Project\20150623Optimize\AllNotifications\obj\Debug\AllNotifications.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\AllNotifications\obj\Debug\VA.AllNotifications.dll
+D:\MyRoom\Project\20150623Optimize\AllNotifications\obj\Debug\VA.AllNotifications.pdb

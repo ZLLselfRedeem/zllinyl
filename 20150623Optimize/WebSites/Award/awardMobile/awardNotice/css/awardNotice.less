@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rega(0, 0, 0, 0);
+}
+html, body{
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+    font-family:Microsoft YaHei,Tahoma,simsun;
+    overflow: hidden;
+}
+.c{
+    clear: both;
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+.hide{
+    display: none;
+}
+ul{
+    li{
+        list-style-type: none;
+    }
+}
+
+ol{
+    li{
+        list-style-type: decimal;
+        margin-left: 20px;
+    }
+}
+
+.wrap{
+    overflow: hidden;
+    background: #aaa;
+    background: url(../img/bg.png);
+    background-size: 100% 100%;
+    
+    #loading{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 8;
+        
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50px;
+            height: 50px;
+            margin: -25px 0 0 -25px;
+            display: block;
+        }
+    }
+    #tipsBg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 480px;
+        z-index: 9;
+    }
+    #tips{
+        position: absolute;
+        top: 70px;
+        left: 10%;
+        width: 80%;
+        padding: 15px 0;
+        text-align: center;
+        background: rgba(0,0,0,.8);
+        color: #fff;
+        border-radius: 10px;
+        opacity: 0;
+        z-index: 10;
+    }
+    .main{
+        width: 100%;
+    }
+    
+    #mark{
+        position: absolute;
+        bottom: 5px;
+        width: 280px;
+        text-align: center;
+    }
+    #mark span{
+        margin-right: 5px;
+    }
+    .swiper-pagination-bullet-active{
+        background: #666;
+    }
+}
+#page0{
+    .pageul{
+        .title{
+            text-align: center;
+            color: #ff4b4b;
+            font-size: 2.5em;
+            padding: 20px 0 10px 0;
+        }
+        .title1{
+            text-align: center;
+            color: #ff4b4b;
+            font-size: 1.25em;
+            padding-bottom: 20px;
+        }
+        .awards{
+            padding-bottom: 10px;
+            dl{
+                float: left;
+                text-align: center;
+                width: 18%;
+                padding-top: 10px;
+                
+                dt{
+                    img{
+                        width: 100%;
+                    }
+                }
+                dd{
+                    margin-top: 5px;
+                    font-size: 0.8em;
+                    color: #666;
+                }
+            }
+        }
+        .lucyPeople{
+            width: 80%;
+            margin-left: 10%;
+            color: #666;
+            padding: 25px 0 25px 0;
+            li{
+                padding: 2px 0;
+            }
+            li:first-child{
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+        }
+        .awardRule{
+            width: 80%;
+            margin-left: 10%;
+            color: #666;
+            .noListType{
+                font-size: 1.2em;
+                padding: 2px 0;
+                list-style-type: none;
+                margin-left: 0;
+                font-weight: bold;
+            }
+            li{
+                padding: 2px 0;
+            }
+        }
+    }
+}
+#page1{
+    background: rgb(255,252,221);
+    border-radius: 8px;
+    color: #666;
+    line-height: 2em;
+    #pageContent1{
+        background: #fffcdd;
+    }
+    .shopTitle{
+        padding: 20px 0;
+        font-size: 1.8em;
+        color: rgb(255, 67, 67);
+        text-align: center;
+    }
+    
+    .rounddot{
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .title3{
+        width: 100%;
+        padding-bottom: 15px;
+        font-size: 1.25em;
+        .rounddot0{
+            background: #ff4b4b;
+        }
+    }
+    .title4{
+        width: 100%;
+        padding: 30px 0 15px 0;
+        font-size: 1.25em;
+        .rounddot1{
+            background: #ffd43f;
+        }
+    }
+    .line{
+        width: 90%;
+        margin-left: 5%;
+        height: 1px;
+        background: #dfdfdf;
+    }
+    .discount{
+        width: 88%;
+        padding: 0 6% 20px 6%;
+        
+        .radiusD{
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 1.1em;
+            color: #fff;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .radiusD0{
+            background: #ffd43f;
+        }
+        .radiusD1{
+            background: #f79100;
+        }
+        
+        #couponDetails{
+            font-size: 1.2em;
+            margin-left: 10px;
+            span{
+                color: #999;
+                font-size: 0.8em;
+            }
+        }
+        .shopDiscount{
+            margin-left: 10px;
+            td:first-child{
+                padding-top: 6px;
+            }
+        }
+    }
+    .shopNotice{
+        width: 88%;
+        padding: 0 6%;
+        li:first-child{
+            margin: 0;
+        }
+        li{
+            margin-left: 10px;
+        }
+    }
+}

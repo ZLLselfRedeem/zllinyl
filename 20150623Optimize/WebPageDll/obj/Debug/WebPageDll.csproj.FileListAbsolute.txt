@@ -1,0 +1,12 @@
+D:\MyRoom\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.dll.config
+D:\MyRoom\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.dll
+D:\MyRoom\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.pdb
+D:\MyRoom\20150623Optimize\WebPageDll\obj\Debug\WebPageDll.csprojResolveAssemblyReference.cache
+D:\MyRoom\20150623Optimize\WebPageDll\obj\Debug\VAGastronomistMobileApp.WebPageDll.dll
+D:\MyRoom\20150623Optimize\WebPageDll\obj\Debug\VAGastronomistMobileApp.WebPageDll.pdb
+D:\MyRoom\Project\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.dll.config
+D:\MyRoom\Project\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\VAGastronomistMobileApp.WebPageDll.pdb
+D:\MyRoom\Project\20150623Optimize\WebPageDll\obj\Debug\WebPageDll.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\WebPageDll\obj\Debug\VAGastronomistMobileApp.WebPageDll.dll
+D:\MyRoom\Project\20150623Optimize\WebPageDll\obj\Debug\VAGastronomistMobileApp.WebPageDll.pdb

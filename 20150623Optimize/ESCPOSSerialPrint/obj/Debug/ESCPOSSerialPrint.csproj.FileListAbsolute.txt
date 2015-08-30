@@ -1,0 +1,8 @@
+D:\MyRoom\20150623Optimize\CommonDll\ESCPOSSerialPrint.dll
+D:\MyRoom\20150623Optimize\CommonDll\ESCPOSSerialPrint.pdb
+D:\MyRoom\20150623Optimize\ESCPOSSerialPrint\obj\Debug\ESCPOSSerialPrint.dll
+D:\MyRoom\20150623Optimize\ESCPOSSerialPrint\obj\Debug\ESCPOSSerialPrint.pdb
+D:\MyRoom\Project\20150623Optimize\CommonDll\ESCPOSSerialPrint.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\ESCPOSSerialPrint.pdb
+D:\MyRoom\Project\20150623Optimize\ESCPOSSerialPrint\obj\Debug\ESCPOSSerialPrint.dll
+D:\MyRoom\Project\20150623Optimize\ESCPOSSerialPrint\obj\Debug\ESCPOSSerialPrint.pdb

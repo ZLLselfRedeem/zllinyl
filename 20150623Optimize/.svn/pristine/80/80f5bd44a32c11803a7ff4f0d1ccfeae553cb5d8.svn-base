@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>悠先美食专题</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="../assets/css/doubleEleven.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+    	<section class="intro">
+        	<h3 class="text-center text-uppercase">“脱光”约会好去处</h3>
+            <p>早晨路过小摊，上面排队整齐的油条们，宣告“今年的光棍节开始啦”。你还认为四根油条加一个包子或者一个鸡蛋，是光棍节比较潮的吃法吗？大魔都是一个充满传说的地方，遍地都是美食。餐厅为了积攒人气，剑走偏锋以装修形式博出位，在这个美食遍地开花的魔都，一日三餐吃什么都成了小伙伴们的宇宙超级难题。今天为您推荐环境好到让女票喷泪的餐厅。如果你已经有心仪的女生，那就趁着“脱光”的节日赶紧约她吧。</p>
+            <p class=" text-danger bg-danger"><i class="fa fa-volume-up"></i> 按“进入点菜”按键可以直接点菜，别忘了还有“天天红包”领哦，每天都来领1个，到了双11，就能省一笔，嗯！</p>
+        </section>
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>沪上唯一的露天餐厅</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="796"><i class="fa fa-random"></i>点菜</button>@藏珑云海 </p>
+            <p>藏珑云海是家云南菜餐厅，有意思的是它是上海唯一的露天餐厅，可将南京西路的繁华与人民广场的时尚尽收眼底。餐厅以竹子作为主要装饰元素，由竹片贴合成的墙面、从天花板上垂挂下的密集的竹筒，氛围自然而舒适。宝蓝色和深褐色构成的基调中，布置着典雅的木质桌椅和带有罩棚的小隔间。步入竹林和帷幔，眼前映入一个传统而又现代的餐厅，朴素淡雅的民族风结合当代都市时尚元素，划出一道亮丽的风景线。当通向露台的落地玻璃门打开，微风拂进，竹筒互相敲打作响，声声入耳，颇有些“开门复动竹，疑是故人来”的意境。</p>
+            <p><img src="../assets/images/1-01.jpg"></p>
+            <p>在菜品上，巧妙运用了传统的云南香料，并将经典滇菜与当代美食理念巧妙结合，让您爱不释口，带女票领略独特云南野味，来一场与美食的私奔。</p>
+            <p><img src="../assets/images/2-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐菜品：汽锅鸡</p>
+            <p><img src="../assets/images/3-01.jpg"></p>
+            <p>汽锅鸡可是云南的一道名菜。早在2000多年前就在滇南民间流传开了。在云南的建水县出产一种别致的土陶蒸锅，只有用建水的蒸锅（也叫汽锅）做的鸡才正宗的。而鸡呢，一定要用当地的土鸡。
+话说这“汽锅鸡”的原料可以有很多种，这些珍贵的材料都是来自云南当地，如：枸杞、当归、人参、松茸和宣威火腿等等。
+鸡一定要先炒一下，再入砂锅里去蒸煮。在汽锅的正中立有一根空心管，蒸汽沿此管进入锅膛，经过汽锅盖冷却后变成水滴入锅内，成为鸡汤的。这样的过程要经历三小时左右，由于汤汁是蒸汽凝成，鸡肉的鲜味在蒸的过程中丧失减少，所以出炉的鸡肉和汤才是原汁原味呢！</p>
+        </section>
+        
+        
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>在法式咖啡馆遇见台湾料理</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="795"><i class="fa fa-random"></i>点菜</button>@半山小馆</p>
+            <p>安身于818广场6楼的一家台湾餐厅，没有夸张的招牌，但从装修看还是花了一番功夫的，深色的主色调配上昏暗的灯光，高雅又不失温馨。餐厅内，整面墙的法国街景摄影出自一位旅法的钢琴家之手。椅子的设计也是相当讲究和舒服。仿佛此情此景更适合品味咖啡呢！</p>
+            <p>翻看菜单选择的种类还挺多的，主要还是以台湾菜为主。暂时不能陪女票去台湾旅行的你，用味觉来旅行也未尝不可。</p>
+            <p><img src="../assets/images/4-01.jpg"></p>
+            <p>帽子灯的设计无疑是这家店的又一亮点</p>
+            <p><img src="../assets/images/5-01.jpg"></p>
+            <p>因为半山小馆的老板向往生活在台湾半山中的写意生活，所有这家店的菜式也是相当的家庭料理。</p>
+            <p class="producename text-info bg-info">推荐菜品：桂花蜜小番茄</p>
+            <p>特别适合告别夏季享用的一道前菜，甜而不腻。</p>
+            <p><img src="../assets/images/6-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐菜品：三杯鸡</p>
+            <p>他家的三杯系列必须说一下，其实三杯是源自江西，但一说到三杯不得不说是台菜的特色，从来也不会联想到江西菜，三杯是有甜酒酿、猪油、酱油各一杯，大概是加了九层塔的缘故，香气四溢。一般都是用的小煲，温度很高，不论是牛蛙、鱿鱼圈还是鸡肉都烹制的不错。嫩度和香味都可以带出，难怪是客家菜中比较耳熟能详的，这家做的确实蛮正。</p>
+            <p><img src="../assets/images/7-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐菜品：冰镇素鲍鱼</p>
+            <p>摆盘考究，素鲍鱼切成薄片，沾蘸料食用，就是芥末和酱油的搭配，感觉像是在吃日料刺身。</p>
+            <p><img src="../assets/images/8-01.jpg"></p>
+        </section>
+        
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>梦恋暹罗寻味泰国美食</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="797"><i class="fa fa-random"></i>点菜</button>@藏珑泰厨</p>
+            <p>藏珑泰厨是藏珑系列中主打泰国菜的一家,和半山小馆、藏珑云海一同位于818广场的六楼,有幽静雅致的室内座,也有沐浴在阳光下的露天位,环境自然是一流的。中西结合的口味，在食物的诱惑下，也容易打开心扉，如果你下一点功夫的话，多学习泰国饮食知识，边吃便给她讲，那么知识渊博的印象你一定会给她留下了！</p>
+
+            <p class="producename text-info bg-info">推荐菜品：冬阴功海鲜汤</p>
+            <p>冬阴功汤是泰料的灵魂所在，“冬阴”就是酸辣，“功”是虾，食材也很多，诱人的大虾，膏肓浓郁；小块的鱼饼和草菇等，浓烈的香茅和雨露以及南姜的味道，虽重口味，但就是爱喝，一碗接一碗，酸甜的味道，特殊的香气。</p>
+            <p><img src="../assets/images/9-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐饮品：莫吉托</p>
+            <p>Mojito 味道很清新，外观很好看，有一点青涩、有点甜蜜，象单纯青柠般的初恋。搅拌一下，可以看到薄荷叶和柠檬旋转，融在白朗姆酒里……</p>
+            <p><img src="../assets/images/10-01.jpg"></p>
+        </section>
+        
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>“小小的店面”永远被挤得满扑扑</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="742"><i class="fa fa-random"></i>点菜</button>@玛格萝妮餐厅</p>
+            <p>玛格萝妮是什么？恐怕只有意大利人才知道那指的是他们引以为傲的通心粉的品种，小小的，滋味却全部浸润在里面，而悠先小编所熟悉的玛格萝妮却是一家餐厅，卖的是各种饭和匹萨小食，小小的店面里却包含了意大利美食的精髓。</p>
+            <p><img src="../assets/images/11-01.jpg"></p>
+            <p>市面上常吃的腊肉、番茄酱、芝士和香香的面饼烤出来的这家都有，到手的时候匹萨还散发着烫手的温度，自然不用担心美味的流失，不过要说特别就谈不上了。如果女票是第一次吃西餐，那么教她使用刀具就成了你的任务了哦，这样你在她心中的绅士风度一定会再加一分！</p>
+            <p class="producename text-info bg-info">推荐菜品：蓝莓披萨</p>
+            <p>这回给大家介绍一道可以说是上海滩绝无仅有的蓝莓披萨，这酸酸甜甜的蓝莓遭遇奶油芝士，究竟是金风玉露一相逢还是乱点鸳鸯谱，还得刀叉之下见分晓。</p>
+            <p><img src="../assets/images/12-01.jpg"></p>
+        </section>
+        
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>复古本帮菜原汁原味</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="740"><i class="fa fa-random"></i>点菜</button>@饭小馆</p>
+            <p>店门面不大，但饭小馆三个大字清晰明朗，顾名思义是一家本帮创意菜的饭馆，但走进店内又似乎多了一些餐厅没有的摆设，长长的吧台分明就是酒吧才会用到的，为什么本帮餐厅也会有？店主介绍后才得知这里原来是一家餐厅、下午茶店与酒吧结合的创意美食店，白天能够与闺蜜聊天边享下午茶套餐，傍晚便是人气爆棚的本帮菜馆，9点后灯光就会逐渐变暗，顺理成章又变身一间酒吧。以美式复古风格为主的装修风格原汁原味，暖黄色的墙面上挂满了各种复古海报和纪念品，如果女票热爱哈雷摩托、欧美复古风，就带她来这里。</p>
+            <p><img src="../assets/images/13-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐菜品：椒盐猪手</p>
+            <p>这里的菜以本帮菜为基础，在其之上进行创意烹饪，椒盐猪手是这里TOP1特色，外表看上去有别于他家，并不是那么干，红褐色的酱汁浓稠香腻，包裹着每一块肉，咬下去这些酱汁还会在口中瞬间爆裂，给人入口即化的错觉感。除此之外，酥土豆泥和红烧肉也都有各自的独特口感，与市面上传统的烧法有着不一样的地方，价格非常合理。</p>
+            <p><img src="../assets/images/14-01.jpg"></p>
+            <p><img src="../assets/images/15-01.jpg"></p>
+        </section>
+        
+        <section class="pans">
+        	<h5><i class="fa fa-location-arrow"></i>健康饮食生活馆</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="728"><i class="fa fa-random"></i>点菜</button>@绿米</p>
+            <p>进门感觉不像餐厅，这家店很有意思。一楼有几个靠窗位子和出售各类素食食品和小物件，二楼呢有个榻榻米的包间，也有靠窗的位子，然后其他区域就都是服装了，各类型的都有，都是101件的那种，价格也不菲，很多都是千元以上，但都有很强烈的设计感。</p>
+            <p>黑椒素丁、蔬菜色拉、酵素、豆腐汉堡、菌菇汤、青酱意面、蓝莓生食糕、冬阴功汤、五谷饭等都是很有创意的素食菜品。其中他家的招牌料理五谷饭里面有菌菇、豆干、燕麦等粗粮巧妙组合，嚼起来口感很好，加了酱油蒸的，咸淡适中，很好吃又很健康。
+小馆将喵星人、餐厅、超市、花店、服装店的概念融会贯通创造了一片综合性生活馆。中午晒着太阳很惬意，人也不多，一只小猫在店里悠哉悠哉，有点家的感觉。店里的猫大人时不时的找我们撒个娇，下午时光就这么安静惬意的度过了。家庭式餐厅给女票带来一个安静、轻松的环境，使久在职场的人们能逃离城市的喧哗，安静的、放松的享受美味。</p>
+            <p class="producename text-info bg-info">推荐菜品：竹筒有机五谷饭</p>
+            <p><img src="../assets/images/16-01.jpg"></p>
+            <p class="producename text-info bg-info">推荐饮品：野生蓝莓果汁</p>
+            <p>野生蓝莓果汁营养价值很高。增强视力、消除眼疲劳；促进毛心血管微循环，滋润皮肤，增强人体免疫力。活跃和延缓脑神经老化、提高记忆力。</p>
+            <p><img src="../assets/images/17-01.jpg"></p>
+        </section>
+    </div>
+    
+    	<section class="last text-info bg-info">
+        	<div class="container">
+            <p><i class="fa fa-heart-o"></i> 想吃！！</p>
+            <p>这些这些还有这些...一路上有悠先，多吃点不怕。</p>
+            <p>微博: @悠先点菜</p>
+            <p>微信: youxiandiancai</p>
+            </div>
+        </section>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/tronjs/tron.js"></script>
+    <script language="javascript">
+	require('../assets/scripts/main', function(project){new project();});
+	</script>
+  </body>
+</html>

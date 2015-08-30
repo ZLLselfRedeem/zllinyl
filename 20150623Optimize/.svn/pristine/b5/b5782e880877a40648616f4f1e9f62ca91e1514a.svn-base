@@ -1,0 +1,41 @@
+﻿*
+
+.box
+{
+    height: 66px;
+    float: left;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.box li
+{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+    height: 70px;
+    background: #BBB;
+    font-size: 50px;
+    color: #ccc;
+    line-height: 66px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.box li:hover
+{
+    color: #999;
+}
+.box li.active
+{
+    background-position: -174px 0;
+    color: #555;
+    cursor: default;
+}
+.scroll_list
+{
+    width: 10000em;
+    position: absolute;
+}

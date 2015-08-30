@@ -1,0 +1,69 @@
+<!--#include file="config.asp" -->
+<section>
+	
+	<img id="promptShare" src='<%=config.SeverPath%>title-1.gif' class="img-responsive hide" />
+	<div class="app-content">
+    
+    	<div class="banner snow">
+        	<div id="music_div"></div>
+        	<div class="imgs"><img src="<%=config.SeverPath%>activity-success.png" class="img-responsive" /></div>
+            <div class="content"><div class="snows"></div></div>
+            <div class="text">
+            	<div id="moneyText"><span></span>元</div>
+	            <div class="oldPhoneNumber clearfix">
+	            	<div class="col-xs-12 ctitle">12.29日前下单悠先平台任意餐厅均可抵扣</div>
+	        		<div class="col-xs-12 text-center" id="phoneNumber"><span></span> <a href="javascript:;" id="change">号码纠错</a></div>
+	            </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="myModal">
+        <div class="modal-dialog modal-sm va-modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="padding-top: 5px;padding-bottom: 5px;">
+                    <h4 class="modal-title" style="text-align: center;">号码纠错</h4>
+                    <h5 style="text-align: center;margin-bottom: 0;margin-top: 5px;">手别抖,只能修改一次哦~</h5>
+                </div>
+                <div class="modal-body va-modal-body">
+                    <div class="row va-row" >
+                        <div class="col-xs-12"><input type="tel" id="dcmobilePhone" class="form-control" style="font-size:100%"/></div>
+                    </div>
+                    <div class="row button-footer">
+                        <div class="col-xs-6" style="padding: 0;">
+                            <button type="button" class="btn btn-default btn-lg form-control left-button" id="button_cancel">取消</button>
+                        </div>
+                        <div class="col-xs-6" style="padding: 0;">
+                            <button type="button" class="btn btn-default btn-lg form-control" id="button_smash">确定</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="redList container">
+    	<div class="red-list-title col-xs-12"><span>悠先排行榜</span></div>
+    	<ul id="rank"></ul>
+    </div>
+    
+    <div class="container">
+	    <div class="text-left row">
+	    	<h4 class="col-xs-12"><i class="fa fa-square" style="font-size: 12px;"></i> 活动时间</h4>
+	    	<div class="col-xs-12" style="padding-left: 0;">
+	    		<ol>
+	    				    			<li><span style="color: #f90000;">12月19日00:00-12月25日23:59</span>，分享链接给微信好友，就能成功发红包；点击分享链接，您也可以领一个红包。</li>
+	    			<li>红包仅限<span style="color: #f90000;">12月24日00:00-28日23:59</span>下单使用，不退款不找零，平台上所有门店均可抵扣，未使用红包将于<span style="color: #f90000;">12月29日00:00</span>失效；</li>
+	    			<li>凡使用红包购买的点单，可于<span style="color: #f90000;">12月24日00:00-28日23:59</span>到店消费,如圣诞红包抵扣的订单仍未入座，系统将自动退款（用户除红包以外实际支付的金额将退回原账户，红包作废）。</li>
+	    		</ol>
+	    	</div>
+	    </div>
+    </div>
+    <div class="container" style="margin-bottom: 50px;">
+	    <div class="text-left row">
+	    	<h4 class="col-xs-12"><i class="fa fa-square" style="font-size: 12px;"></i> 活动规则</h4>
+	    	<div class="col-xs-12" style="padding-left: 0;">
+		    	<ol id="rule"></ol>
+	    	</div>
+	    </div>
+    </div>
+</section>

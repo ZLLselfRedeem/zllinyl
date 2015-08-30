@@ -1,0 +1,10 @@
+D:\MyRoom\20150623Optimize\CommonDll\ChineseCharacterToPinyin.dll
+D:\MyRoom\20150623Optimize\CommonDll\ChineseCharacterToPinyin.pdb
+D:\MyRoom\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.dll
+D:\MyRoom\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.pdb
+D:\MyRoom\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\CommonDll\ChineseCharacterToPinyin.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\ChineseCharacterToPinyin.pdb
+D:\MyRoom\Project\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.dll
+D:\MyRoom\Project\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.pdb
+D:\MyRoom\Project\20150623Optimize\ChineseCharacterToPinyin\obj\Debug\ChineseCharacterToPinyin.csprojResolveAssemblyReference.cache

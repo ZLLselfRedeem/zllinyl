@@ -1,0 +1,26 @@
+<div class="wrap storeMenu">
+  <div class="backBtn"></div>
+  <div class="storeAdd text-center">
+    <h4 id="detail-1">院子餐厅中南分店</h4>
+    <h5 id="detail-2">电话：13759662443</h5>
+    <h5 id="detail-3">地址：沈国舫双方都市XX区XX街11号</h5>
+  </div>
+  <img src="img/pic1.jpg" class="img-responsive menuPic" width="100%" id="detail-4" />
+  <ul class="menus" id="detail-5">
+  </ul>
+  <ul class="theDate">
+    <li class="btn btn-default">2月18日 除夕</li>
+    <li class="btn btn-default">2月19日 初一</li>
+    <li class="btn btn-default selected">2月20日 初二</li>
+    <li class="btn btn-default overed" disabled>已抢完</li>
+  </ul>
+  <ul class="dinnerTime">
+  </ul>
+  <div class="priceInfo">
+    <div class="pull-right">
+      <div class="emptyTable text-center" id="reduce"></div>
+      <button class="btn btn-danger" id="doOrder">马上下单</button>
+    </div>
+    <span class="nowPrice" id="detail-6">￥999</span> <del><span class="oldPrice" id="detail-7">￥1999</span></del> <span class="peopleNum" id="detail-8">建议4-6人使用</span> </div>
+  <button class="btn btn-default showOther backBtn">看看其它 <i class="fa fa-angle-double-right"></i></button>
+</div>

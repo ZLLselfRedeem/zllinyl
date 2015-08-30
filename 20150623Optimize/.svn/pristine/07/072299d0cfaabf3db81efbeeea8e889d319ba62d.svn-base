@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85C80526-989A-42AE-BF5A-CD8E316C51A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VAGastronomistMobileApp.SQLServerDAL</RootNamespace>
+    <AssemblyName>VAGastronomistMobileApp.SQLServerDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\CommonDll\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\CommonDll\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Autofac.Integration.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TheThirdBin\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountManager.cs" />
+    <Compile Include="AdvertisementManager.cs" />
+    <Compile Include="Award\AwardConnPreOrderManager.cs" />
+    <Compile Include="Award\AwardConfigManager.cs" />
+    <Compile Include="Award\ShopAwardVersionManager.cs" />
+    <Compile Include="Award\ShopAwardVersionLogManager.cs" />
+    <Compile Include="Award\DishAwardManager.cs" />
+    <Compile Include="Award\ShopConnRedEnvelopeManager.cs" />
+    <Compile Include="Award\ShopReturnMoneyLimitManager.cs" />
+    <Compile Include="Award\ViewAllocAwardManager.cs" />
+    <Compile Include="Award\ShopNoticeManager.cs" />
+    <Compile Include="Award\ShopAwardManager.cs" />
+    <Compile Include="CouponGetDetailVManager.cs" />
+    <Compile Include="CouponSendDetailManager.cs" />
+    <Compile Include="ClientExtendManager.cs" />
+    <Compile Include="ClientOrderDetailConfigManager.cs" />
+    <Compile Include="companyApplyPaymentManager.cs" />
+    <Compile Include="CounponExtendManager.cs" />
+    <Compile Include="CouponGetDetailManager.cs" />
+    <Compile Include="CouponGetDetailManagerExtend.cs" />
+    <Compile Include="CouponManager.cs" />
+    <Compile Include="CouponManagerExtend.cs" />
+    <Compile Include="CouponSendDetailManagerExtend.cs" />
+    <Compile Include="CouponVManager.cs" />
+    <Compile Include="CouponVManagerExtend.cs" />
+    <Compile Include="CurrectIngredientsSellOffInfoManager.cs" />
+    <Compile Include="CustomerCheckedShopManager.cs" />
+    <Compile Include="CustomerConnDeviceManager.cs" />
+    <Compile Include="DemoManager.cs" />
+    <Compile Include="DeviceManager.cs" />
+    <Compile Include="Finance\BalanceAccountManager.cs" />
+    <Compile Include="Finance\BankMoneyRecordManager.cs" />
+    <Compile Include="Finance\StoresMoneyLogManager.cs" />
+    <Compile Include="FoodPlazaManager.cs" />
+    <Compile Include="HomeNew\AdvertManager.cs" />
+    <Compile Include="HomeNew\SubTitleManager.cs" />
+    <Compile Include="HomeNew\TitleManager.cs" />
+    <Compile Include="IntegralAnomalyManager.cs" />
+    <Compile Include="Integration\CustomerIntegrationDetailManager.cs" />
+    <Compile Include="Integration\IntegrationRuleManager.cs" />
+    <Compile Include="Log\ClientErrorInfoManager.cs" />
+    <Compile Include="Log\RechargeLogManager.cs" />
+    <Compile Include="Log\ShopHandleLogManager.cs" />
+    <Compile Include="Meal\MealManager.cs" />
+    <Compile Include="Meal\MealScheduleManager.cs" />
+    <Compile Include="Meal\ShopSequenceManager.cs" />
+    <Compile Include="OrderManager.cs" />
+    <Compile Include="Messages\ActivityMessageManager.cs" />
+    <Compile Include="Messages\MessageFirstTitleManager.cs" />
+    <Compile Include="OrderOptimization\ChannelManager.cs" />
+    <Compile Include="OrderOptimization\ShopChannelDishManager.cs" />
+    <Compile Include="OrderOptimization\ShopChannelManager.cs" />
+    <Compile Include="Package\PackageManager.cs" />
+    <Compile Include="Payment\AlipayManager.cs" />
+    <Compile Include="AppBuildManager.cs" />
+    <Compile Include="AuthorityManager.cs" />
+    <Compile Include="BatchMoneyManager.cs" />
+    <Compile Include="CityManager.cs" />
+    <Compile Include="ClientErrorManager.cs" />
+    <Compile Include="CommonManager.cs" />
+    <Compile Include="CompanyAccountManager.cs" />
+    <Compile Include="CompanyEncourageManager.cs" />
+    <Compile Include="CompanyManager.cs" />
+    <Compile Include="Complaint\ComplaintManager.cs" />
+    <Compile Include="FoodDiariesShareConfigManager.cs" />
+    <Compile Include="Payment\AliRefundManager.cs" />
+    <Compile Include="Persistence\IActivityRepository.cs" />
+    <Compile Include="Persistence\IActivityShareInfoRepository.cs" />
+    <Compile Include="Persistence\IDistrictRepository.cs" />
+    <Compile Include="Persistence\IEmployeeOperateLogRepository.cs" />
+    <Compile Include="Persistence\IOriginalRoadRefundInfoRepository.cs" />
+    <Compile Include="Persistence\IRedEnvelopeDetailRepository.cs" />
+    <Compile Include="Persistence\IRedEnvelopeRankListRepository.cs" />
+    <Compile Include="Persistence\IRedEnvelopeRepository.cs" />
+    <Compile Include="Persistence\IShopAuthorityRepository.cs" />
+    <Compile Include="Persistence\IShopRevealImageRepository.cs" />
+    <Compile Include="Persistence\IShopTagRepository.cs" />
+    <Compile Include="Persistence\IShopVIPFlaseCountRepository.cs" />
+    <Compile Include="Persistence\IShopVIPSpeedConfigRepository.cs" />
+    <Compile Include="Persistence\IShopVIPSpeedNextTimeRepository.cs" />
+    <Compile Include="Persistence\ITenpayRefundOrderRepository.cs" />
+    <Compile Include="Persistence\ITreasureChestAccessInfoRepository.cs" />
+    <Compile Include="Persistence\ITreasureChestConfigRepository.cs" />
+    <Compile Include="Persistence\ITreasureChestRepository.cs" />
+    <Compile Include="Persistence\IViewAllocEmployeeAuthorityRepository.cs" />
+    <Compile Include="Persistence\IWechatPayOrderInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerActivityRepository.cs" />
+    <Compile Include="Persistence\SqlServerActivityShareInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerDistrictRepository.cs" />
+    <Compile Include="Persistence\SqlServerEmployeeOperateLogRepository.cs" />
+    <Compile Include="Persistence\SqlServerOriginalRoadRefundInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerRedEnvelopeDetaiRepository.cs" />
+    <Compile Include="Persistence\SqlServerRedEnvelopeRankListRepository.cs" />
+    <Compile Include="Persistence\SqlServerRedEnvelopeRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopAuthorityRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopRevealImageRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopTagRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopVIPFlaseCountRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopVIPSpeedConfigRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopVIPSpeedNextTimeRepository.cs" />
+    <Compile Include="Persistence\SqlServerTenpayRefundOrderRepository.cs" />
+    <Compile Include="Persistence\SqlServerTreasureChestAccessInfoRepositoryRepository.cs" />
+    <Compile Include="Persistence\SqlServerTreasureChestConfigRepository.cs" />
+    <Compile Include="Persistence\SqlServerTreasureChestRepository.cs" />
+    <Compile Include="Persistence\SqlServerViewAllocEmployeeAuthorityRepository.cs" />
+    <Compile Include="Persistence\SqlServerWechatPayOrderInfoRepository.cs" />
+    <Compile Include="PreOrder19dianExtendManager.cs" />
+    <Compile Include="Preorder19DianLineManager.cs" />
+    <Compile Include="Preorder19DianLineManagerExtend.cs" />
+    <Compile Include="Preorder19DianLineVManager.cs" />
+    <Compile Include="Preorder19DianLineVManagerExtend.cs" />
+    <Compile Include="PreOrder19dianVManager.cs" />
+    <Compile Include="PreorderEevaluationManager.cs" />
+    <Compile Include="QrCodeManager.cs" />
+    <Compile Include="RedEnvelope\ActivityManager.cs" />
+    <Compile Include="RedEnvelope\ActivityShareManager.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeConnPreOrderManager.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeDetailManager.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeManager.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeStatisticalManager.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeTestManager.cs" />
+    <Compile Include="RedEnvelope\TreasureChestConfigManager.cs" />
+    <Compile Include="RedEnvelope\TreasureChestManager.cs" />
+    <Compile Include="ShopEvaluationDetailManager.cs" />
+    <Compile Include="ShopHandleLogManager.cs" />
+    <Compile Include="ShopReportVManager.cs" />
+    <Compile Include="ShopStaticsManager.cs" />
+    <Compile Include="ShopStaticsReportManager.cs" />
+    <Compile Include="ShopStopPaymentLogManager.cs" />
+    <Compile Include="ShopVipArticleManager.cs" />
+    <Compile Include="ShopVIPManager.cs" />
+    <Compile Include="Syb\SybPreOrderManager.cs" />
+    <Compile Include="SystemConfig\ClientImageSizeManager.cs" />
+    <Compile Include="CountyManager.cs" />
+    <Compile Include="CustomEncourageManager.cs" />
+    <Compile Include="CustomerManager.cs" />
+    <Compile Include="CustomerServiceOperateLogManager.cs" />
+    <Compile Include="DishConnTypeManager.cs" />
+    <Compile Include="DishIngredientsManager.cs" />
+    <Compile Include="DishManager.cs" />
+    <Compile Include="DishOptionManager.cs" />
+    <Compile Include="DishPriceConnIngredientsManager.cs" />
+    <Compile Include="DishPriceConnTasteManager.cs" />
+    <Compile Include="DishPriceI18nManager.cs" />
+    <Compile Include="DishPriceInfoManager.cs" />
+    <Compile Include="DishTasteManager.cs" />
+    <Compile Include="DishTypeManager.cs" />
+    <Compile Include="EmployeeConnShopManager.cs" />
+    <Compile Include="EmployeeInfoManager.cs" />
+    <Compile Include="EmployeeShopAuthorityManager.cs" />
+    <Compile Include="ImageInfoManager.cs" />
+    <Compile Include="ImageTaskManager.cs" />
+    <Compile Include="LangManager.cs" />
+    <Compile Include="MedalManager.cs" />
+    <Compile Include="MenuConnShopManager.cs" />
+    <Compile Include="Money19dianDetailManager.cs" />
+    <Compile Include="MoneyMerchantAccountDetailManager.cs" />
+    <Compile Include="NotificationRecordManager.cs" />
+    <Compile Include="SystemConfig\ClinetStartImgConfigManager.cs" />
+    <Compile Include="SystemConfig\CustomPushRecordManager.cs" />
+    <Compile Include="SystemConfig\OfficialWebConfigManager.cs" />
+    <Compile Include="OrderLogManager.cs" />
+    <Compile Include="MenuManager.cs" />
+    <Compile Include="OSSImageManager.cs" />
+    <Compile Include="Persistence\ICityRepository.cs" />
+    <Compile Include="Persistence\ICustomerInfoRepository.cs" />
+    <Compile Include="Persistence\IDishI18NRepository.cs" />
+    <Compile Include="Persistence\IDishInfoRepository.cs" />
+    <Compile Include="Persistence\IDishPriceInfoRepository.cs" />
+    <Compile Include="Persistence\IEmployeeInfoRepository.cs" />
+    <Compile Include="Persistence\IFoodDiaryDefaultConfigDishRepository.cs" />
+    <Compile Include="Persistence\IFoodDiaryDishRepository.cs" />
+    <Compile Include="Persistence\IFoodDiaryRepository.cs" />
+    <Compile Include="Persistence\IImageInfoRepository.cs" />
+    <Compile Include="Persistence\IMenuInfoRepository.cs" />
+    <Compile Include="Persistence\IMenuUpdateTaskRepository.cs" />
+    <Compile Include="Persistence\Infrastructure\Disposable.cs" />
+    <Compile Include="Persistence\Infrastructure\EntityFrameworkModule.cs" />
+    <Compile Include="Persistence\Infrastructure\IDatabaseFactory.cs" />
+    <Compile Include="Persistence\Infrastructure\IRepository.cs" />
+    <Compile Include="Persistence\Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Persistence\Infrastructure\Page.cs" />
+    <Compile Include="Persistence\Infrastructure\SqlConnectionFactory.cs" />
+    <Compile Include="Persistence\Infrastructure\SqlServerRepositoryBase.cs" />
+    <Compile Include="Persistence\Infrastructure\SqlServerUnitOfWork.cs" />
+    <Compile Include="Persistence\IPreOrder19DianInfoRepository.cs" />
+    <Compile Include="Persistence\IShopInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerCityRepository.cs" />
+    <Compile Include="Persistence\SqlServerCustomerInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerDishI18NRepository.cs" />
+    <Compile Include="Persistence\SqlServerDishInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerDishPriceInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerEmployeeInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerFoodDiaryDefaultConfigDishRepository.cs" />
+    <Compile Include="Persistence\SqlServerFoodDiaryDishRepository.cs" />
+    <Compile Include="Persistence\SqlServerFoodDiaryRepository.cs" />
+    <Compile Include="Persistence\SqlServerImageInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerMenuInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerMenuUpdateTaskRepository.cs" />
+    <Compile Include="Persistence\SqlServerPreOrder19DianInfoRepository.cs" />
+    <Compile Include="Persistence\SqlServerShopInfoRepository.cs" />
+    <Compile Include="Point\EmployeePointLogManager.cs" />
+    <Compile Include="Point\EmployeePointManager.cs" />
+    <Compile Include="Point\GoodsManager.cs" />
+    <Compile Include="Point\HtmlManage.cs" />
+    <Compile Include="Point\PointManageLogManager.cs" />
+    <Compile Include="PreOrder19dianManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvinceManager.cs" />
+    <Compile Include="QRCodePVManage.cs" />
+    <Compile Include="QRCodeManageExtend.cs" />
+    <Compile Include="ClientRecharge\ClientRechargeManager.cs" />
+    <Compile Include="ShopAuthorityManager.cs" />
+    <Compile Include="ShopManager.cs" />
+    <Compile Include="StatisticalStatementManager.cs" />
+    <Compile Include="SundryManager.cs" />
+    <Compile Include="SybMoneyMerchantManager.cs" />
+    <Compile Include="SystemConfig\SystemConfigManager.cs" />
+    <Compile Include="Payment\UnionPayManager.cs" />
+    <Compile Include="SystemConfig\VAEncourageConfigManager.cs" />
+    <Compile Include="ViewallocInfoManager.cs" />
+    <Compile Include="VipManager.cs" />
+    <Compile Include="WechatAccessTokenManager.cs" />
+    <Compile Include="WeChatAuthorizationManager.cs" />
+    <Compile Include="WechatCustomerManager.cs" />
+    <Compile Include="WechatFreeCaseManager.cs" />
+    <Compile Include="WechatHotMenuManager.cs" />
+    <Compile Include="WechatLandladyVoiceManager.cs" />
+    <Compile Include="WechatOrder\WechatOrderManager.cs" />
+    <Compile Include="Payment\WechatPayManager.cs" />
+    <Compile Include="WechatReceivedMsgManager.cs" />
+    <Compile Include="WechatRecommandShopInfoManager.cs" />
+    <Compile Include="WechatTopPriceManager.cs" />
+    <Compile Include="WeChatUserManager.cs" />
+    <Compile Include="WechatUxianComplaintManager.cs" />
+    <Compile Include="WechatUxianCooperationManager.cs" />
+    <Compile Include="WechatUxianProposalManager.cs" />
+    <Compile Include="WechatUxianQandAManager.cs" />
+    <Compile Include="ZZBPreOrderManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{E036CA35-50C3-4396-B643-B3CCFD8519A9}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogManager\LogDll.csproj">
+      <Project>{BD03D646-3EA5-45D2-A8B7-6A93CAD38820}</Project>
+      <Name>LogDll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{9632AD79-0C4B-48E3-8373-B4D11E740D21}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,2 @@
+﻿CREATE USER [viewalloc] WITHOUT LOGIN;
+

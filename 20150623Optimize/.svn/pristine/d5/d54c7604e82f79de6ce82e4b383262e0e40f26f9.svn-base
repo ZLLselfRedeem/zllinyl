@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>订单问题</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="help.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../tron/coms/jquery/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+		<section class="container faq">
+        	<ul>
+            	<li>
+                	<h4><i class="fa fa-question-circle"></i> 我没去门店就餐，已点的单子被入座了？</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 这是服务员误操作了，您可以联系我们的微信客服人员来协助您解决这个问题。
+                    </p>
+                </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 对菜品点赞有什么用？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 当您吃到不错的菜品，可以选择点赞功能，悠先将会记录该菜品的被点赞次数，并真实体现在点菜页面。您的真实体验将影响其他就餐客人的选择。
+                </p>
+              </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 我想修改订单怎么办？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 如果您的订单处于未支付状态，则可以修改。打开订单页面，点击页面底部的“修改”按钮，即可修改。若您已完成支付，可以申请退款重新点单，或到门店后与服务员沟通退、换菜。
+                </p>
+              </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 我想复制同样的订单可以吗？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 您可以打开上一次的订单页面，点击页面底部的“复制”按钮，系统将会为您复制一份同样的订单，同时您可以在该订单的基础上更换、增加新菜。
+                </p>
+              </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 点好菜，我想加菜怎么办？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 您可以打开订单页面，点击页面底部的“加菜”按钮，即可进行加菜，系统将会为您生成一个新的加菜订单。
+                </p>
+              </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 需要补差价怎么办？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 您可以打开订单页面，点击页面底部的“补差价”按钮，系统将会为您快速跳转至付款页面。
+                </p>
+              </li>
+            </ul>
+        </section>
+        
+        <section class="container zan">
+        	<div class="row">
+            	<div class="col-lg-12">
+                	<div class="a1">若还有疑问，请联系我们的微信客服</div>
+                    <div class="a2"><a href="wechat_4.html">人工服务</a></div>
+               </div>
+                <div class="col-xs-6 text-right"><button class="btn btn-success btn-zan" data-type="b3" data-value="1"><i class="fa fa-thumbs-o-up"></i> 赞</button></div>
+                <div class="col-xs-6 text-left"><button class="btn btn-warning btn-zan" data-type="b3" data-value="0"><i class="fa fa-thumbs-o-down"></i> 踩</button></div>
+            </div>
+        </section>
+  </body>
+</html>
+    <script src="on.js"></script>

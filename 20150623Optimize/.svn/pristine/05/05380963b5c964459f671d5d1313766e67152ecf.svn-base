@@ -1,0 +1,198 @@
+*{ margin: 0; padding: 0;}
+html, body{ font-size: 22px; font-family:Microsoft YaHei,Tahoma,simsun; color: #444; width: 100%;background: #f3f4f6;}
+li{ list-style-type: none;}
+img{ display: block;}
+.c{ clear: both; width: 0; height: 0; font-size: 0;}
+.hide{ display:none;}
+
+#content{ margin: 0 auto; max-width: 640px;}
+
+#top{ position: relative; width: 100%; color: #fff;}
+#top img{ width: 100%;}
+#top p{ position: absolute; top: 0; width: 50%; height: 100%; display: inline-block;}
+#top .pleft{ left: 0;}
+#top .pright{ right: 0;}
+#top p span{ display: block; width: 100%; text-align: center; margin-top: 35px;}
+#top .topPrice{ font-size: 42px;}
+
+#choose{ width: 72%; margin: 26px 14%; border-radius: 10px; border: 2px solid #f03a3a; overflow: hidden;}
+#choose a{ width: 50%; padding: 16px 0; float: left; display: block; text-align: center; color: #f03a3a; text-decoration: none;}
+#choose .selected{ color: #fff; background: #f03a3a;}
+#choose a:first-child{ float:left;}
+#choose a:last-child{ float:right;}
+#remind{ width: 100%; text-align: center; display: block; color: #888; padding-bottom: 26px;}
+
+#redEnvelope{ width: 100%;}
+#redEnvelope .redEnvelopeMain{ position: relative; width: 100%; border-bottom: 1px solid #ccc; box-shadow: 0 1px 1px #e2e2e4; background: #fff; margin-bottom: 20px; overflow: hidden;}
+#redEnvelope .redEnvelopeMain .redEnvelopeImg, #content .redEnvelopeMain .redEnvelopeInfo{ display: block; float: left;}
+#redEnvelope .redEnvelopeMain .redEnvelopeImg{ width: 27.5%; text-align: center;}
+#redEnvelope .redEnvelopeMain .redEnvelopeImg-1{ width: 100%; border-right: 1px solid #ccc; padding: 20px 0;}
+#redEnvelope .redEnvelopeMain .redEnvelopeImg img{ display: block; width: 100%;}
+#redEnvelope .redEnvelopeMain .redEnvelopeImg span{ display: block;}
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo{ position: relative; width: 72.5%;}
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .effextiveStatus{ position: absolute; top: 16px; right: 0; width: 100%; display: block;}
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 42px; display: block; margin: 20px 0 20px 36px;}
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .price0,
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .price1{ color: #f03a3a;}
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .price2,
+#redEnvelope .redEnvelopeMain .redEnvelopeInfo .price3{ color: #999;}
+#redEnvelope .priceDesc{ margin-left: 10px; font-size: 22px; color: #444;}
+#redEnvelope .effectiveTime{ margin-left: 36px;}
+.tip{ height:30px; line-height:30px; text-align:center; margin-bottom:20px;}
+
+@media (max-width:640px){
+	html, body{ font-size: 22px;}
+	#top p span{ margin-top: 35px;}
+	#top .topPrice{ font-size: 42px;}
+	#content .redEnvelopeMain{ margin-bottom: 20px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 42px; margin: 20px 0 20px 36px;}
+	#choose{ margin: 26px 14%;}
+	#choose a{ padding: 16px 0;}
+	#remind{ padding-bottom: 26px;}
+	#redEnvelope .priceDesc{ font-size: 22px;}
+	#redEnvelope .effectiveTime{ margin-left: 36px;}
+}
+@media (max-width:600px){
+	html, body{ font-size: 21px;}
+	#top p span{ margin-top: 33px;}
+	#top .topPrice{ font-size: 39px;}
+	#content .redEnvelopeMain{ margin-bottom: 19px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 39px; margin: 19px 0 19px 34px;}
+	#choose{ margin: 24px 14%;}
+	#choose a{ padding: 15px 0;}
+	#remind{ padding-bottom: 24px;}
+	#redEnvelope .priceDesc{ font-size: 21px;}
+	#redEnvelope .effectiveTime{ margin-left: 34px;}
+}
+@media (max-width:560px){
+	html, body{ font-size: 19px;}
+	#top p span{ margin-top: 31px;}
+	#top .topPrice{ font-size: 37px;}
+	#content .redEnvelopeMain{ margin-bottom: 18px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 37px; margin: 18px 0 18px 32px;}
+	#choose{ margin: 23px 14%;}
+	#choose a{ padding: 14px 0;}
+	#remind{ padding-bottom: 23px;}
+	#redEnvelope .priceDesc{ font-size: 19px;}
+	#redEnvelope .effectiveTime{ margin-left: 32px;}
+}
+@media (max-width:520px){
+	html, body{ font-size: 18px;}
+	#top p span{ margin-top: 28px;}
+	#top .topPrice{ font-size: 34px;}
+	#content .redEnvelopeMain{ margin-bottom: 16px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 34px; margin: 16px 0 16px 29px;}
+	#choose{ margin: 21px 14%;}
+	#choose a{ padding: 13px 0;}
+	#remind{ padding-bottom: 21px;}
+	#redEnvelope .priceDesc{ font-size: 18px;}
+	#redEnvelope .effectiveTime{ margin-left: 29px;}
+}
+@media (max-width:480px){
+	html, body{ font-size: 17px;}
+	#top p span{ margin-top: 26px;}
+	#top .topPrice{ font-size: 32px;}
+	#content .redEnvelopeMain{ margin-bottom: 15px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 32px; margin: 15px 0 15px 27px;}
+	#choose{ margin: 20px 14%;}
+	#choose a{ padding: 12px 0;}
+	#remind{ padding-bottom: 20px;}
+	#redEnvelope .priceDesc{ font-size: 17px;}
+	#redEnvelope .effectiveTime{ margin-left: 27px;}
+}
+@media (max-width:440px){
+	html, body{ font-size: 15px;}
+	#top p span{ margin-top: 24px;}
+	#top .topPrice{ font-size: 29px;}
+	#content .redEnvelopeMain{ margin-bottom: 14px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 29px; margin: 14px 0 14px 25px;}
+	#choose{ margin: 18px 14%;}
+	#choose a{ padding: 11px 0;}
+	#remind{ padding-bottom: 18px;}
+	#redEnvelope .priceDesc{ font-size: 15px;}
+	#redEnvelope .effectiveTime{ margin-left: 25px;}
+}
+@media (max-width:400px){
+	html, body{ font-size: 14px;}
+	#top p span{ margin-top: 22px;}
+	#top .topPrice{ font-size: 26px;}
+	#content .redEnvelopeMain{ margin-bottom: 13px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 36px; margin: 13px 0 13px 23px;}
+	#choose{ margin: 16px 14%;}
+	#choose a{ padding: 10px 0;}
+	#remind{ padding-bottom: 16px;}
+	#redEnvelope .priceDesc{ font-size: 14px;}
+	#redEnvelope .effectiveTime{ margin-left: 23px;}
+}
+@media (max-width:360px){
+	html, body{ font-size: 12px;}
+	#top p span{ margin-top: 20px;}
+	#top .topPrice{ font-size: 24px;}
+	#content .redEnvelopeMain{ margin-bottom: 11px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 24px; margin: 11px 0 11px 20px;}
+	#choose{ margin: 15px 14%;}
+	#choose a{ padding: 9px 0;}
+	#remind{ padding-bottom: 15px;}
+	#redEnvelope .priceDesc{ font-size: 12px;}
+	#redEnvelope .effectiveTime{ margin-left: 20px;}
+}
+@media (max-width:320px){
+	html, body{ font-size: 11px;}
+	#top p span{ margin-top: 18px;}
+	#top .topPrice{ font-size: 21px;}
+	#content .redEnvelopeMain{ margin-bottom: 10px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 21px; margin: 10px 0 10px 18px;}
+	#choose{ margin: 13px 14%;}
+	#choose a{ padding: 8px 0;}
+	#remind{ padding-bottom: 13px;}
+	#redEnvelope .priceDesc{ font-size: 11px;}
+	#redEnvelope .effectiveTime{ margin-left: 18px;}
+}
+@media (max-width:280px){
+	html, body{ font-size: 10px;}
+	#top p span{ margin-top: 15px;}
+	#top .topPrice{ font-size: 18px;}
+	#content .redEnvelopeMain{ margin-bottom: 9px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 18px; margin: 9px 0 9px 16px;}
+	#choose{ margin: 11px 14%;}
+	#choose a{ padding: 7px 0;}
+	#remind{ padding-bottom: 11px;}
+	#redEnvelope .priceDesc{ font-size: 10px;}
+	#redEnvelope .effectiveTime{ margin-left: 16px;}
+}
+@media (max-width:240px){
+	html, body{ font-size: 8px;}
+	#top p span{ margin-top: 13px;}
+	#top .topPrice{ font-size: 16px;}
+	#content .redEnvelopeMain{ margin-bottom: 8px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 16px; margin: 8px 0 8px 14px;}
+	#choose{ margin: 10px 14%;}
+	#choose a{ padding: 6px 0;}
+	#remind{ padding-bottom: 10px;}
+	#redEnvelope .priceDesc{ font-size: 8px;}
+	#redEnvelope .effectiveTime{ margin-left: 14px;}
+}
+@media (max-width:200px){
+	html, body{ font-size: 7px;}
+	#top p span{ margin-top: 11px;}
+	#top .topPrice{ font-size: 13px;}
+	#content .redEnvelopeMain{ margin-bottom: 6px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 13px; margin: 6px 0 6px 11px;}
+	#choose{ margin: 8px 14%;}
+	#choose a{ padding: 5px 0;}
+	#remind{ padding-bottom: 8px;}
+	#redEnvelope .priceDesc{ font-size: 7px;}
+	#redEnvelope .effectiveTime{ margin-left: 11px;}
+}
+@media (max-width:160px){
+	html, body{ font-size: 6px;}
+	#top p span{ margin-top: 9px;}
+	#top .topPrice{ font-size: 8px;}
+	#content .redEnvelopeMain{ margin-bottom: 5px;}
+	#content .redEnvelopeMain .redEnvelopeInfo .price{ font-size: 8px; margin: 5px 0 5px 9px;}
+	#choose{ margin: 7px 14%;}
+	#choose a{ padding: 4px 0;}
+	#remind{ padding-bottom: 7px;}
+	#redEnvelope .priceDesc{ font-size: 6px;}
+	#redEnvelope .effectiveTime{ margin-left: 9px;}
+}

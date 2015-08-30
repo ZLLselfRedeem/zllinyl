@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{font-family:Microsoft YaHei,Tahoma,simsun; background-color:#ffc871; color:#661A03; font-size:14px; line-height:24px;}
+.imgauto img{ width:100%;}
+h1, h2{ margin-bottom:20px;}
+.bg1{ background-color:#f7d6b2;}
+.bg2{ background-color:#f9e79b;}
+section{ padding-bottom:30px;}
+section li{ padding:20px 0px;}
+section ul{ list-style:none; margin:0; padding:0;}
+section li .img{ text-align:center;}
+section li p{ text-align:center; color:#000;}
+.texts p{ margin:0; padding:10px 36px; font-size:14px;}
+h1{ font-size:26px; font-weight:bold;}
+h2{ font-size:22px; font-weight:bold;}

@@ -1,0 +1,25 @@
+
+<div class="wrap storeList">
+  <div id="orders"></div>
+  
+  <!--返回顶部-->
+  <div class="toTop"></div>
+  
+  <div class="activityRuleBg">
+	  <div style="opacity: 0;"><img src="http://image.u-xian.com/UploadFiles/Images/15/Meal/activitypic.jpg" class="activityPic img-responsive" width="100%" /></div> 
+	  <div class="activityRule">
+	    <ol id="rule">
+	      <li>活动时间：即日起至2015年2月底；</li>
+	      <li>预订后请在10分钟内完成付款，否则订单无效；</li>
+	      <li>本次预订付款后概不退、换，请谨慎操作。款后概不退、换，请谨慎操作。</li>
+	    </ol>
+	    <h5 class="text-center" data-toggle="modal" data-target=".theRules" style="padding:0 0 10px 0;"><i class="fa fa-check-square-o"></i>同意<a class="activityRules">《悠先预订规则》</a></h5>
+	  </div>
+  </div>
+  <a id="dtag"></a>
+  <div class="activityArea clearfix">
+    <ul id="tags">
+    </ul>
+  </div>
+  <div id="stores"></div>
+</div>

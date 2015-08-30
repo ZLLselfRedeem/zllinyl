@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rega(0, 0, 0, 0);
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  font-family: Microsoft YaHei, Tahoma, simsun;
+  overflow: hidden;
+}
+.c {
+  clear: both;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+.hide {
+  display: none;
+}
+ul li {
+  list-style-type: none;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap #tipsBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.wrap #tips {
+  position: absolute;
+  top: 70px;
+  left: 10%;
+  width: 80%;
+  padding: 15px 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 10px;
+  opacity: 0;
+  z-index: 10;
+}
+.wrap .main {
+  width: 100%;
+}
+.wrap .main .page {
+  width: 100%;
+  overflow: hidden;
+}
+.wrap .main .page .pageContent {
+  padding: 10px;
+}
+.wrap .main .page .pageContent table {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 0.85em;
+  color: #666;
+}
+.wrap .main .page .pageContent table tr td {
+  width: 42%;
+  padding: 6px 13px;
+  border: 1px solid #b2c9d9;
+  background: #e1ebf2;
+}
+.wrap .main .page .pageContent table tr td ul li:first-child {
+  padding-bottom: 10px;
+}
+.wrap .main .page .pageContent table tr .day {
+  width: 16%;
+  color: #2e74a1;
+  border: none;
+  background: none;
+  padding: 6px 0;
+}
+.wrap .main .page .pageContent table tr .td1 {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+.wrap .main .page .pageContent table tr .td2 {
+  border-radius: 0 4px 4px 0;
+}
+.wrap .main .noData {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.wrap .main #tip {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=statistics.css.map */

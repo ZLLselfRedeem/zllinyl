@@ -1,0 +1,10 @@
+D:\MyRoom\20150623Optimize\CommonDll\VAGastronomistMobileApp.DBUtility.dll
+D:\MyRoom\20150623Optimize\CommonDll\VAGastronomistMobileApp.DBUtility.pdb
+D:\MyRoom\20150623Optimize\DBUtility\obj\Debug\VAGastronomistMobileApp.DBUtility.dll
+D:\MyRoom\20150623Optimize\DBUtility\obj\Debug\VAGastronomistMobileApp.DBUtility.pdb
+D:\MyRoom\20150623Optimize\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\CommonDll\VAGastronomistMobileApp.DBUtility.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\VAGastronomistMobileApp.DBUtility.pdb
+D:\MyRoom\Project\20150623Optimize\DBUtility\obj\Debug\VAGastronomistMobileApp.DBUtility.dll
+D:\MyRoom\Project\20150623Optimize\DBUtility\obj\Debug\VAGastronomistMobileApp.DBUtility.pdb
+D:\MyRoom\Project\20150623Optimize\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

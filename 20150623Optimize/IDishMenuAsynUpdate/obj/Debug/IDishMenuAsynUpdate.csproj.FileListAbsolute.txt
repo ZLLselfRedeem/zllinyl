@@ -1,0 +1,8 @@
+D:\MyRoom\20150623Optimize\IDishMenuAsynUpdate\bin\Debug\IDishMenuAsynUpdate.dll
+D:\MyRoom\20150623Optimize\IDishMenuAsynUpdate\bin\Debug\IDishMenuAsynUpdate.pdb
+D:\MyRoom\20150623Optimize\IDishMenuAsynUpdate\obj\Debug\IDishMenuAsynUpdate.dll
+D:\MyRoom\20150623Optimize\IDishMenuAsynUpdate\obj\Debug\IDishMenuAsynUpdate.pdb
+D:\MyRoom\Project\20150623Optimize\IDishMenuAsynUpdate\bin\Debug\IDishMenuAsynUpdate.dll
+D:\MyRoom\Project\20150623Optimize\IDishMenuAsynUpdate\bin\Debug\IDishMenuAsynUpdate.pdb
+D:\MyRoom\Project\20150623Optimize\IDishMenuAsynUpdate\obj\Debug\IDishMenuAsynUpdate.dll
+D:\MyRoom\Project\20150623Optimize\IDishMenuAsynUpdate\obj\Debug\IDishMenuAsynUpdate.pdb

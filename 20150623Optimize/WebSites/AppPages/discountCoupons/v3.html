@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" />
+<title>悠先点菜 - 领取抵扣券</title>
+<link href="../../tron/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="../../tron/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="v3.css" />
+<link rel="stylesheet" href="../animate.min.css" />
+<script src="../series.js"></script>
+<script src="../../series/jquery/jquery-2.1.3.min.js"></script>
+<script src="js/jweixin-1.0.0.js"></script>
+<script src="js/wxShare.js"></script>
+<script src="../imagesload.js"></script>
+<script src="../masonry.pkgd.min.js"></script>
+<script src="../../tron/coms/jquery-plugins/jquery.cookie/jquery.cookie.js"></script>
+<script src="../jquery.form.3.46.0.js"></script>
+<title>无标题文档</title>
+</head>
+<body>
+<div id="loading"><img class="loadingImg" src="img/loading.gif" /></div>
+
+<div class="wrap status0">
+  
+<!--选择抵扣券 - 领取-->
+<div id="choose" class="pages">
+  <div class="con" id="goGet">
+    <div class="checking">
+      <div class="f_search">
+        <input type="text" class="f_search_ipt" />
+        <div class="f_search_cur"></div>
+      </div>
+      <ul id="tabs">
+        <li data-value="hot">最热门</li>
+        <li data-value="conforts">最实惠</li>
+        <li data-value="nearly">附近</li>
+      </ul>
+    </div>
+    <div class="c"></div>
+    
+    <!--抵扣券浏览-->
+    <div class="conMain">
+
+      <!--<a href="javascript:;" class="shop <%if ( c.isGot ){%>shopEndPic<%}%>" data-cid="<%=c.couponId%>">
+      <dl class="animated">
+        <dd>
+          <img src="<%-c.shopLogo%>" />
+          <strong><p class="discountInfo"><%=c.couponName%></p></strong>
+          <img src="img/end.png" class="endPic" />
+        </dd>
+        <dt>
+          <p class="shopname"><%=c.shopName%></p>
+          <p class="shopADD"><%=c.shopAddress%></p>
+        </dt>
+      </dl>
+      </a>-->
+
+    </div>
+    <div class="c"></div>
+    <div class="doload hide text-center"><img src="img/loading.gif" /></div>
+  </div>
+</div>
+<!--抵扣券领取完成-->
+<div class="hide pages" id="got">
+  <div class="con" id="gotten">
+    <div class="gottenInfo"> <img src="img/bg.jpg" />
+      <div class="info">
+        <%if ( main.used ){%>
+        <p class="des">这是你已领取的<%=main.shopName%><span id="discountPrice"><%=main.couponName%>元</span>抵扣券~</p>
+        <%}else{%>
+        <p class="des">恭喜！您已成功领取<%=main.shopName%><span><%=main.couponName%>元</span>的抵扣券</p>
+        <%}%>
+        <p class="number" id="nowNumber"> <span><%=main.phone%></span>
+          <%if ( !main.IsCorrected ){%>
+          <a href="javascript:;" id="docrectphone">号码纠错</a>
+          <%}%>
+        </p>
+        <%if (main.delay){%>
+          <p class="oneHourDes hide">别走开，1小时后抵扣券还能继续领哦！</p>
+        <%}%>
+        <div class="downbtn"> <img src="img/downBtn.png" id="downloadUXian" class="img-responsive" /> </div>
+        <p>下载后用手机号码登录，即可使用</p>
+      </div>
+    </div>
+    <div class="other"> <img src="img/txt1.png" class="titleImg" />
+      <div class="otherMenu">
+      <%main.dishList.forEach(function(list){%>
+      <dl class="downbtn">
+        <dd> <img src="<%=list.dishImage%>" /> </dd>
+        <dt>
+          <p id="dishName"><%=list.dishName%></p>
+          <p> <span id="oldPrice"><del>￥<%=list.originalPrice%></del></span> <span id="nowPrice">￥<%=list.nowPrice%></span> </p>
+        </dt>
+      </dl>
+      <%})%>
+      <div class="c"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--已抢完 已过期-->
+<div class="hide pages" id="gameover">
+  <div id="over"> <img src="img/over.png" /> </div>
+</div>
+
+<!--透明黑底-->
+<div class="mask hide"></div>
+
+<!--输入框 - 领取-->
+<div class="popupBox iptInfo hide animated fadeIn">
+  <p class="title">开心丽果鲜榨果汁吧（上京阿萨德基水电费脑筋店）满100减10</p>
+  <p style="margin-bottom:20px;">
+    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="请输入手机号码" />
+  </p>
+  <p>
+    <input type="button" name="confirm" class="btn pull-right" id="confirm" value="领取" />
+    <input type="button" name="cancel" class="btn pull-left" id="cencel" value="取消" />
+  </p>
+</div>
+
+<!--提示框、号码纠错-->
+<div class="popupBox msg hide animated fadeIn">
+  <p class="msgcon hide">error</p>
+  <div class="current hide">
+    <p>号码纠错</p>
+    <p>手别抖，只能修改一次哦~</p>
+    <p>
+      <input type="tel" name="currentNumber" id="currentNumber" placeholder="请输入手机号码" />
+    </p>
+    <ul>
+      <li id="cencelCur">取消</li>
+      <li id="confirmCur">确定</li>
+    </ul>
+    <div class="c"></div>
+  </div>
+</div>
+
+
+<!--搜索-->
+<div id="search_content" class="hide pages">
+  <div class="s">
+      <form action="/coupon/CouponMsg.aspx?action=search_coupon&idEncrypt={id}&pageSize=10&pageIndex=1&cityId={city}" method="get" id="postsearch">
+          <input type="text" id="search_ipt" class="search_ipt_focus" name="keyWord" placeholder="请输入门店名" autocomplete="off" /><!--
+          --><input type="submit" class="submitIpt hide" /><!--
+          --><div id="search_cancel">取消</div>
+          </form>
+  </div>
+  
+  <ul class="search_filter hide" id="search-shopname">
+      <%if ( !list || list.length === 0 ){%>
+      <li class="none">未找到相关店铺...</li>
+      <%}else{%>
+        <%list.forEach(function(detail){%>
+            <li><%=detail%></li>
+        <%});%>
+      <%}%>
+  </ul>
+  
+  <div class="search_result hide" id="search-result">
+      <%list.couponList.forEach(function(detail){%>
+      <a href="javascript:;" class="shop <% if (detail.isGot){%>shopEndPic<%}%>" data-cid="<%=detail.couponId%>">
+      <dl>
+          <dd>
+              <img src="<%-detail.shopLogo%>" />
+              <strong><p class="discountInfo"><%=detail.couponName%></p></strong>
+              <img src="img/end.png" class="endPic" />
+          </dd>
+          <dt>
+          <p class="shopname"><%=detail.shopName%></p>
+          <p class="shopADD"><%=detail.shopAddress%></p>
+          </dt>
+      </dl>
+          </a>
+      <%})%>
+  </div>
+  <div class="c"></div>
+</div>
+
+</div>
+<script src="js/v3.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+2015-07-21 14:24:17,633 - requestTime：2015/07/21 14:23:52:089-type:0-msg:
+
+2015-07-21 14:24:18,164 - responseTime：2015/07/21 14:24:15:592-response:兄弟,干嘛呢!来一趟啥都不干有意思吗?小心哥弄你!
+
+2015-07-21 14:28:46,117 - requestTime：2015/07/21 14:24:41:006-type:1094-msg:{"orderId":"ed4666a8-a36e-4f3c-9e5a-d66ff5b86430","type":1094,"preOrder19dianId":573090,"employeeId":4607,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","serviceType":1,"clientBuild":"2.3.5","shopId":3338}
+
+2015-07-21 14:28:46,167 - responseTime：2015/07/21 14:28:46:058-response:{"appType":0,"cityId":0,"clientBuild":null,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","message":null,"result":-2012,"serviceType":0,"type":1095,"uuid":null}
+
+2015-07-21 14:31:26,700 - requestTime：2015/07/21 14:29:40:429-type:1094-msg:{"orderId":"ed4666a8-a36e-4f3c-9e5a-d66ff5b86430","type":1094,"preOrder19dianId":573090,"employeeId":4607,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","serviceType":1,"clientBuild":"2.3.5","shopId":3338}
+
+2015-07-21 14:31:26,756 - responseTime：2015/07/21 14:31:26:641-response:{"appType":0,"cityId":0,"clientBuild":null,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","message":null,"result":-2012,"serviceType":0,"type":1095,"uuid":null}
+

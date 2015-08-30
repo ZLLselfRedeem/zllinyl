@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--Log设定-->
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler,log4net-net-1.0" />
+  </configSections>
+  <log4net>
+    <!--日志记录器logger，可以有多个-->
+    <logger name="fileLog">
+      <level value="ALL" />
+      <appender-ref ref="ConsoleAppender" />
+      <appender-ref ref="LogFileAppender" />
+    </logger>
+    <logger name="fileTimeOutLog">
+      <level value="ALL" />
+      <appender-ref ref="ConsoleAppender" />
+      <appender-ref ref="TimeLogFileAppender" />
+    </logger>
+    <logger name="adonetLog">
+      <level value="ALL" />
+      <appender-ref ref="ConsoleAppender" />
+      <appender-ref ref="ADONetAppender" />
+    </logger>
+    <!--控制台记录-->
+    <appender name="ConsoleAppender"  type="log4net.Appender.ConsoleAppender" >
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern"  value="%d - %m%n%n"/>
+      </layout>
+    </appender>
+    <appender name="LogFileAppender"  type="log4net.Appender.RollingFileAppender" >
+      <!--记录日志写入文件时，不锁定文本文件，防止多线程时不能写Log,官方说线程非安全-->
+      <lockingModel type="log4net.Appender.FileAppender.MinimalLock" />
+      <param name="File" value="Logs/"/>
+      <param name="AppendToFile" value="true" />
+      <param name="MaxFileSize" value="10240" />
+      <param name="MaxSizeRollBackups" value="100" />
+      <param name="StaticLogFileName" value="false" />
+      <param name="DatePattern" value="&quot;Logs4msg_&quot;yyyyMMdd&quot;.txt&quot;" />
+      <param name="RollingStyle" value="Date" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern"  value="%d - %m%n%n"  />
+      </layout>
+    </appender>
+    <appender name="TimeLogFileAppender"  type="log4net.Appender.RollingFileAppender" >
+      <!--记录日志写入文件时，不锁定文本文件，防止多线程时不能写Log,官方说线程非安全-->
+      <lockingModel type="log4net.Appender.FileAppender.MinimalLock" />
+      <param name="File" value="Logs/" />
+      <param name="AppendToFile" value="true" />
+      <param name="MaxFileSize" value="10240" />
+      <param name="MaxSizeRollBackups" value="100" />
+      <param name="StaticLogFileName" value="false" />
+      <param name="DatePattern" value="&quot;Logs4timeout_&quot;yyyyMMdd&quot;.txt&quot;" />
+      <param name="RollingStyle" value="Date" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern"  value="%d - %m%n%n"  />
+      </layout>
+    </appender>
+    <appender name="ADONetAppender" type="log4net.Appender.ADONetAppender">  
+            <bufferSize value="1" />  
+            <connectionType value="System.Data.SqlClient.SqlConnection, System.Data, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />  
+            <connectionString value="DATABASE=VAGastronomistMobileAppLog;SERVER=112.124.0.220,1833;UID=sa;PWD=viewalloc;Connect Timeout=15;" />  
+            <commandText value="INSERT INTO VAMsgLog ([RequestType],[RequestGuid],[Type],[Uuid],[Cookie],[Msg],[RequestDateTime],[LogDateTime]) VALUES (@requestType,@requestGuid, @type, @uuid, @cookie, @msg, @requestDateTime,@logDateTime)" />  
+            <parameter>  
+                <parameterName value="@requestType" />  
+                <dbType value="String" />
+                <size value="20" />
+                <layout type="LogDll.Log4Layout" >
+                  <param name="ConversionPattern" value="%property{RequestType}"/>
+                </layout>
+            </parameter>
+            <parameter>
+              <parameterName value="@requestGuid" />
+              <dbType value="String" />
+              <size value="50" />
+              <layout type="LogDll.Log4Layout" >
+                <param name="ConversionPattern" value="%property{RequestGuid}"/>
+              </layout>
+            </parameter>
+            <parameter>  
+                <parameterName value="@type" />  
+                <dbType value="String" />  
+                <size value="10" />
+                <layout type="LogDll.Log4Layout" >
+                  <param name="ConversionPattern" value="%property{Type}"/>
+                </layout>
+            </parameter>  
+            <parameter>  
+                <parameterName value="@uuid" />  
+                <dbType value="String" />  
+                <size value="100" />
+                <layout type="LogDll.Log4Layout" >
+                  <param name="ConversionPattern" value="%property{Uuid}"/>
+                </layout>
+            </parameter>  
+            <parameter>  
+                <parameterName value="@cookie" />  
+                <dbType value="String" />  
+                <size value="100" />
+                <layout type="LogDll.Log4Layout" >
+                  <param name="ConversionPattern" value="%property{Cookie}"/>
+                </layout>
+            </parameter>  
+           <parameter>  
+                <parameterName value="@msg" />  
+                <dbType value="String" />  
+                <size value="4000" />
+               <layout type="LogDll.Log4Layout" >
+                 <param name="ConversionPattern" value="%property{Msg}"/>
+               </layout>
+            </parameter>  
+            <parameter>  
+                <parameterName value="@requestDateTime" />
+                <dbType value="String" />
+                <size value="20" />
+                <layout type="LogDll.Log4Layout" >
+                  <param name="ConversionPattern" value="%property{RequestDateTime}"/>
+                </layout>
+            </parameter>
+            <parameter>
+              <parameterName value="@logDateTime" />
+              <dbType value="DateTime" />
+              <layout type="log4net.Layout.RawTimeStampLayout" />
+            </parameter>
+    </appender>  
+  </log4net>
+</configuration>

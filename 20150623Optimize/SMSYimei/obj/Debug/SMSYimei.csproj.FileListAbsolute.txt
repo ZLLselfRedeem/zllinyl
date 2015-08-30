@@ -1,0 +1,12 @@
+D:\MyRoom\20150623Optimize\CommonDll\SMSYimei.dll.config
+D:\MyRoom\20150623Optimize\CommonDll\SMSYimei.dll
+D:\MyRoom\20150623Optimize\CommonDll\SMSYimei.pdb
+D:\MyRoom\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.csprojResolveAssemblyReference.cache
+D:\MyRoom\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.dll
+D:\MyRoom\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.pdb
+D:\MyRoom\Project\20150623Optimize\CommonDll\SMSYimei.dll.config
+D:\MyRoom\Project\20150623Optimize\CommonDll\SMSYimei.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\SMSYimei.pdb
+D:\MyRoom\Project\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.dll
+D:\MyRoom\Project\20150623Optimize\SMSYimei\obj\Debug\SMSYimei.pdb

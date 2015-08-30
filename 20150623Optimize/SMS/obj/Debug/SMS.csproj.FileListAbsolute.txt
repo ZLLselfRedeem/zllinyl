@@ -1,0 +1,16 @@
+D:\MyRoom\20150623Optimize\SMS\bin\Debug\SMS.dll.config
+D:\MyRoom\20150623Optimize\SMS\bin\Debug\SMS.dll
+D:\MyRoom\20150623Optimize\SMS\bin\Debug\SMS.pdb
+D:\MyRoom\20150623Optimize\SMS\bin\Debug\VAGastronomistMobileApp.Model.dll
+D:\MyRoom\20150623Optimize\SMS\bin\Debug\VAGastronomistMobileApp.Model.pdb
+D:\MyRoom\20150623Optimize\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\MyRoom\20150623Optimize\SMS\obj\Debug\SMS.dll
+D:\MyRoom\20150623Optimize\SMS\obj\Debug\SMS.pdb
+D:\MyRoom\Project\20150623Optimize\SMS\bin\Debug\SMS.dll.config
+D:\MyRoom\Project\20150623Optimize\SMS\bin\Debug\SMS.dll
+D:\MyRoom\Project\20150623Optimize\SMS\bin\Debug\SMS.pdb
+D:\MyRoom\Project\20150623Optimize\SMS\bin\Debug\VAGastronomistMobileApp.Model.dll
+D:\MyRoom\Project\20150623Optimize\SMS\bin\Debug\VAGastronomistMobileApp.Model.pdb
+D:\MyRoom\Project\20150623Optimize\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\SMS\obj\Debug\SMS.dll
+D:\MyRoom\Project\20150623Optimize\SMS\obj\Debug\SMS.pdb

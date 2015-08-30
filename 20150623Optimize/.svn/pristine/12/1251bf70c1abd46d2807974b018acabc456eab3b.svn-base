@@ -1,0 +1,2 @@
+net start DishMenuAsynUpdateService
+pause

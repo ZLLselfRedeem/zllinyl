@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>有6就送钱</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.mobile.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/jquery.mobile.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- Start of first page -->
+    <div class="header" style="text-align: center; margin: 0; padding: 0">
+        <div style="margin: 0; padding: 0;">
+            <img src="../img/ad_activity/top_ad.png" style="float: left; width: 100%" alt='' /></div>
+        <div style="margin-top: 0; padding-top: 0;">
+            <img src="../img/ad_activity/top_nav.png" width="50%" alt='' /></div>
+    </div>
+    <div class="manual" style="padding-top: 10px">
+        <div style="color: #5f5f5f">
+            <h3 class="h" style="font-weight: bold;">
+                六一节 悠先“大儿童”们收礼啦！</h3>
+            6块 = 橙汁？菠萝油包？鸭头？鸡爪？<br />
+            12块 = 红烧猪尾巴？羊骨棒？布丁可可？<br />
+            18块 = 干锅花菜？蓝莓芋泥？糖醋里脊？钵钵鸡？盐水鸭？<br />
+            …………<br />
+            <br />
+            只要您是悠先用户，<span style="color: red;"> 您绑定账户的手机号码里每有1个6，悠先就送您6块钱！</span>
+            <br />
+            一六得六，六六三十六……“6”越多，送越多，美食越多！<br />
+            快点告诉你的小伙伴，首次注册悠先，再加送10元哦！<br />
+        </div>
+    </div>
+    <div class="manual" style="padding-top: 10px">
+        <h3 class="h" style="font-weight: bold;">
+            ====一问一答的分割线====</h3>
+        <div role="main" class="ui-content main">
+            <p>
+                1.哪些人能参与本活动？</p>
+            <span style="text-decoration: underline">2014年5月31日晚24:00前（也就是六一儿童节到来前啦~）</span>下载并注册悠先点菜app的用户，都可参加此活动。
+            <p>
+                2.怎样获得赠送的金额？</p>
+            <span style="color: red">请打开app，点入【我的】或【登录】页面，检查一下账户设置里是否已经显示您的手机号码。如果还没有，请一定做一下绑定哦！</span>
+            不然我们就不知道你的手机号码有几个6了~ 手机号码每含1个6，获赠6元钱。
+            <p>
+                3.本次活动的赠送金额什么时候能用？</p>
+            <span style="color: red">所有2014年5月31日24:00前注册的用户： 6月1日11:00前到账</span>
+            <p>
+                4.赠送金额怎么使用？</p>
+            送的钱将存至悠先账户里，您可进入“我的”中查看“余额”。点菜支付时，系统将悠先扣除获赠金额，金额不足时您可选择其他支付方式补足。
+            <p>
+                5.可以与新注册用户送10元的活动叠加吗？</p>
+            当然可以啦！首次注册悠先的用户另加送10元钱，多点三个鸡爪妥妥的~
+            <p>
+                6.如果我支付后发生退款怎么办？</p>
+            如您支付后选择退单，获赠金额将原路退还至悠先账户内，不可退回其他路径（银行卡.支付宝等）
+            <p>
+                7.赠送金额有使用时间的限制吗？</p>
+            CEO说了，长~期~有~效~ （但是不能提现哟）
+        </div>
+        <br />
+        <h3 class="h" style="font-weight: bold;">
+            别忘了分享给朋友！</h3>
+        长~按~链~接~复~制~
+        <br />
+        <br />
+        <span style="color: red">本文分享链接 </span>
+        <br />
+        <span style="color: #f67400; font-size: 16px">http://url.cn/JpPduS </span>
+        <br /><br />
+        <span style="color: red">悠先点菜APP下载链接 </span>
+        <br />
+        <span style="color: #f67400; font-size: 16px">http://t.cn/Rv4d7Up </span>
+        <div class="footer">
+            <p style="color: #5f5f5f">
+                本活动解释权归友络科技所有</p>
+        </div>
+    </div>
+</body>
+</html>

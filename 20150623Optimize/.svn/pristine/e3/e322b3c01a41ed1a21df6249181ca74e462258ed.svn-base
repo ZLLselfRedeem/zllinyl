@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>服务协议</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile.min.js"></script>
+    <script src="../js/CommonScript.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var queryString = GetRequestParam("type");
+            if (queryString != undefined && queryString != "undefined" && queryString == "yxfw") {
+                $(".span").text("悠先服务");
+            }
+        });
+    </script>
+</head>
+<body>
+	<div class="manual">
+		<div class="main service">
+			<p><em class="company">"<span class="span">悠先点菜</span>"</em>  本协议是用户（以下简称“您”或“用户”）与友络软件科技有限公司签署的协议，请您在使用本软件和服务之前阅读本协议的全部内容。一旦您接受本协议或使用本软件和服务，本协议即对您生效。如果您不接受本协议或不愿安装本软件，可自行退出安装程序。如果您在安装本软件后因任何原因欲放弃使用，可使用各操作系统提供的删除方式删除本软件。
+			</p>
+			<dl class="text">
+			<dt>1.服务内容和变更</dt>
+			<dd>
+本软件向用户提供手机点菜和支付服务，用户可以通过本软件端搜索、筛选、查看自己感兴趣的餐馆，通过第三方支付软件提前完成支付，以节省到店点菜、支付的时间。为及时向用户提供新功能、修正软件中可能存在的漏洞，本软件提供自动升级或提示升级功能。用户使用升级后的软件和服务也需遵守本协议的约定。
+			</dd>
+			<dt>2.隐私保护</dt>
+			<dd>
+本应用在提供服务过程中，需要您同意并提供手机位置数据、电话号码等属于您的私人信息，此类信息将仅限于满足您的点菜服务需求，我方将采取合理的措施保护您的个人隐私，除法律或有法律赋予权限的政府部门要求或您的同意等原因外，友络软件未经您同意不会向除合作单位外的第三方公开、透露您的个人隐私。
+			</dd>
+			<dt>3.特别提醒</dt>
+			<dd>
+3.1"<span class="span">悠先点菜</span>"目前不对下载或使用本软件和服务收取任何费用，但您在下载和使用过程中将产生通信数据流量费用，该服务与费用由您的通信运营商提供，并由您承担。<br />
+3.2"<span class="span">悠先点菜</span>"的账户余额（以下简称悠先粮票）不含提现功能，当您向账户充值后，则自动转化为粮票余额，仅用于平台内的订单支付。<br />
+3.3如您需退款，可选择退回原支付的银行卡，或退至悠先粮票。一旦您选择了退入悠先粮票，则友络软件默认您不需退还现金。如您先使用“充值”功能后选择退款，则一律默认退回悠先粮票，不予提现。</dd>
+			<dt>4.有限责任</dt>
+			<dd>
+4.1虽然本软件已经经过严格的测试，但鉴于用户终端软硬件环境的差异性和复杂性，友络软件并不能保证本软件所提供的各项功能在任何情况下都能正常执行或达到用户所期望的结果。用户同意：对于安装、使用本软件造成的任何损失，友络软件不承担任何法律责任。上述损失可能源自（包括但不限于）本软件与用户安装使用的其他软件的不兼容，或由于硬件系统不兼容而造成的用户不能使用本产品而造成的损失，包括但不限于任何直接或间接的损失。 </dd>
+			<dd>
+4.2友络软件对本软件和服务中包含的数据的准确性、及时性不做保证，本软件提供的数据服务所展示的任何信息仅供参考之用，不做可供依赖的行动建议。 </dd>
+			<dd>
+4.3本软件包含第三方提供的内容，例如支付平台，因任何人使用第三方支付平台产生任何问题或事故的，由您自行承担全部责任，友络软件对此不承担任何责任。
+			</dd>
+			</dl>
+		</div>
+		<div class="footer">
+			<p>新浪微博@悠先点菜</p>
+            <p>微信公众平台"悠先点菜"</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>【福利】带宝贝撒欢 免费送海皇星干湖节门票啦</title>
+
+    <!-- Bootstrap -->
+    <link href="../../AppPages/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../AppPages/assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="../../AppPages/assets/css/doubleEleven.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+  	.thisBtn{
+  		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 4px;
+		background: rgba(217,83,79,1);
+		color: #fff; margin:20px 0 40px 0;
+		font-size: 14px;
+	}
+	.thisBtn:hover, .thisBtn:active{
+		background: rgba(201,48,44,1); color: #fff;
+	}
+  </style>
+  <body>
+    <div class="container">
+    	<section class="intro">
+        	<h3 class="text-center text-uppercase">【福利】带宝贝撒欢 免费送海皇星干湖节门票啦</h3>
+            <p style="margin-top: 20px;">吃货爸爸妈妈们，想好宝贝们考试考好，带他们去哪里玩了吗？丰盛大餐+回归田园+新奇体验+动静结合的娱乐活动可好？</p>
+            <p>海皇星干湖节将于2月7日正式开启。满足以上所有要求，应该是考后撒欢绝佳去处啦~</p>
+            <p style="margin-top: 20px;"><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201502/seastar/sea_star1.jpg' class="img-responsive"  /></p>
+            <p>去到那里，宝贝们可以参与现场捕鱼活动做回快乐渔夫，在千亩生态乐园里寻找“鱼卡”宝藏，品尝百鱼宴的舌尖美味，采摘草莓和有机健康菜，新奇农家体验一定能让人忘掉考试残留的压力！</p>
+            <p style="margin-top: 20px;"><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201502/seastar/sea_star2.jpg' class="img-responsive"  /></p>
+            <p>那里有专属孩子的游乐天地：萌版杭州乐园。如果你家宝贝够勇敢，也可以体验一下空中飞人、滑翔飞翼等带来的心跳加速的快感！ </p>
+            <p style="margin-top: 20px;"><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201502/seastar/sea_star3.jpg' class="img-responsive"  /></p>
+            <p>心动了吗？宝贝走天下和悠先点菜联合给大家带来了免费领门票的名额喔~先到先得！赶紧抢起来~</p>
+        </section>
+        <section style="padding-top:30px;">
+        	<p>❤活动时间<br/>2015年2月7日（星期六）</p>
+        	<p>❤活动地点<br/>杭州西湖区双浦镇四号浦路1号</p>
+        	<p>❤活动内容<br/>海皇星门票两张(成人、儿童均可用），价值200元（包含园区内十余个免费游乐设施）不包含餐饮食宿及自费项目。</p>
+        </section>
+        <section style="padding-top:30px;">
+        	<p>活动主办方：宝贝走天下</p>
+        	<p>详情咨询：</p>
+        	<p>海皇星咨询电话：0571-87615166</p>
+        	<p>宝贝走天下客服：400-861-0571（9:00-18:00）</p>
+        	<a class="thisBtn" href="http://wap.baobei762.com/haihx2.html?from=singlemessage&isappinstalled=0#rd&sukey=4093a841665b25f2b385ad006a634a5fc0d7698f12d727226588b28d51517cd569fcac7c503ab770fba843d71f0ba1bf">免费领票</a>
+        </section>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../AppPages/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../AppPages/assets/tronjs/tron.js"></script>
+    <script language="javascript">
+	require('../../AppPages/assets/scripts/main', function(project){new project();});
+	</script>
+  </body>
+</html>

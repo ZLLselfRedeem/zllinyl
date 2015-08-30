@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>微信在线客服</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="help.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../tron/coms/jquery/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+		<section class="container service">
+        	<ul>
+            	<li>
+                	<h4> - 悠先微信服务</h4>
+                    <img class="img-responsive" src="http://image.u-xian.com/UploadFiles/Images/AppPages/we_chat.jpg" />
+                </li>
+            	<li>
+                	<h4> - 使用方法</h4>
+                    <p class="clearfix">
+                    	<button class="btn btn-success pull-right becopy">点击复制</button>1、点击右边按钮，复制微信号youxiandc
+                    </p>
+                    <p class="clearfix">
+                    	<button class="btn btn-success pull-right benotice">马上关注</button>2、进入微信，右上角+号，添加朋友，在输入框粘贴微信号搜索即可关注
+                    </p>
+                </li>
+            </ul>
+        </section>
+  </body>
+</html>
+<script src="on.js"></script>

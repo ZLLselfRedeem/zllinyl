@@ -1,0 +1,282 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data;
+using VAGastronomistMobileApp.WebPageDll;
+using VAGastronomistMobileApp.Model;
+using VAGastronomistMobileApp.SQLServerDAL;
+using System.Text;
+using System.Web.Services;
+using VA.CacheLogic.OrderClient;
+using VAGastronomistMobileApp.Model.QueryObject;
+
+public partial class shopShow : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        //int shopId = Common.ToInt32(Request.QueryString["shopId"]);
+        //long customerId = Common.ToInt64(Request.QueryString["customerId"]);
+        //string partPath = WebConfig.CdnDomain + WebConfig.ImagePath;
+        //StringBuilder strHtml = new StringBuilder();
+        //if (shopId > 0 && customerId > 0)
+        //{
+        //    strHtml.Append(" <section class='main profile'>");
+        //    strHtml.Append(" <header>");
+        //    ShopOperate shopOper = new ShopOperate();
+        //    ShopInfo shopInfo = shopOper.QueryShop(shopId);
+        //    if (shopInfo != null)
+        //    {
+        //        pageTitle.Text = shopInfo.shopName;
+        //        string shopFullLogoPath = partPath + shopInfo.shopImagePath + shopInfo.shopLogo + "@136w_136h_50Q";//门店LOGO
+        //        string shopName = shopInfo.shopName;//门店名称
+        //        string shopAddress = shopInfo.shopAddress;
+        //        string shopOpenTime = shopInfo.openTimes;//门店营业时间
+        //        string shopPhone = shopInfo.shopTelephone;//门店联系电话
+        //        string shopBgImg = string.Empty;
+        //        if (!string.IsNullOrEmpty(shopInfo.publicityPhotoPath))
+        //        {
+        //            shopBgImg = partPath + shopInfo.publicityPhotoPath + "@640w_212h_50Q";//门店背景图片
+        //        }
+        //        else
+        //        {
+        //            shopBgImg = "AppPages/img/home_not_img.png";//门店背景图片
+        //        }
+        //        strHtml.Append("<p class='pic clear-p-top'><img src=" + shopBgImg + " /></p>");
+        //        strHtml.Append("<ul class='tab'>");
+        //        strHtml.Append("<li class='vipRange'><img src='AppPages/img/arrow_vip_" + (int)shopInfo.shopRating + ".png' /></li>");
+        //        CustomerOperate customerOper = new CustomerOperate();
+        //        List<int> shopList = customerOper.QueryCustomerFavoriteShop(customerId);
+        //        if (!shopList.Contains(shopId))
+        //        {
+        //            strHtml.Append(" <li class='collect'><h2>收藏</h2><img src='AppPages/img/arrow_sc_1.png' /></li>");
+        //        }
+        //        else
+        //        {
+        //            strHtml.Append(" <li class='collect'><h2>收藏</h2><img src='AppPages/img/arrow_sc_2.png' /></li>");
+        //        }
+        //        double currectDiscount = 1;
+        //        int currentPlatformVipGrade = customerOper.QueryCustomerCurrentPlatformVipGrade(customerId);
+        //        DataTable dtShopVipInfo = shopOper.GetShopVipInfo(shopId);//查询当前门店的VIP等级信息
+        //        if (dtShopVipInfo.Rows.Count > 0)
+        //        {
+        //            List<VAShopVipInfo> shopVipList = new List<VAShopVipInfo>();
+        //            VAShopVipInfo userVipInfo = new VAShopVipInfo();
+        //            ClientExtendOperate.GetUserVipInfo(currentPlatformVipGrade, dtShopVipInfo, userVipInfo, shopVipList);
+        //            currectDiscount = userVipInfo.discount;
+        //        }
+        //        if (currectDiscount == 1)
+        //        {
+        //            strHtml.Append("<li class='discount' ><a href='http://u-xian.com/d.aspx?t=4'><h2><em></em>进入点菜</h2></a></li>");//不显示10折
+        //        }
+        //        else
+        //        {
+        //            currectDiscount = currectDiscount * 10;//换算成折扣值
+        //            strHtml.Append("<li class='discount'><a href='http://u-xian.com/d.aspx?t=4'><h2><em>" + Common.ToDouble(currectDiscount).ToString().Substring(0, 1) + "</em>" + Common.ToDouble(currectDiscount).ToString().Substring(1, currectDiscount.ToString().Length - 1) + " 折点菜</h2></a></li>");
+        //        }
+        //        strHtml.Append("</ul>");
+        //        strHtml.Append("</header>");
+        //        strHtml.Append("<article class='content'>");
+        //        strHtml.Append("<section class='item'>");
+        //        strHtml.Append("<h3>门店地址</h3>");
+        //        strHtml.Append("<p>" + shopInfo.shopAddress + "</p>");
+        //        strHtml.Append("</section>");
+        //        strHtml.Append("<section class='item'>");
+        //        strHtml.Append("<h3>联系电话</h3>");
+        //        strHtml.Append("<p>" + shopInfo.shopTelephone + "</p>");
+        //        strHtml.Append("</section>");
+        //        strHtml.Append("<section class='item'>");
+        //        if (!string.IsNullOrEmpty(shopInfo.openTimes))
+        //        {
+        //            strHtml.Append("<h3 class='time-duration'>营业时间：" + shopInfo.openTimes + "</h3>");
+        //        }
+        //        strHtml.Append("<p class='pics clear-p-bottom'>");
+        //        DataTable dtRevealImageInfo = shopOper.QueryShopRevealImageInfo(shopId);//获取门店环境图片信息
+        //        if (dtRevealImageInfo.Rows.Count > 0)
+        //        {
+        //            for (int i = 0; i < dtRevealImageInfo.Rows.Count; i++)
+        //            {
+        //                strHtml.Append("<img  src=" + partPath + shopInfo.shopImagePath + WebConfig.ShopImg + dtRevealImageInfo.Rows[i]["revealImageName"] + "@260w_195h_50Q_1e_1c" + " />");
+        //            }
+        //        }
+        //        strHtml.Append("</p>");
+        //        strHtml.Append("</section>");
+        //        strHtml.Append("</article>");
+        //        strHtml.Append("</section>");
+        //        strHtml.Append(" <footer class='profile-footer'>");
+        //        strHtml.Append("<h2></h2>");
+        //        strHtml.Append("</footer>");
+        //        shareShow.InnerHtml = strHtml.ToString();
+        //    }
+        //}
+        //else
+        //{
+        //    //门店信息获取有误
+        //}
+    }
+
+    [WebMethod]
+    public static string GetShopInfo(int shopID, int pageIndex, int pageSize)
+    {
+        var shopResponse = new VAClientShopDetailResponse();
+        ShopInfoCacheLogic shopInfoCacheLogic = new ShopInfoCacheLogic();
+        ShopInfo shopInfo = shopInfoCacheLogic.GetShopInfo(shopID);
+        MenuOperate menuOperate = new MenuOperate();
+        if (shopInfo != null)
+        {
+            ShopManager shopmanager = new ShopManager();
+            CustomerManager customerManager = new CustomerManager();
+            #region 加载店铺信息
+            string imagePath = WebConfig.CdnDomain + WebConfig.ImagePath;
+            string shopImagePath = imagePath + shopInfo.shopImagePath + WebConfig.ShopImg;
+            //VAAppType appType = (VAAppType)checkResult.dtCustomer.Rows[0]["appType"];
+            //long CustomerID = Common.ToInt64(checkResult.dtCustomer.Rows[0]["CustomerID"]);
+            DataTable dtshopImage = shopmanager.QueryImageURL(shopID);
+            List<string> imglist = new List<string>();
+            if (dtshopImage.Rows.Count > 0)
+            {
+                for (int i = 0; i < dtshopImage.Rows.Count; i++)
+                {
+                    imglist.Add(shopImagePath + Common.ToString(dtshopImage.Rows[i]["revealImageName"]));
+                }
+            }
+            shopResponse.shopImage = imglist;//门店图片地址
+            shopResponse.shopId = shopInfo.shopID;
+            if (!string.IsNullOrEmpty(shopInfo.publicityPhotoPath))
+            {
+                shopResponse.publicityPhotoPath = imagePath + shopInfo.publicityPhotoPath;
+            }
+            else
+            {
+                shopResponse.publicityPhotoPath = "";
+            }
+            shopResponse.shopName = shopInfo.shopName;
+            shopResponse.shopRating = shopInfo.shopRating.HasValue ? shopInfo.shopRating.Value : 0;
+            shopResponse.shopAddress = shopInfo.shopAddress;
+            shopResponse.shopTelephone = shopInfo.shopTelephone;
+            shopResponse.openTimes = shopInfo.openTimes;
+            if (string.IsNullOrEmpty(shopInfo.shopLogo))//门店LOGO
+            {
+                shopResponse.shopLogoPath = "";
+            }
+            else
+            {
+                shopResponse.shopLogoPath = imagePath + shopInfo.shopImagePath + shopInfo.shopLogo;
+            }
+            shopResponse.userShareUrl = WebConfig.ServerDomain + "shopShow.aspx?shopId=" + shopID;//用户分享门店信息
+            string userShareMessage = string.Empty;
+            userShareMessage = WebConfig.ShopShare;
+            userShareMessage = userShareMessage.Replace("{0}", shopInfo.shopName);
+            shopResponse.userShareMessage = userShareMessage;
+            //int currentPlatformVipGrade = Common.ToInt32(checkResult.dtCustomer.Rows[0]["currentPlatformVipGrade"]);//当前用户VIP等级 
+            ShopCoordinate shopCoordinateBaidu = shopInfoCacheLogic.GetShopCoordinate(shopID);//百度经纬度
+            shopResponse.latitude = shopCoordinateBaidu.latitude;
+            shopResponse.longitude = shopCoordinateBaidu.longitude;
+            DataTable dtShopVipInfo = shopmanager.SelectShopVipInfo(shopInfo.shopID);//查询当前门店的VIP等级信息
+            //DataTable dtShopVipInfo = menuOperate.GetShopVipInfo(shopInfo.shopID);
+
+            shopResponse.currectDiscount = 1;
+            //List<int> shopIdList = customerManager.SelectCustomerFavoriteShop(CustomerID);
+            //if (shopIdList.Contains(shopInfo.shopID))
+            //{
+            //    shopResponse.isFavorites = true;
+            //}
+            //else
+            //{
+            shopResponse.isFavorites = false;
+            //}
+            shopResponse.shopLevel = shopInfo.shopLevel;
+            shopResponse.prepayOrderCount = (int)shopInfo.prepayOrderCount;
+            ShopEvaluationDetailManager shopEvaluationDetailManager = new ShopEvaluationDetailManager();
+            ShopEvaluationDetailQueryObject shopEvaluationDetailQueryObject = new VAGastronomistMobileApp.Model.ShopEvaluationDetailQueryObject()
+            {
+                ShopId = shopID
+            };
+            List<ShopEvaluationDetail> shopEvaluationDetailList =
+                shopEvaluationDetailManager.GetShopEvaluationDetailByQuery(shopEvaluationDetailQueryObject);
+            shopResponse.goodEvaluationCount = shopEvaluationDetailList.Where(p=>p.EvaluationValue == 1).Sum(p => p.EvaluationCount);
+            if (shopEvaluationDetailList != null && shopEvaluationDetailList.Count > 0)
+            {
+                double totalEvaluation = shopEvaluationDetailList.Sum(p => p.EvaluationCount);
+                var evaluationPercent = from e in shopEvaluationDetailList
+                                        group e by e.EvaluationValue into g
+                                        select new EvaluationPercent()
+                                        {
+                                            evaluationValue = g.Key,
+                                            percent = Math.Round((g.Sum(p => p.EvaluationCount) / totalEvaluation), 4)
+                                        };
+                if (evaluationPercent != null && evaluationPercent.Count() >= 0)
+                {
+                    shopResponse.evaluationPercent = evaluationPercent.ToList();
+                    if (evaluationPercent.Count() < 3)
+                    {
+                        for (int i = -1; i < 2; i++)
+                        {
+                            EvaluationPercent entity = evaluationPercent.FirstOrDefault(p => p.evaluationValue == i);
+                            if (entity == null)
+                            {
+                                entity = new EvaluationPercent() { evaluationValue = i, percent = 0 };
+                                shopResponse.evaluationPercent.Add(entity);
+                            }
+                        }
+                    }
+                }
+            }
+
+            #endregion
+            if (pageIndex > 0)
+            {
+                #region 加载店铺评价
+                PreorderEvaluationQueryObject queryObject = new PreorderEvaluationQueryObject() { ShopId = shopInfo.shopID };
+                long queryCount = PreorderEvaluationOperate.GetCountByQuery(queryObject);
+                if (queryCount >  pageIndex * pageSize)
+                {
+                    shopResponse.isMore = true;
+                }
+                else
+                {
+                    shopResponse.isMore = false;
+                }
+                List<PreorderEvaluation> preOrder19dianInfoList
+                    = PreorderEvaluationOperate.GetListByQuery( pageSize, pageIndex,  queryObject);
+                if (preOrder19dianInfoList != null && preOrder19dianInfoList.Count > 0)
+                {
+                    var returnEvaluationList = from e in preOrder19dianInfoList
+                                               select new EvaluationInfo()
+                                               {
+                                                   customId = (int)e.CustomerId,
+                                                   evaluationContent = e.EvaluationContent,
+                                                   evaluationValue = e.EvaluationLevel,
+                                                   evaluationDate = Common.ToSecondFrom1970(e.EvaluationTime)
+                                               };
+                    shopResponse.evaluationList = returnEvaluationList.ToList();
+                    foreach (var item in shopResponse.evaluationList)
+                    {
+                        item.mobilePhoneNumber = string.Empty;
+                        DataTable dtCustomer = customerManager.SelectCustomer(item.customId);
+                        if (dtCustomer != null && dtCustomer.Rows.Count > 0)
+                        {
+                            string mobilePhoneNumber = dtCustomer.Rows[0]["mobilePhoneNumber"].ToString();
+                            if (mobilePhoneNumber.Length > 10)
+                            {
+                                item.mobilePhoneNumber = dtCustomer.Rows[0]["mobilePhoneNumber"].ToString().Remove(3, 6).Insert(3, "******");
+                            }
+                        }
+                    }
+
+                }
+
+                #endregion
+            }
+
+            shopResponse.result = VAResult.VA_OK;
+
+
+        }
+        return JsonOperate.JsonSerializer<VAClientShopDetailResponse>(shopResponse);
+    }
+}

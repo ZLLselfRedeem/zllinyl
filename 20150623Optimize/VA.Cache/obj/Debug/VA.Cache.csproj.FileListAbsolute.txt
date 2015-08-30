@@ -1,0 +1,10 @@
+D:\MyRoom\20150623Optimize\CommonDll\VA.Cache.dll
+D:\MyRoom\20150623Optimize\CommonDll\VA.Cache.pdb
+D:\MyRoom\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.dll
+D:\MyRoom\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.pdb
+D:\MyRoom\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\CommonDll\VA.Cache.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\VA.Cache.pdb
+D:\MyRoom\Project\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.dll
+D:\MyRoom\Project\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.pdb
+D:\MyRoom\Project\20150623Optimize\VA.Cache\obj\Debug\VA.Cache.csprojResolveAssemblyReference.cache

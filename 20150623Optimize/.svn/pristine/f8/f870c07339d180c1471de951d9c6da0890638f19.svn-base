@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>跟着味觉去旅行</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="../assets/css/doubleEleven.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+  h6{ color:#C00; font-weight:bold; font-size:14px;}
+  </style>
+  <body>
+    <div class="container">
+    	<section class="intro">
+        	<h3 class="text-center text-uppercase">跟着味觉去旅行</h3>
+            <p>在电视上，我们经常可以看到异国风情的建筑还有美食，每当这个时候我们就想如果能够去国外就好了。眼看一年都要过去了，一群群“加班狗”都还没有时间出去游玩呢。暂时不能去异国他乡旅行的你，用味觉来旅行业未尝不可。来，跟着悠先君的脚步，一起成为异国他乡的美食俘虏！</p>
+        </section>
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第一站：西班牙</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="963"><i class="fa fa-random"></i>点菜</button>推荐餐厅：Casa Aurora西班牙餐厅</p>
+            <h6>{福利}：使用悠先点单可享8.8折（酒水饮料除外）</h6>
+            <p>欧若拉西班牙餐厅的英文全名叫CASA AURORA。之所以叫欧若拉，一来因为这里的老板之一，一位西班牙大叔那如天使般可爱的2岁混血小女儿，她的名字就叫欧若拉。二来，要叩谢歌手张韶涵，她的一首《欧若拉》，让这三个字名满天下。 </p>
+            <p><img src="../assets/images/TasteTravel/1.png"></p>
+            <p>这家西班牙餐厅由4个主心骨组成。一位西班牙大叔，站姿像电视上那些参加国标舞比赛的老外，身板笔挺，只见他在店堂里穿梭忙碌，偶尔用蹩脚的中文和客人闲聊几句。虽然词汇量很贫瘠，但笑容弥补了一切。另一位幕后老板是位美丽年轻的中国女孩。现在就算给你个机会让你猜1000遍，你也未必猜得出她的职业。还有两位堪称这家西班牙餐厅的灵魂人物。一位是70多岁的西班牙老爷爷，和同样是白发苍苍的西班牙老奶奶，两位平日里很难在店堂里见到，因为他们的战场在后厨。食客们吃到的所有西班牙菜都出自二位之手。</p>
+            <p>这里的西班牙菜不讲究摆盘，缺少菜肴之间的色彩搭配。所以，更像是你到了西班牙小镇，误入一户人家，他们很热情地邀你一同吃饭，上的那一桌菜。你见过你外公外婆在家做菜的时候，在肉末豆腐旁边雕朵萝卜花吗？好吧，即便这里的菜式都很淳朴，海鲜饭的调味却是极好的。</p>
+        </section>
+        
+        
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第二站：美国</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="715"><i class="fa fa-random"></i>点菜</button>推荐餐厅：摩嘉果木牛扒</p>
+            <h6>{福利}：使用悠先点单可享9.2折（酒水饮料除外）</h6>
+            <p>摩嘉果木牛扒，单从店名便可窥见牛排作为此家的招牌产品，滋味绝对不一般，而小门面大客流也印证着这家的牛排的确抚慰了不少挑剔的味蕾。摩嘉果木牛扒位于饮食男女云集的武林皇后街区，门口两张摇摇晃晃的小木车格外吸睛,上座率居高不下的店里，食客们在美食堆里愉悦地聊天，服务员来回穿梭，永远是一副热闹无比的景象。店内分为2层，第一层是无烟区，第二层是吸烟区，对于这种做的比较细致，能够照顾到所有的客人。里面的装修比较吸引我的就是那个全透明的公开厨房，能够通过玻璃看见操作。这个是要一定的勇气和实力，这点也是个活广告啦！ </p>
+            <p><img src="../assets/images/TasteTravel/2.png"></p>
+            <p>不像一般餐厅的菜单上，牛排产品总是一枝独秀，摩嘉果木牛扒的品类不少，果木烤特级牛排、果木烤牛小排、果木烤带骨肉眼……都是以果木烤制的。牛肉在烹饪的过程中，既保留了自身的风味，又吸收了果木燃烧时散发的原香，香气丰盈，别有一番韵味。而高温烤制也锁住了牛肉的汁水，刚出炉的喷香牛排，表面微焦，有着漂亮的网格纹路，用刀轻轻切开，横断面能看到牛肉漂亮的粉红色，口感鲜嫩多汁，即使不蘸上酱汁，牛排浓郁的风味也让人欲罢不能。当牛肉邂逅果木的原香，你猜，会发生什么呢？</p>
+        </section>
+        
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第三站：德国</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="850"><i class="fa fa-random"></i>点菜</button>推荐餐厅：雅谷</p>
+            <p>因为那些原木，因为那些绿意，因为面朝丛林，因为每一扇可以开成90°角的窗户，因为入夜后小乐队的浅唱低吟…雅谷从一众此起彼伏的景区小清新中跳脱出来，它标榜自己对那些腔调和情绪的契合负责，也会对你的口味负责。</p>
+            <p><img src="../assets/images/TasteTravel/3.png"></p>
+            <p>即使天生是一份速食，但内心诚意十足的好料，还是会滋生出令人尊敬的光芒。比如希腊色拉配烤全羊肉，已经足够小胃口的菇娘饱餐一顿了。对于美味又追求的人来说，繁忙的午间，还有一份汉堡可以享用，整天都会干劲十足吧。
+如果你恰巧遇到汉堡水准不稳定，来一杯百香果莫寄托也能默默原谅大厨。薄荷叶并不捣碎但已经有清凉之意从杯底升上来，香味浓郁，微酸，就这立冬深深的来那么一口，微醺最动人。
+</p>
+        </section>
+        
+        
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第四站：新加坡</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="733"><i class="fa fa-random"></i>点菜</button>推荐餐厅：町炖.南洋烩</p>
+            <p>所有关于新加坡的印象，是温煦的海风，是无尽的绿荫，是明艳的花朵，是浓郁的咖喱，是咖啡很香、榴莲很臭的热情的南洋国度。在这个充溢着中西方文化碰撞的国度里，华人、马来人，西班牙人、印度人一起创出东西合璧、绚烂多姿的新加坡美食：辣椒蟹，马来沙爹、海南鸡饭、槟城炒粿条...今夏最潮新加坡美食风暴强势登陆杭城，作为在中国的首家平价餐厅，町炖﹒南洋烩将带给你最HOT的南洋美食体验。</p>
+            <p><img src="../assets/images/TasteTravel/4.png"></p>
+            
+        </section>
+        
+        
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第五站：韩国</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="769"><i class="fa fa-random"></i>点菜</button>推荐餐厅：thank u mom</p>
+            <h6>{福利}：每天悠先点单前三位的用户，在11点30—14点免排队（仅限湖滨银泰店）</h6>
+            <p>不要等到初雪，才吃啤酒+炸鸡，为了你的都教授，为了你的二千女神。现在就去吧。这是一家从韩国引进的炸鸡品牌店，原来只有炸鸡和啤酒，但在杭州，老板还增加了比萨和年糕。比萨是水果口味的，比较清爽，而年糕是意大利白酱面的做法，芝士给得是相当大方，滋味那叫一个浓郁啊！不仅有美食还有帅锅，温柔的韩国欧巴店长~从韩国炸鸡大学毕业的韩国厨师~小鲜肉店员~满满的都是爱啊~~</p>
+            <p><img src="../assets/images/TasteTravel/5.jpg"></p>
+        </section>
+        
+        
+        <section class="pans">
+        	<h5><i class="fa fa-map-marker"></i>第六站：日本</h5>
+            <p class="author clearfix"><button class="btn btn-danger pull-right app-order" app-type="14" app-value="626"><i class="fa fa-random"></i>点菜</button>推荐餐厅：隐竹</p>
+            <h6>{福利}：使用悠先点单可享9.0折（酒水饮料除外）</h6>
+            <p>用时尚激发传统，一如樱花绽放出的绚烂与优雅。现代简约的装修艺术风格，融入了日本美食的雅致，给人一种非凡惬意的用餐氛围。集锦海洋所有的鲜甜和精华，精选上等新鲜食材，加拿大空运直达三文鱼，细腻的肉质，鲜嫩的口感，身披红色嫁纱的甜虾欢乐奏起夏日圆舞曲，北极贝、加吉鱼、希鲮鱼、金枪鱼也耐不住寂寞，一起为夏日增添凉爽。芝士鳗鱼寿司的芝士味很独特,细长的一条芝士躺在烤鳗鱼上,既不破坏口感,更增加了味道的层次,水果牛油果卷+金枪鱼加州卷是隐竹的招牌+人气王，味增锅余香绕梁，三日不绝，吃在嘴里，暖在心里。</p>
+            <p><img src="../assets/images/TasteTravel/6.jpg"></p>
+        </section>
+    </div>
+    
+    	<section class="last text-info bg-info">
+        	<div class="container">
+            <p><i class="fa fa-heart-o"></i> 想吃！！</p>
+            <p>这些这些还有这些...一路上有悠先，多吃点不怕。</p>
+            <p>微博: @悠先点菜</p>
+            <p>微信: youxiandiancai</p>
+            </div>
+        </section>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/tronjs/tron.js"></script>
+    <script language="javascript">
+	require('../assets/scripts/main', function(project){new project();});
+	</script>
+  </body>
+</html>

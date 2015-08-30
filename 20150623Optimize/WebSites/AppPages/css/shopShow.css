@@ -1,0 +1,179 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "microsoft yahei";
+	background: #f0efef;
+}
+li{
+	list-style-type: none;
+}
+
+.storepic{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #aaa;
+	border-bottom: 1px solid #99999a;
+}
+
+#discount{
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	width: 134px;
+	height: 44px;
+	font-size: 11px;
+	color: #fff;
+	background-image: url('../../img/discountBg.png');
+	text-align: center;
+	line-height: 44px;
+}
+
+.storeInfo{
+	margin-top: 10px;
+	border-top: 1px solid #99999a;
+	border-bottom: 1px solid #99999a;
+	background: #fff;
+	font-size: 11px;
+	color: #888;
+}
+.storeInfo span{
+	font-size: 12px;
+	color: #000;
+	margin-left: 24px;
+}
+.storeLevel{
+	border-bottom: 1px solid #cdcdcd;
+}
+.storeLevel .drillShow img{
+	width: 16px!important;
+	height: 16px!important;
+	margin-right: 6px;
+}
+.storeLevel p{
+	color: #000;
+}
+.storeLevel p span{
+	margin-left: 3px;
+}
+.storeInfo #storeAdd{
+	color: #000;
+	padding-left: 24px;
+}
+.storeInfo ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.storeInfo ul li{
+	padding: 12px 11px;
+	border-bottom: 1px solid #cdcdcd;
+}
+.storeInfo ul li:last-child{
+	border:none;
+}
+
+/*评价详情*/
+.storeEvaluation{
+	margin-top: 10px;
+	background: #fff;
+}
+.storeEvaluation .Evaluations{
+	border-top: 1px solid #99999a;
+	border-bottom: 1px solid #99999a;
+	padding: 13px;
+}
+
+.Evaluations .evaColumn{
+	position: relative;
+	top: 9px;
+	padding: 0;
+	display: inline-block;
+	width: 520px;
+	margin-left:16px;
+	font-size: 0;
+}
+.Evaluations .evaColumn div{
+	float: left;
+	height: 4px;
+}
+.eav_good{background: #ef2920;}
+.eav_normall{background: #ffc63e;}
+.eav_bad{background: #c5c5c5;}
+
+.evaTxt{
+	width: 100%;
+}
+
+.storeEvaluation ul{
+	margin: 0;
+	padding: 0;
+}
+.storeEvaluation ul li{
+	padding: 13px;
+	border-bottom: 1px solid #cdcdcd;
+}
+.storeEvaluation ul li:last-child{
+	border: none;
+}
+.storeEvaluation ul li .phoneNum,
+.storeEvaluation ul li .thatdate
+{
+	color: #666;
+	font-size: 11px;
+	margin-right: 13px;
+	
+}
+.storeEvaluation ul li .thatdate{
+	margin: 0;
+}
+.evaContent{
+	font-size: 11px;
+	color: #000;
+}
+
+/*好评 中评 差评*/
+.good{color: #ef2920; font-size:11px;}
+.normall{color: #fba03e; font-size:11px;}
+.bad{color: #888; font-size:11px;}
+
+@media (max-width:540px){
+	.Evaluations .evaColumn{width: 421px; margin-left: 12px;}
+}
+@media (max-width:480px){
+	#discount{ width: 100.5px; height: 33px; line-height: 44px;}
+	.footer .orderMenu{ width: 145.5px; height: 23.5px; }
+	.footer ul li{width:46.5px; height:46.5px; margin-left: 39px;}
+	.storeLevel .drillShow img{width: 24px; height: 24px; margin-right: 4px;}
+	.Evaluations .evaColumn{width: 351px; margin-left: 12px;}
+}
+@media (max-width:424px){
+	.Evaluations .evaColumn{width: 326px; margin-left: 8px;}
+}
+@media (max-width:414px){
+	.Evaluations .evaColumn{width: 316px; margin-left: 8px;}
+}
+@media (max-width:400px){
+	.Evaluations .evaColumn{width: 306px; margin-left: 8px;}
+}
+@media (max-width:384px){
+	.Evaluations .evaColumn{width: 286px; margin-left: 8px;}
+}
+@media (max-width:375px){
+	.Evaluations .evaColumn{width: 276px; margin-left: 8px;}
+}
+@media (max-width:360px){
+	.Evaluations .evaColumn{width: 266px; margin-left: 8px;}
+}
+@media (max-width:320px){
+	#discount{ width: 67px; height: 22px; line-height: 22px; background-size: contain;}
+	.footer .orderMenu{ width: 97px; height: 31px;}
+	.footer ul li{ width:31px; height:31px; margin-left: 26px;}
+	.storeLevel .drillShow img{width: 16px; height: 16px; margin-right: 3px;}
+	.Evaluations .evaColumn{width: 229px; margin-left: 8px;}
+}
+
+

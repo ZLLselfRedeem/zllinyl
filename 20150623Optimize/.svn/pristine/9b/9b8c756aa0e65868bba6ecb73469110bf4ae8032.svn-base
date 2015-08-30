@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>thank u mom</title>
+
+    <!-- Bootstrap -->
+    <link href="../../AppPages/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../AppPages/assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="../../AppPages/assets/css/doubleEleven.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+  h6{ color:#C00; font-weight:bold; font-size:14px;}
+  .red{ color:red}
+  </style>
+  <body>
+    <div class="container">
+    	<section class="intro">
+        	<h3 class="text-center text-uppercase">1月7日，Thank U mom全场7折！</h3>
+            <p>还记得《来自星星的你》中，为了女神千颂伊的一句“下雪了，怎么能没有炸鸡和啤酒”，炸鸡店里出现了多少拿着啤酒和炸鸡的小伙伴，并且肆无忌惮地刷着朋友圈。</p>
+            <p>昨夜，杭州终于下雪了，啤酒和炸鸡，是不是要准备起来了？</p>
+            <p><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201501/thankumom/1.jpg' class="img-responsive"  /></p>
+            <p>初雪是属于炸鸡和啤酒的节日！初雪节！炸鸡！啤酒！</p>
+            <p>引自韩国连锁品牌的Thank u mom炸鸡店今天全场7折！仅限7日一天！ </p>
+            <p>带上你的欧巴，约上你的软妹纸，在暖气充足的店里，捧起扎啤啃炸鸡，一起幸福好嘛？</p>
+            <p><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201501/thankumom/2.jpg' class="img-responsive"  /></p>
+        </section>
+        <section style="padding-top:30px;">
+        	<p>推荐：</p>
+            <p>妈妈拿手无骨鸡、酱香无骨鸡、妈妈辣香鸡、蜜汁蒜香鸡、欧巴香辣年糕、马卡龙柠檬水</p> 
+            <p><img src='http://image.u-xian.com/UploadFiles/Images/AppPages/201501/thankumom/3.jpg' class="img-responsive"  /></p>
+            <p>普通的用油炸的炸鸡，会使本身就含有油脂的鸡肉多吸收20％的油脂，但是谢谢妈妈的炸鸡，是用德国引进的无油烤箱做出来的，不用一滴油，它是用空气炸的！并且它能减少鸡肉自身的20％油脂，大伙们想想，一个是1.2倍的油，一个是0.8倍的油！</p>
+            <p><strong>马上在app里搜索  <span style="color: red;">ThankUMom</span>   （长按可复制），提前点菜。用红包抵扣更优惠哦~</strong></p>
+            
+            <p style="color: red;"><strong>订单仅限7日入座，逾期未入座订单不享受7折。</strong></p>
+            <p style="color: #548dd4;">Add:杭州湖滨银泰in77-C3区202铺</p>
+            <p style="color: #548dd4;">Hotline：0571-85870647</p>
+            <p style="color: #548dd4;">Add：杭州西湖银泰3楼316铺</p>
+            <p style="color: #548dd4;">Hotline：0571-87002382</p>
+        </section>
+    </div>
+    
+	<section class="last text-info bg-info">
+    	<div class="container">
+        <p><i class="fa fa-heart-o"></i> 想吃！！</p>
+        <p>这些这些还有这些...一路上有悠先，多吃点不怕。</p>
+        <p>微博: @悠先点菜</p>
+        <p>微信: youxiandiancai</p>
+        </div>
+    </section>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../AppPages/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../AppPages/assets/tronjs/tron.js"></script>
+    <script language="javascript">
+	require('../../AppPages/assets/scripts/main', function(project){new project();});
+	</script>
+  </body>
+</html>

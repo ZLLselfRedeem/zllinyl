@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+  </configSections>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.LocalDbConnectionFactory, EntityFramework">
+      <parameters>
+        <parameter value="v11.0" />
+      </parameters>
+    </defaultConnectionFactory>
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <connectionStrings>
+    <!--本地服务器11-->
+    <add name="VAMsjConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bW0y2EYOavc2URZkxYQtiLUgElmpgwdBolV7JBXDyGQ7pKv+i7GxYxvpCdylWTJW7PiyO4kWzcf3Y6SCh3gPuuc7ngL+vEQ/LGW3UxVHhc9M=" providerName="System.Data.SqlClient" />
+    <add name="NotificationConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bwahBjO2StC0RLeSU2kEAnQaGxxwMW7Rw++uTn3xzDASyinQnJVGPs6JYorkBzW7198+8Elmk2OQ0kL+vR0WDHh+7SrQstjq+8D6XdWgiF/E=" providerName="System.Data.SqlClient" />
+    <!--创建员工操作日志数据库记录链接-->
+    <add name="MobileAppLogConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bW0y2EYOavc0Gc+99XO3X46fhlJYbWHTqGK31ehW72OKDOzYAKxuxUp4T68XeMLqn1CMw0JpyzykvAUYHQIF9lkQE/lZJCY1NnsloxAPu5vk=" providerName="System.Data.SqlClient" />
+    <!--服务器61.129.32.122:13363 viewalloc-->
+    <!--<add name="VAMsjConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bW0y2EYOavc2URZkxYQtiLUgElmpgwdBolV7JBXDyGQ7pKv+i7GxYxvpCdylWTJW7kquO4/v/VGLXhlT8Hg7cQI3OX2q/6Pi83XRsVnJqQxYrV/QhgEke2w==" providerName="System.Data.SqlClient"/>
+    <add name="NotificationConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bwahBjO2StC0RLeSU2kEAnQaGxxwMW7Rw++uTn3xzDASyinQnJVGPs6JYorkBzW71o2gau3jNTODGwtiLols/u1dxg3o2/2ZueXoT3VPXzsMsXxUrqb5xkQ==" providerName="System.Data.SqlClient"/>-->
+    <add name="VAGastronomistMobileAppEntities" connectionString="metadata=res://*/NewFolder1.Model1.csdl|res://*/NewFolder1.Model1.ssdl|res://*/NewFolder1.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.1.11;initial catalog=VAGastronomistMobileApp;persist security info=True;user id=sa;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+  <appSettings>
+    <add key="Debug" value="false" />
+    <add key="19dianDataSource" value="Data Source=192.168.1.11;" />
+    <add key="NotificationDataSource" value="Data Source=192.168.1.11;" />
+    <add key="MobileAppLogDataSource" value="Data Source=192.168.1.11;" />
+    <!--<add key="19dianDataSource" value="Data Source=42.121.124.112;"/>
+    <add key="NotificationDataSource" value="Data Source=42.121.124.112;"/>-->
+    <!--DataSource的ip地址后面有";"格式为："Data Source=192.168.1.10;"-->
+    <add key="ChartImageHandler" value="Storage=file;Timeout=20;Url=~/tempImages/;" />
+    <add key="extension" value=".jpg|.gif|.png" />
+    <!--图片存放服务器地址和路径-->
+    <add key="Server" value="http://192.168.1.11/"></add>
+    <!--<add key="Server" value="http://viewalloc.com"></add>-->
+    <add key="ImagePath" value="UploadFiles/Images/"></add>
+    <!--忘记密码处发送验证邮件的邮箱已经密码-->
+    <add key="Smtp" value="smtp.qq.com"></add>
+    <add key="ForgetEmailAddress" value="public@viewalloc.com"></add>
+    <add key="ForgetEmailAddressPassword" value="va28331560"></add>
+    <!--短信平台用户名密码-->
+    <add key="SmsUid" value="youluo"></add>
+    <add key="SmsPwd" value="youluo"></add>
+    <add key="SmsContent" value="{0}【优先验证码】"></add>
+    <!--微博分享内容-->
+    <add key="preorder_sina" value="我在@{0} 分享了@{1} 的点单{2}"></add>
+    <add key="preorder_qq" value="我在@{0} 分享了@{1} 的点单{2}"></add>
+    <add key="preorder_wx" value="我在@{0} 分享了{1} 的点单{2}"></add>
+    <add key="coupon_sina" value="我在@{0} 分享了@$$ 的优惠劵$$"></add>
+    <add key="coupon_qq" value="我在@{0} 分享了@$$ 的优惠劵$$"></add>
+    <add key="coupon_wx" value="我在@{0} 分享了$$ 的优惠劵$$"></add>
+    <add key="preorder_share_prompt" value="转发微博并@3位好友即可获取额外抽奖机会"></add>
+    <add key="openId_bind_sina" value="我在@{0} 使用了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="openId_bind_qq" value="我在@{0} 使用了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="openId_bind_wx" value="我在@{0} 使用了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="openId_bind_share_prompt" value="转发微博并@4位好友即可获取额外抽奖机会"></add>
+    <add key="app_install_sina" value="我在@{0} 安装了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="app_install_qq" value="我在@{0} 安装了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="app_install_wx" value="我在@{0} 安装了吃货神器，推荐给大家！http://www.viewalloc.com"></add>
+    <add key="app_install_share_prompt" value="转发微博并@5位好友即可获取额外抽奖机会"></add>
+    <add key="mySinaWeibo" value="优先点菜"></add>
+    <add key="myQQWeibo" value="youxiandiancai"></add>
+    <add key="myWechat" value="优先"></add>
+    <!--微信图片名称,微信会缓存同名图片,具体时间不详,因此修改图片时需要更改名称-->
+    <add key="wechatTitlePic1" value="wechatTitle1.png" />
+    <add key="wechatTitlePic2" value="wechatTitle2.png" />
+    <add key="wechatTitlePic3" value="wechatTitle3.png" />
+    <add key="wechatTitlePic3" value="wechatTitle4.png" />
+    <add key="wechatTitleName1" value="微信客户端，先点先吃" />
+    <add key="wechatTitleName2" value="微信客户端，历时点单" />
+    <add key="wechatTitleName3" value="手机客户端，更强功能，更爽体验" />
+    <add key="wechatURL1" value="http://viewalloc.com/apppages/default.aspx?wechatopenid=" />
+    <add key="wechatURL2" value="http://viewalloc.com/apppages/historyorder.aspx?wechatopenid=" />
+    <add key="wechatURL3" value="http://viewalloc.com/appdownload.aspx" />
+    <add key="wechatRecommendShop" value="http://viewalloc.com/apppages/RecommendShopInfo.aspx" />
+    <add key="wechatHotMenu" value="http://viewalloc.com/apppages/HotMenuInfo.aspx" />
+    <!--添加到图片上的水印文字-->
+    <add key="WaterMark" value="优先@ViewAlloc" />
+    <add key="waterMarkPath" value="D:\Web\UploadFiles\Images\waterMark.png" />
+    <add key="waterMarkSmallPath" value="D:\Web\UploadFiles\Images\waterMarkSmall.png" />
+    <add key="wechatRecommendShop" value="http://viewalloc.com/apppages/RecommendShopInfo.aspx" />
+    <add key="wechatHotMenu" value="http://viewalloc.com/apppages/HotMenuInfo.aspx" />
+    <!--水印文字的字体大小-->
+    <add key="Font-Size" value="15" />
+    <!--菜单文件压缩密码-->
+    <add key="menuFileZipPassword" value="viewalloc@meishidiandian" />
+    <!--银行名称（2013-7-11，wangcheng）-->
+    <add key="bankName" value="中国银行,农业银行,商业银行,工商银行,招商银行,建设银行,交通银行" />
+    <!--银联公私钥路径-->
+    <add key="PrivatePath" value="D:\\unionpayPrivate.p12" />
+    <add key="FrontPublicPath" value="D:\\unionpayPublic.cer" />
+    <!--支持银联支付-->
+    <add key="isUnionPay" value="false" />
+    <!--支付返券推送模版-->
+    <add key="payOrderBackCouponMessage" value="恭喜你获得{2}张 {0} {1} 优惠券" />
+    <!--注册变动数量-->
+    <add key="registerHeartBeat" value="33" />
+    <!--收银宝商家退款成功推送提示信息-->
+    <add key="sybRefundMessage" value="您好，{0}已成功退款{1}元到您的优先账户中，请注意查看" />
+    <!--门店服务员接收支付点单短信提醒-->
+    <add key="payOrderMessage" value="您好，{0}收到{1}元支付订单" />
+    <!--阿里云OSS访问地址及ID对-->
+    <!--外网-->
+    <add key="ossEndPoint" value="http://oss-cn-hangzhou.aliyuncs.com" />
+    <!--内网-->
+    <!-- <add key="ossEndPoint" value="http://oss-cn-hangzhou-internal.aliyuncs.com"/>-->
+    <add key="ossAccessID" value="PuuvkCXeokp2UcFU" />
+    <add key="ossAccessKey" value="XC631KP9zGMn4S8AHFOPfJwXqW7MjD" />
+    <!--Bucke名字，区分正式与测试-->
+    <add key="ossBucket" value="uxian-test" />
+    <!--应用OSS后新域名-->
+    <add key="ossDomain" value="http://image.u-xian.com/" />
+    <add key="UploadFiles" value="UploadFiles/" />
+    <add key="VipImg" value="VipImg/" />
+    <add key="webImages" value="web/images/" />
+    <add key="temp" value="UploadFiles/temp/" />
+    <add key="Advertisement" value="Advertisement/" />
+    <add key="CompanyMedalImage" value="CompanyMedalImage/" />
+    <add key="ShopMedalImage" value="ShopMedalImage/" />
+  </appSettings>
+</configuration>

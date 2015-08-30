@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Thank u mom 免排队名额在这里</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="Stylesheet" href="../css/ad.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.mobile.min.css" />
+    <script type="text/javascript" src="../../AppPages/js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var device = getDevices();
+
+            $("#thankyoumum").click(function () {
+                if (device.Android) {
+                    window.redEnvelopeShare.getRecomandTopicsValue('{ "type": "14", "value": "769" }'); //点菜
+                }
+                if (device.iOS) {
+                    window.location.href = "message:type:14,value:769"; //点菜
+                }
+            });
+            $("#thankyoumum2").click(function () {
+                if (device.Android) {
+                    window.redEnvelopeShare.getRecomandTopicsValue('{ "type": "14", "value": "769" }'); //点菜
+                }
+                if (device.iOS) {
+                    window.location.href = "message:type:14,value:769"; //点菜
+                }
+            });
+        })
+
+        function getDevices() {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                trident: u.indexOf('Trident') > -1,
+                presto: u.indexOf('Presto') > -1,
+                webKit: u.indexOf('AppleWebKit') > -1,
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/),
+                iOS: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                Android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                iPhone: u.indexOf('iPhone') > -1,
+                iPad: u.indexOf('iPad') > -1,
+                webApp: u.indexOf('Safari') == -1
+            };
+        };
+    </script>
+
+</head>
+<body>
+    <div>
+        <h1 class="korean">
+            最火的炸鸡店 "Thank u mom"
+            <br />
+            免排队名额在这里
+        </h1>
+        <p class="text">
+            这里是杭州炸鸡频道实况转播时间，请大家自发感受！！！
+            <br />
+            <span>时间：</span>某天17:15
+            <br />
+            <span>地点：</span>湖滨银泰
+            <br />
+            Thank u mom开始排队取号，短短15分钟已经有300多位"炸鸡友"在排队等候了！挤爆湖滨银泰~噢多K~
+        </p>
+        <p class="korean center">
+            <img alt="" src="../img/ad_activity/1-1.png" class="shop" />
+            <br />
+            Orz小伙伴们太热情，惊动了特警欧巴
+        </p>
+        <p class="text">
+            这是一家从韩国引进的炸鸡品牌店，原本只有炸鸡和啤酒，但在杭州，老板还增加了比萨和年糕。比萨是水果口味的，比较清爽，而年糕是意大利白酱面的做法，芝士给得那是相当大方，滋味那叫一个浓郁啊！不仅有美食还有帅锅，温柔的韩国欧巴店长～从韩国炸鸡大学毕业的韩国厨师～小鲜肉店员~满满都是爱啊～
+        </p>
+        <p class="text">
+            Thank u mom每餐只排60个号，早上11点就开始排队发号，来晚了取号的权利都没，想吃上一回不拼不可能！还想要免排队？！
+        </p>
+        <p class="text">
+            嗯，小编不会说你是痴人说梦，<span class="koreanspan">因为，免排队名额就在我~这~里~！与其去餐厅门口拼取号，不如先来小编这里碰运气，何况每天3个，每天~3个~！你说呢？</span>
+        </p>
+        <p class="korean ps">
+            下面就要说说参与规则了，请听好~
+        </p>
+        <p class="text">
+            <span>【规则】</span>
+        </p>
+        <p class="text">
+            <span>怎么免排队：</span>用<span class="koreanspan">
+                『悠先点菜』
+            </span>在<span class="koreanspan">
+                Thank u mom湖滨银泰店
+            </span>
+            点单并支付的前3位小伙伴，且单笔订单金额不少于50元（如果你凌晨就开始下单，绝对是NO.1）
+            <br />
+            <span>免排队时间：</span><span class="koreanspan">11:00--14:00 </span>，工作人员会致电你，并确定大致到店时间
+        </p>
+        <p>
+            <span>另外请注意：</span>
+            <br />
+            1、每个获免排队的小伙伴，最多可组6人队，再多门店就爆啦~
+            <br />
+            2、如这个时间段没空，你的名额就自动顺延到下一位点单的小伙伴啦（点单第四名、点单第五名以此类推），所以先确认档期再点菜才不遗憾哦。
+        </p>
+
+        <p class="ps">
+            想吃，这些这些还有这些…..一路上有悠先点菜，多吃点都可以！<br />
+            微博@悠先点菜<br />
+            微信：youxiandiancai
+        </p>
+    </div>
+</body>
+</html>

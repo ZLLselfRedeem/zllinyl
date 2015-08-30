@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2500万大回馈</title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background: #f3a626;
+      }
+      a{
+        text-decoration: none;
+      }
+      .wrap{
+        position: relative;
+        width: 100%;
+      }
+      .wrap img{
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      #toGetBtn{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -35%;
+        width: 70%;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #fff;
+        background-color: #ed6e31;
+        border-radius: 8px;
+        box-shadow: 1px 1px 2px #888;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <img src="http://image.u-xian.com/UploadFiles/Images/AppPages/201504/mom.jpg" class="img-responsive" />
+      <a href="http://u-xian.com/15/7.html?c=2" id="toGetBtn">立即领券</a>
+    </div>
+  </body>
+</html>

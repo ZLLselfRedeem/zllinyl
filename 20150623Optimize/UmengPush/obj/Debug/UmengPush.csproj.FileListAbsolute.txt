@@ -1,0 +1,8 @@
+D:\MyRoom\20150623Optimize\UmengPush\bin\Debug\UmengPush.dll
+D:\MyRoom\20150623Optimize\UmengPush\bin\Debug\UmengPush.pdb
+D:\MyRoom\20150623Optimize\UmengPush\obj\Debug\UmengPush.dll
+D:\MyRoom\20150623Optimize\UmengPush\obj\Debug\UmengPush.pdb
+D:\MyRoom\Project\20150623Optimize\UmengPush\bin\Debug\UmengPush.dll
+D:\MyRoom\Project\20150623Optimize\UmengPush\bin\Debug\UmengPush.pdb
+D:\MyRoom\Project\20150623Optimize\UmengPush\obj\Debug\UmengPush.dll
+D:\MyRoom\Project\20150623Optimize\UmengPush\obj\Debug\UmengPush.pdb

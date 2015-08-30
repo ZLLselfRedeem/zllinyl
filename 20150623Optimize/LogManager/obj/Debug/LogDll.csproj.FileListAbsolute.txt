@@ -1,0 +1,10 @@
+D:\MyRoom\20150623Optimize\CommonDll\LogManager.dll
+D:\MyRoom\20150623Optimize\CommonDll\LogManager.pdb
+D:\MyRoom\20150623Optimize\LogManager\obj\Debug\LogManager.dll
+D:\MyRoom\20150623Optimize\LogManager\obj\Debug\LogManager.pdb
+D:\MyRoom\20150623Optimize\LogManager\obj\Debug\LogDll.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\CommonDll\LogManager.dll
+D:\MyRoom\Project\20150623Optimize\CommonDll\LogManager.pdb
+D:\MyRoom\Project\20150623Optimize\LogManager\obj\Debug\LogManager.dll
+D:\MyRoom\Project\20150623Optimize\LogManager\obj\Debug\LogManager.pdb
+D:\MyRoom\Project\20150623Optimize\LogManager\obj\Debug\LogDll.csprojResolveAssemblyReference.cache

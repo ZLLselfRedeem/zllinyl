@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="WebServiceSoap" />
+                <binding name="BusinessServiceServiceSoapBinding" />
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://sdk.entinfo.cn:8061/webservice.asmx"
+                binding="basicHttpBinding" bindingConfiguration="WebServiceSoap"
+                contract="MandaoService.WebServiceSoap" name="WebServiceSoap" />
+            <endpoint address="http://www.jianzhou.sh.cn/JianzhouSMSWSServer/services/BusinessService"
+                binding="basicHttpBinding" bindingConfiguration="BusinessServiceServiceSoapBinding"
+                contract="JianzhouService.BusinessService" name="BusinessServicePort" />
+        </client>
+    </system.serviceModel>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup>
+</configuration>

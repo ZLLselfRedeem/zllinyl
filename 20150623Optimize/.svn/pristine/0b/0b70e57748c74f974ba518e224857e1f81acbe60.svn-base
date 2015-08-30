@@ -1,0 +1,6 @@
+	<div class="wrap noLogin">
+		<!--<div class="closeBtn"></div>-->
+		<div class="cry text-center"><img src="http://image.u-xian.com/UploadFiles/Images/15/Meal/cry.png" width="30%" /></div>
+		<h5 class="text-center" id="errortit">你没有登录哦~</h5>
+		<h5 class="text-center" id="errormsg">返回悠先点菜<br />点击APP右下角“账户”登录，<br />就可以参加啦！</h5>
+	</div>

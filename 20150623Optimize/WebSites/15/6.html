@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<!--2015年 海报，桌贴，墙贴，桌卡 红包二维码入口页面-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body onload="Transfer()">
+    <script>
+        function GetRequest() {
+            var url = location.search;
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                var strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        function Transfer() {
+            var Request = new Object();
+            Request = GetRequest();
+            var code = Request["c"];//活动映射ID
+            switch (code) {
+                case "1":
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=haibao";
+                    break;
+                case "2":
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=zhuotie";
+                    break;
+                case "3":
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=qiangtie";
+                    break;
+                case "4":
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=zhuoka";
+                    break;
+                case "5"://上海-红包-邀请函
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=shyaoqinghan";
+                    break;
+                case "6"://上海-红包-海报
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=shhaibao";
+                    break;
+                case "7"://上海-红包-胸牌
+                    location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=SVOC%2bWKUYt0%3d&source=shxiongpai";
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

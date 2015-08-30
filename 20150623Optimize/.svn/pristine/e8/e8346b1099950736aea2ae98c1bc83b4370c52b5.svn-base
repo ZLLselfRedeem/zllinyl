@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-family:Microsoft YaHei,Tahoma,simsun!important;}
+.list{ padding-top:20px; }
+.list .row{padding-left:15px; padding-right:15px;}
+.list a{ display:block; margin-bottom:20px; border-bottom:2px solid #ccc;}
+.detail{ border-top:1px solid #ddd;}
+.detail h4{ background-color:#f8f8f8; border-top:1px solid #fff; border-bottom:1px solid #ddd; margin:0;font-size:14px; font-weight:bold; color:#333; padding:10px 30px; text-shadow:1px 1px 1px rgba(0,0,0,.2)}
+.detail a{ padding:15px 30px;border-bottom: 1px solid #eee; display:block;}
+.detail a:link,
+.detail a:visited{ color:#777;}
+.detail a:hover{ color:#000; text-decoration:none;}
+.detail a .fa{ font-size:18px;}
+.detail a:last-child{ border-bottom:0;}
+.blank{ height:100px;}
+
+.list a.btn-default:hover,
+.list a.btn-default:focus,
+.list a.btn-default:active{ border-color: #ef2920; background-color:#fff; color:#ef2920;}
+
+a,
+a .fa{
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+}
+
+.detail a:hover .fa,
+.detail a:focus .fa{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.faq{ padding-top:10px;}
+.faq ul{ margin:0; padding:0; list-style:none;}
+.faq h4{ font-size:14px;}
+.faq p{ color:#777; margin-left:15px;}
+.faq ul li{ margin-bottom:15px;}
+
+.service ul{ margin: 0; padding: 0; list-style: none;}
+.service ul li button{ margin-left: 10px;}
+
+.zan{ border-top:1px solid #ddd; padding-bottom: 50px;}
+.zan .col-lg-12{ padding:15px 0px; text-align:center;}
+.zan .col-lg-12 .a2{ font-size:14px; margin-top:15px;}
+.zan .col-lg-12 a{ text-decoration:underline; color:#ef2920;}

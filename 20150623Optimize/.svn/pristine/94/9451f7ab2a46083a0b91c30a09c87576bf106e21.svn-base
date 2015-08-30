@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<!--2015年抵扣券入口页面-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body onload="Transfer()">
+    <script>
+        function GetRequest() {
+            var url = location.search;
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                var strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        function Transfer() {
+            var Request = new Object();
+            Request = GetRequest();
+            var code = Request["c"];//活动映射ID
+            switch (code) {
+                case "1":
+                    location.href = "http://www.u-xian.com/AppPages/discountCoupons/v3.html?id=456&shareType=2&cityId=87";
+                    break;
+                case "2":
+                    location.href = "http://www.u-xian.com/AppPages/discountCoupons/v3.html?id=459&shareType=2&cityId=73";
+                    break;
+                case "3":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=465&shareType=2&cityId=73";
+                    break;
+                case "4":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=468&shareType=2&cityId=73";
+                    break;
+                case "5":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=46B&shareType=2&cityId=73";
+                    break;
+                case "6":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=46E&shareType=2&cityId=73";
+                    break;
+                case "7":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=471&shareType=2&cityId=73";
+                    break;
+                case "8":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=474&shareType=2&cityId=73";
+                    break;
+                case "9":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=477&shareType=2&cityId=73";
+                    break;
+                case "10":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=47A&shareType=2&cityId=73";
+                    break;
+                case "11":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=47D&shareType=2&cityId=73";
+                    break;
+                case "12":
+                    location.href = "http://u-xian.com/AppPages/discountCoupons/v3.html?id=480&shareType=2&cityId=73";
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

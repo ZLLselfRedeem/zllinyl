@@ -1,0 +1,6 @@
+	<div class="wrap orderSuccess">
+			<!--<div class="backBtn"></div>-->
+			<h3 class="text-center">恭喜你，下单成功！</h3>
+			<h5 class="text-center">请在<span id="lasttime">20:15</span>分前支付订单<br />时间过期，订单就有可能被别人抢走啦~</h5>
+			<div class="text-center"><button class="btn btn-warning" id="dopay">马上付款</button></div>
+	</div>

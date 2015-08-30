@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[EmployeePointLog] (
+    [id]                    BIGINT         IDENTITY (1, 1) NOT NULL,
+    [operateTime]           DATETIME       NULL,
+    [employeeId]            INT            NULL,
+    [preOrder19dianId]      BIGINT         NULL,
+    [shopId]                INT            NULL,
+    [customerId]            BIGINT         NULL,
+    [viewallocEmployeeId]   INT            NULL,
+    [pointVariation]        FLOAT (53)     NULL,
+    [pointVariationMethods] INT            NULL,
+    [monetary]              FLOAT (53)     NULL,
+    [remark]                NVARCHAR (500) NULL,
+    [status]                INT            NULL,
+    [goodsId]               INT            NULL,
+    [address]               NVARCHAR (500) NULL,
+    [exchangeStatus]        INT            NULL,
+    [confirmStatus]         INT            NULL,
+    [confirmTime]           DATETIME       NULL,
+    [confirmBy]             INT            NULL,
+    [shipStatus]            INT            NULL,
+    [shipBy]                INT            NULL,
+    [platform]              NVARCHAR (50)  NULL,
+    [serialNumber]          NVARCHAR (50)  NULL,
+    [exchangeRemark]        NVARCHAR (500) NULL,
+    CONSTRAINT [PK_PointLog] PRIMARY KEY CLUSTERED ([id] ASC)
+);
+

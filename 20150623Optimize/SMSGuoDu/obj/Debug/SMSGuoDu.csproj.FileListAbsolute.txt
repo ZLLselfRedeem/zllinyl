@@ -1,0 +1,14 @@
+D:\MyRoom\20150623Optimize\SMSGuoDu\bin\Debug\SMSGuoDu.dll
+D:\MyRoom\20150623Optimize\SMSGuoDu\bin\Debug\SMSGuoDu.pdb
+D:\MyRoom\20150623Optimize\SMSGuoDu\bin\Debug\VAGastronomistMobileApp.Model.dll
+D:\MyRoom\20150623Optimize\SMSGuoDu\bin\Debug\VAGastronomistMobileApp.Model.pdb
+D:\MyRoom\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.csprojResolveAssemblyReference.cache
+D:\MyRoom\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.dll
+D:\MyRoom\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.pdb
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\bin\Debug\SMSGuoDu.dll
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\bin\Debug\SMSGuoDu.pdb
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\bin\Debug\VAGastronomistMobileApp.Model.dll
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\bin\Debug\VAGastronomistMobileApp.Model.pdb
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.csprojResolveAssemblyReference.cache
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.dll
+D:\MyRoom\Project\20150623Optimize\SMSGuoDu\obj\Debug\SMSGuoDu.pdb

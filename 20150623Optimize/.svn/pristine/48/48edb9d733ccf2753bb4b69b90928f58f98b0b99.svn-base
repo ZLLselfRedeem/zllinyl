@@ -1,0 +1,32 @@
+<section id="app-share">
+	<div class="app-content">
+    	<div class="banner snow">
+        	<div class="imgs"><img src="img/activity-1.png" class="img-responsive" /></div>
+            <div class="content"><div class="snows"></div></div>
+            <div class="text">
+                <div id="moneyText"><span></span>元</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+	    <div class="text-left row">
+	    	<h4 class="col-xs-12"><i class="fa fa-square" style="font-size: 12px;"></i> 活动时间</h4>
+	    	<div class="col-xs-12" style="padding-left: 0;">
+	    		<ol>
+	    			<li><span style="color: #f90000;">12月19日00:00-12月23日23:59</span>，登入“悠先点菜”APP活动页面，发送自己的圣诞祝福至微信好友即可得一份圣诞红包；</li>
+	    			<li>红包仅限<span style="color: #f90000;">12月24日00:00-24日23:59</span>下单使用，不退款不找零，平台上所有门店均可抵扣，未使用红包将于<span style="color: #f90000;">12月25日00:00</span>；</li>
+	    			<li>凡使用红包购买的点单，可于<span style="color: #f90000;">12月24日00:00-28日23:59</span>到店消费,如圣诞红包抵扣的订单仍未入座，系统将自动退款（用户除红包以外实际支付的金额将退回原账户，红包作废）。</li>
+	    		</ol>
+	    	</div>
+	    </div>
+    </div>
+    <div class="container" style="margin-bottom: 50px;">
+	    <div class="text-left row">
+	    	<h4 class="col-xs-12"><i class="fa fa-square" style="font-size: 12px;"></i> 活动规则</h4>
+	    	<div class="col-xs-12" style="padding-left: 0;">
+		    	<ol id="rule"></ol>
+	    	</div>
+	    </div>
+    </div>
+</section>
+<script>alert('evio')</script>

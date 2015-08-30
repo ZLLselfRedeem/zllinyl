@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+  <connectionStrings>
+    <!--本地服务器11-->
+    <add name="VAMsjConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bW0y2EYOavc2URZkxYQtiLUgElmpgwdBolV7JBXDyGQ7pKv+i7GxYxvpCdylWTJW7PiyO4kWzcf3Y6SCh3gPuuc7ngL+vEQ/LGW3UxVHhc9M=" providerName="System.Data.SqlClient"/>
+    <add name="NotificationConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bwahBjO2StC0RLeSU2kEAnQaGxxwMW7Rw++uTn3xzDASyinQnJVGPs6JYorkBzW7198+8Elmk2OQ0kL+vR0WDHh+7SrQstjq+8D6XdWgiF/E=" providerName="System.Data.SqlClient"/>
+    <!--创建员工操作日志数据库记录链接-->
+    <add name="MobileAppLogConnectionString" connectionString="RBtW0/ZFc4gVgZLXOEQD4R3gmTVi7T0bW0y2EYOavc0Gc+99XO3X46fhlJYbWHTqGK31ehW72OKDOzYAKxuxUp4T68XeMLqn1CMw0JpyzykvAUYHQIF9lkQE/lZJCY1NnsloxAPu5vk=" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <appSettings>
+    <add key="Debug" value="true"/>
+    <add key="19dianDataSource" value="Data Source=.;"/>
+    <add key="NotificationDataSource" value="Data Source=.;"/>
+    <add key="MobileAppLogDataSource" value="Data Source=.;"/>
+    <!--DataSource的ip地址后面有";"格式为："Data Source=192.168.1.10;"-->
+    <add key="ChartImageHandler" value="Storage=file;Timeout=20;Url=~/tempImages/;"/>
+    <add key="extension" value=".jpg|.gif|.png"/>
+
+    <!--图片存放服务器地址和路径-->
+    <add key="Server" value="http://test.u-xian.com/"></add>
+    <add key="ImagePath" value="UploadFiles/Images/"></add>
+    <add key="VipImagePath" value="uploadfiles/vipimg/"></add>
+
+    <!--忘记密码处发送验证邮件的邮箱已经密码-->
+    <add key="Smtp" value="smtp.qq.com"></add>
+    <add key="ForgetEmailAddress" value="public@viewalloc.com"></add>
+    <add key="ForgetEmailAddressPassword" value="va28331560"></add>
+
+    <!--短信平台用户名密码-->
+    <add key="SmsUid" value="youluo"></add>
+    <add key="SmsPwd" value="youluo"></add>
+    <add key="SmsContent" value="{0}【优先验证码】"></add>
+
+    <!--亿美短信软件序列号-->
+    <add key="softwareSerialNo" value="3SDK-EMY-0130-JDQQO"/>
+    <add key="key" value="viewalloc776637"/>
+    <!--字符编码，默认为"GBK"-->
+    <add key="srcCharset" value="GBK"/>
+    <!--短信等级，范围1~5，数值越高优先级越高-->
+    <add key="smsPriority" value="5"/>
+    <!--序列号密码-->
+    <add key="serialpass" value="410213"/>
+    <!--短信平台厂家:Guodu/Yimei-->
+    <add key="SmsType" value="Guodu"></add>
+
+    <!--分享内容-->
+    <add key="preorder_wx" value="我刚在{1}用优先点了菜,来帮我顶下赢免单吧{2}"></add>
+    <add key="mySinaWeibo" value="优先点菜"></add>
+    <add key="myQQWeibo" value="youxiandiancai"></add>
+    <add key="myWechat" value="优先点菜"></add>
+    <add key="shopShare" value="我刚在{0}用优先点了菜,味道真不错,赶紧来试试吧"/>
+    <add key="foodDiaries" value="{0}的美食日记{1}"></add>
+    <!--微信图片名称,微信会缓存同名图片,具体时间不详,因此修改图片时需要更改名称-->
+    <add key="wechatTitlePic1" value="banner0225.png"/>
+    <add key="wechatTitlePic2" value="wechat.png"/>
+    <add key="wechatTitlePic3" value="historyOrder.png"/>
+    <add key="wechatTitlePic4" value="wechatDish.png"/>
+    <add key="wechatTitleName1" value="手机客户端，点击下载"/>
+    <add key="wechatTitleName2" value="微信客户端，先点先吃"/>
+    <add key="wechatTitleName3" value="微信客户端，历史点单"/>
+    <add key="wechatFeedback" value="你好,请直接将你的意见告诉我们,工作人员将尽快处理你的意见!"/>
+    <add key="wechatURL1" value="http://112.124.0.220/d.aspx?t=4"/>
+    <add key="wechatURL2" value="http://112.124.0.220/apppages/default.aspx?wechatopenid="/>
+    <add key="wechatURL3" value="http://112.124.0.220/apppages/historyorder.aspx?wechatopenid="/>
+    <!--添加到图片上的水印文字-->
+    <add key="WaterMark" value="优先@ViewAlloc"/>
+    <add key="waterMarkPath" value="C:\ViewAlloc\Web\UploadFiles\Images\waterMark.png"/>
+    <add key="waterMarkSmallPath" value="C:\ViewAlloc\Web\UploadFiles\Images\waterMarkSmall.png"/>
+    <add key="wechatRecommendShop" value="http://112.124.0.220/apppages/RecommendShopInfo.aspx"/>
+    <add key="wechatHotMenu" value="http://112.124.0.220/apppages/HotMenuInfo.aspx"/>
+    <!--下载页面URL-->
+    <add key="appdownloadURL" value="http://112.124.0.220/d.aspx"/>
+    <!--水印文字的字体大小-->
+    <add key="Font-Size" value="15"/>
+    <!--菜单文件压缩密码-->
+    <add key="menuFileZipPassword" value="viewalloc@meishidiandian"/>
+    <add key="bankName" value="中国银行,农业银行,工商银行,招商银行,建设银行,交通银行,杭州银行,民生银行"/>
+    <!--银联公私钥路径-->
+    <add key="PrivatePath" value="C:\\ViewAlloc\\unionpayPrivate.p12"/>
+    <add key="FrontPublicPath" value="C:\\ViewAlloc\\frontPublic.cer"/>
+    <!--收银宝商家退款成功推送提示信息-->
+    <add key="sybRefundMessage" value="{0}向你发起了一笔{1}元的退款,预计将在3个工作日内到账【优先点菜】"/>
+    <!--优先服务积分链接-->
+    <add key="shoppingMallURL" value="http://112.124.0.220/PointsManage/index.aspx?c={0}&amp;t={1}"/>
+    <!--服务条款页面-->
+    <add key="serviceURL" value="http://112.124.0.220/apppages/manual/service.html"/>
+    <!--引导说明页面-->
+    <add key="guideURL" value="http://112.124.0.220/apppages/manual/guide.html"/>
+    <!--faq页面-->
+    <add key="faqURL" value="http://112.124.0.220/apppages/manual/faq.html"/>
+    <!--反馈页面-->
+    <add key="feedbackURL" value="http://112.124.0.220/apppages/manual/feedback.aspx?c={0}"/>
+    <!--功能介绍页面-->
+    <add key="introductionUrl" value="http://112.124.0.220/apppages/manual/introduction.html"/>
+    <!--官网手机版发送给用户的短信内容-->
+    <add key="SmsDownloadLink" value="优先点菜: http://url.cn/QmsFSL; 优先服务: http://url.cn/QVUVek"/>
+    <!--投诉页面-->
+    <add key="complaintURL" value="http://112.124.0.220/apppages/manual/complaint.aspx?p={0}"/>
+    <!--评价推送内容-->
+    <add key="evaluationNotificationMsg" value="恭喜您的点单已经入座成功!你还可以评价分享赚免单哦~"/>
+    <!--门店服务员接收支付点单短信提醒-->
+    <add key="payOrderMessage" value="{0}收到{1}元支付订单"/>
+    <!--微信out_trade_no前缀-->
+    <add key="wechatPrefix" value="vayou"/>
+    <!--阿里云OSS访问地址及ID对-->
+    <!--外网-->
+    <add key="ossEndPoint" value="http://oss-cn-hangzhou.aliyuncs.com"/>
+    <!--内网-->
+    <!--<add key="ossEndPoint" value="http://oss-cn-hangzhou-internal.aliyuncs.com"/>-->
+    <add key="ossAccessID" value="PuuvkCXeokp2UcFU"/>
+    <add key="ossAccessKey" value="XC631KP9zGMn4S8AHFOPfJwXqW7MjD"/>
+    <!--Bucke名字，区分正式与测试-->
+    <add key="ossBucket" value="uxian-test"/>
+    <!--应用OSS后新域名-->
+    <add key="ossDomain" value="http://uxian-test.oss-cn-hangzhou.aliyuncs.com/"/>
+    <!--图品存放根目录-->
+    <add key="UploadFiles" value="UploadFiles/"/>
+    <!--平台VIP图片拼接路径-->
+    <add key="VipImg" value="VipImg/"/>
+    <!--官网图片拼接路径-->
+    <add key="webImages" value="web/images/"/>
+    <!--文件暂存文件夹-->
+    <add key="temp" value="UploadFiles/temp/"/>
+    <!--积分商城商品拼接路径-->
+    <add key="Goods" value="UploadFiles/Images/Goods/"/>
+    <add key="shopImg" value="ShopImage/"></add>
+    <!--店铺二维码拼接路径-->
+    <add key="QRCodeImage" value="QRCodeImage/"/>
+    <!--广告路径-->
+    <add key="Advertisement" value="Advertisement/"/>
+    <!--公司勋章路径-->
+    <add key="CompanyMedalImage" value="CompanyMedalImage/"/>
+    <!--门店勋章路径-->
+    <add key="ShopMedalImage" value="ShopMedalImage/"/>
+    <!--客户端出错日志通知邮件-->
+    <add key="ClientErrorEmailAddressTo" value="yurun.hu@u-xian.com;jing.li@u-xian.com"/>
+    <add key="FoodDiaryDefaultContentCount" value="4"/>
+    <add key="FoodDiaryDefaultContent1" value="爱吃东西的孩纸都是好孩纸，因为我们拼命追求美食，没有时间去害人=3="/>
+    <add key="FoodDiaryDefaultContent2" value="我想要怒放的森命，就像矗立在舌尖之巅~~肚皮又顺利滴蓬勃起来了TAT"/>
+    <add key="FoodDiaryDefaultContent3" value="舌尖上的中国，指尖上的餐厅。嘻嘻，用手机点菜吃饭好怀森的哟~"/>
+    <add key="FoodDiaryDefaultContent4" value="一路上有你，多吃点也可以！"/>
+
+    <add key="cloudStorageMode" value="aliyun"/>
+    <add key="cdnDomain" value="http://uxian-intranet.oss-cn-hangzhou.aliyuncs.com/"/>
+
+    <add key="CertInfoPath" value="D:\\1218239601_20140317151202.pfx"/>
+    <!--服务启动时间-->
+    <add key ="ServiceStartTime" value="3:00:00"/>
+  </appSettings>
+</configuration>

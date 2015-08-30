@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--感恩节活动二维码入口页面-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body onload="Transfer()">
+  <script>
+      function GetRequest() {
+          var url = location.search;
+          var theRequest = new Object();
+          if (url.indexOf("?") != -1) {
+              var str = url.substr(1);
+              var strs = str.split("&");
+              for (var i = 0; i < strs.length; i++) {
+                  theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+              }
+          }
+          return theRequest;
+      }
+      function Transfer() {
+          location.href = "http://u-xian.com/AppPages/BigRedEnvelope/index.html?activityId=73";
+      }
+</script>  
+</body>
+</html>

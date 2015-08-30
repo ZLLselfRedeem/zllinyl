@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9632AD79-0C4B-48E3-8373-B4D11E740D21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VAGastronomistMobileApp.Model</RootNamespace>
+    <AssemblyName>VAGastronomistMobileApp.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\CommonDll\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\CommonDll\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvertisementConnAdColumnInfo.cs" />
+    <Compile Include="AdvertisementInfo.cs" />
+    <Compile Include="AdvertisementInfoQueryObject.cs" />
+    <Compile Include="ClientExtendModel.cs" />
+    <Compile Include="ClientOrderDetailConfig.cs" />
+    <Compile Include="ClinetStartImgConfig.cs" />
+    <Compile Include="Coupon.cs" />
+    <Compile Include="CouponExtend.cs" />
+    <Compile Include="CouponGetDetailV.cs" />
+    <Compile Include="CouponSendDetail.cs" />
+    <Compile Include="CouponUseRecord.cs" />
+    <Compile Include="CouponGetDetail.cs" />
+    <Compile Include="CouponV.cs" />
+    <Compile Include="CustomerCheckedShop.cs" />
+    <Compile Include="DemoModel.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="Finance\AccountDetailsQueryItemEntity.cs" />
+    <Compile Include="Finance\AccountDetailsQueryRequestEntity.cs" />
+    <Compile Include="Finance\AccountDetailsQueryResponseEntity.cs" />
+    <Compile Include="Finance\BalanceAccountInfo.cs" />
+    <Compile Include="Finance\BankMoneyRecord.cs" />
+    <Compile Include="Finance\ResultSet.cs" />
+    <Compile Include="Finance\StoresMoneyLog.cs" />
+    <Compile Include="FoodDiaryDetails.cs" />
+    <Compile Include="FoodPlaza.cs" />
+    <Compile Include="Interface\ICoupon.cs" />
+    <Compile Include="Interface\ICouponGetDetailV.cs" />
+    <Compile Include="Interface\ICouponV.cs" />
+    <Compile Include="Interface\IPreorder19DianLine.cs" />
+    <Compile Include="Interface\IPreorder19DianLineV.cs" />
+    <Compile Include="Interface\IQrCode.cs" />
+    <Compile Include="Interface\IShopHandleLog.cs" />
+    <Compile Include="Interface\IShopStatics.cs" />
+    <Compile Include="Interface\IShopStopPaymentLog.cs" />
+    <Compile Include="Log\ShopHandleLog.cs" />
+    <Compile Include="Meal\Meal.cs" />
+    <Compile Include="Meal\MealConnPreOrder.cs" />
+    <Compile Include="Meal\MealSchedule.cs" />
+    <Compile Include="Meal\ShopSequence.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Payment\AlipayOrderInfo.cs" />
+    <Compile Include="ApplyMapping.cs" />
+    <Compile Include="ApplyPaymentInfo.cs" />
+    <Compile Include="BatchMoney.cs" />
+    <Compile Include="BusinessPay.cs" />
+    <Compile Include="ClientErrorInfo.cs" />
+    <Compile Include="ClientRecharge\CustomerRechargeInfo.cs" />
+    <Compile Include="CommonCurrentSellOffInfo.cs" />
+    <Compile Include="CompanyAccountInfo.cs" />
+    <Compile Include="CompanyEncuorage.cs" />
+    <Compile Include="CompanyVipInfo.cs" />
+    <Compile Include="Complaint\Complaint.cs" />
+    <Compile Include="CouponsReceiveActivitiesInfo.cs" />
+    <Compile Include="CurrentSellOffInfo.cs" />
+    <Compile Include="CustomerChargeOrder.cs" />
+    <Compile Include="CustomerServiceOperateLogInfo.cs" />
+    <Compile Include="CustomerVipLog.cs" />
+    <Compile Include="CustomerCouponOrder.cs" />
+    <Compile Include="CustomerVipInfo.cs" />
+    <Compile Include="Dish.cs" />
+    <Compile Include="DishDetails.cs" />
+    <Compile Include="DishImageForBatchUpload.cs" />
+    <Compile Include="DishIngredients.cs" />
+    <Compile Include="DishJsonforCompanyPages.cs" />
+    <Compile Include="DishPriceConnIngredients.cs" />
+    <Compile Include="DishPriceConnTaste.cs" />
+    <Compile Include="DishTaste.cs" />
+    <Compile Include="EmployeeOperateLogInfo.cs" />
+    <Compile Include="EmployeeShopAuthority.cs" />
+    <Compile Include="FoodDiariesShareConfig.cs" />
+    <Compile Include="FoodDiary.cs" />
+    <Compile Include="FoodDiaryDefaultConfigDish.cs" />
+    <Compile Include="FoodDiaryDish.cs" />
+    <Compile Include="ImageTask.cs" />
+    <Compile Include="Log\RechargeLog.cs" />
+    <Compile Include="MedalConnShopCompany.cs" />
+    <Compile Include="MedalImageInfo.cs" />
+    <Compile Include="MenuUpdateTask.cs" />
+    <Compile Include="MoneyMerchantAccountDetail.cs" />
+    <Compile Include="MoneyRefundDetail.cs" />
+    <Compile Include="MoneyViewallocAccountDetail.cs" />
+    <Compile Include="OpenIdInfo.cs" />
+    <Compile Include="OriginalRoadRefundInfo.cs" />
+    <Compile Include="PaginationPager.cs" />
+    <Compile Include="Payment\AliRefundOrderInfo.cs" />
+    <Compile Include="Payment\JsApiTicketInfo.cs" />
+    <Compile Include="Payment\UnionPayInfo.cs" />
+    <Compile Include="Point\Goods.cs" />
+    <Compile Include="Point\HtmlInfo.cs" />
+    <Compile Include="Point\EmployeePointLog.cs" />
+    <Compile Include="Point\PointManageLog.cs" />
+    <Compile Include="PreOrder19dianInfo.cs" />
+    <Compile Include="AppBuildInfo.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="CompanyInfo.cs" />
+    <Compile Include="County.cs" />
+    <Compile Include="CustomEncourage.cs" />
+    <Compile Include="CustomerConnDevice.cs" />
+    <Compile Include="CustomerCoupon.cs" />
+    <Compile Include="CustomerFavoriteCompany.cs" />
+    <Compile Include="CustomerForgetPassword.cs" />
+    <Compile Include="CustomerInviteRecord.cs" />
+    <Compile Include="CustomerLoginInfo.cs" />
+    <Compile Include="DeviceInfo.cs" />
+    <Compile Include="DeviceTokenAndMessage.cs" />
+    <Compile Include="DiscountInfo.cs" />
+    <Compile Include="EmployeeConnShop.cs" />
+    <Compile Include="FinancialType.cs" />
+    <Compile Include="AuthorityInfo.cs" />
+    <Compile Include="CityLedgerCompanyInfo.cs" />
+    <Compile Include="CityLedgerCustomerInfo.cs" />
+    <Compile Include="CommonData.cs" />
+    <Compile Include="CustomerInfo.cs" />
+    <Compile Include="CustomerRank.cs" />
+    <Compile Include="DinnerTimeInfo.cs" />
+    <Compile Include="DiscountType.cs" />
+    <Compile Include="DishAssessInfo.cs" />
+    <Compile Include="DishConnMaterial.cs" />
+    <Compile Include="DishConnType.cs" />
+    <Compile Include="DishI18n.cs" />
+    <Compile Include="DishPriceI18n.cs" />
+    <Compile Include="DishTypeI18n.cs" />
+    <Compile Include="DishTypeInfo.cs" />
+    <Compile Include="EmployeeInfo.cs" />
+    <Compile Include="EmployeeLoginInfo.cs" />
+    <Compile Include="EmployeeRole.cs" />
+    <Compile Include="FoxhisInterfaceCancelMenu.cs" />
+    <Compile Include="FoxhisInterfaceInfo.cs" />
+    <Compile Include="FoxhisInterfaceInsertMenu.cs" />
+    <Compile Include="FoxhisInterfaceOrderManage.cs" />
+    <Compile Include="FoxhisInterfaceOrderToDish.cs" />
+    <Compile Include="ImageInfo.cs" />
+    <Compile Include="DishInfo.cs" />
+    <Compile Include="DishPriceInfo.cs" />
+    <Compile Include="InventoryInfo.cs" />
+    <Compile Include="InventoryType.cs" />
+    <Compile Include="LanguageInfo.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="MapInfo.cs" />
+    <Compile Include="MaterialInfo.cs" />
+    <Compile Include="MenuI18n.cs" />
+    <Compile Include="MenuInfo.cs" />
+    <Compile Include="MenuConnShop.cs" />
+    <Compile Include="Money19dianDetail.cs" />
+    <Compile Include="NotificationRecord.cs" />
+    <Compile Include="OrderDetailInfo.cs" />
+    <Compile Include="OrderInfo.cs" />
+    <Compile Include="OrderPayInfo.cs" />
+    <Compile Include="PaymentInfo.cs" />
+    <Compile Include="Preorder19DianLine.cs" />
+    <Compile Include="Preorder19DianLineV.cs" />
+    <Compile Include="PreOrderCheckInfo.cs" />
+    <Compile Include="CustomerPreOrder.cs" />
+    <Compile Include="PreorderEevaluation.cs" />
+    <Compile Include="PreOrderQueryInfo.cs" />
+    <Compile Include="PreOrderWeiboShare.cs" />
+    <Compile Include="PrePayPrivilege.cs" />
+    <Compile Include="PrePayPrivilegeConnCouponInfo.cs" />
+    <Compile Include="PrePayPrivilegeFrequency.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Province.cs" />
+    <Compile Include="QrCode.cs" />
+    <Compile Include="QRCodeConnShop.cs" />
+    <Compile Include="QRCodePageView.cs" />
+    <Compile Include="QueryObject\CouponGetDetailVQueryObject.cs" />
+    <Compile Include="QueryObject\CouponQueryObject.cs" />
+    <Compile Include="QueryObject\CouponVQueryObject.cs" />
+    <Compile Include="QueryObject\Preorder19DianLineQueryObject.cs" />
+    <Compile Include="QueryObject\Preorder19DianLineVQueryObject.cs" />
+    <Compile Include="QueryObject\PreorderEevaluation.cs" />
+    <Compile Include="QueryObject\QrCodeQueryObject.cs" />
+    <Compile Include="QueryObject\ShopHandleLogQueryObject.cs" />
+    <Compile Include="QueryObject\ShopStatics.cs" />
+    <Compile Include="QueryObject\ShopStopPaymentLog.cs" />
+    <Compile Include="QueueInfo.cs" />
+    <Compile Include="ClientRecharge\ClientRechargeInfo.cs" />
+    <Compile Include="RedEnvelope\Activity.cs" />
+    <Compile Include="RedEnvelope\ActivityShareInfo.cs" />
+    <Compile Include="RedEnvelope\RedEnvelope.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeRankList.cs" />
+    <Compile Include="RedEnvelope\VaSourceType.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeConnPreOrder.cs" />
+    <Compile Include="RedEnvelope\RedEnvelopeDetail.cs" />
+    <Compile Include="RedEnvelope\TreasureChest.cs" />
+    <Compile Include="RedEnvelope\TreasureChestAccessInfo.cs" />
+    <Compile Include="RedEnvelope\TreasureChestConfig.cs" />
+    <Compile Include="RefundPayType.cs" />
+    <Compile Include="ServiceChargeInfo.cs" />
+    <Compile Include="ShopAmountLog.cs" />
+    <Compile Include="ShopAuthority.cs" />
+    <Compile Include="ShopCoordinate.cs" />
+    <Compile Include="ShopEvaluationDetail.cs" />
+    <Compile Include="ShopInfo.cs" />
+    <Compile Include="ShopPreOrder.cs" />
+    <Compile Include="ShopReport.cs" />
+    <Compile Include="PreOrder19dianV.cs" />
+    <Compile Include="ShopReportV.cs" />
+    <Compile Include="ShopRevealImage.cs" />
+    <Compile Include="ShopStatics.cs" />
+    <Compile Include="ShopStaticsReport.cs" />
+    <Compile Include="ShopStopPaymentLog.cs" />
+    <Compile Include="ShopTag.cs" />
+    <Compile Include="ShopVipArticle.cs" />
+    <Compile Include="ShopVIPFlaseCount.cs" />
+    <Compile Include="ShopVIPSpeedConfig.cs" />
+    <Compile Include="ShopVIP.cs" />
+    <Compile Include="ShopVIPSpeedNextTime.cs" />
+    <Compile Include="SpecialAuthorityInfo.cs" />
+    <Compile Include="StocktakingInfo.cs" />
+    <Compile Include="SundryInfo.cs" />
+    <Compile Include="Syb\CurrectIngredientsSellOffInfo.cs" />
+    <Compile Include="Syb\MerchantInfo.cs" />
+    <Compile Include="Syb\MerchantsPrinterConfigInfo.cs" />
+    <Compile Include="Syb\PageNav.cs" />
+    <Compile Include="Syb\PageQuery.cs" />
+    <Compile Include="Syb\SybDishImage.cs" />
+    <Compile Include="Syb\SybDishInfo.cs" />
+    <Compile Include="Syb\SybDishIngredientsList.cs" />
+    <Compile Include="Syb\SybDishIngredients.cs" />
+    <Compile Include="Syb\SybTypeinfoModel.cs" />
+    <Compile Include="Syb\SybWebMsg.cs" />
+    <Compile Include="Syb\SybTypeModel.cs" />
+    <Compile Include="SystemConfigInfo.cs" />
+    <Compile Include="TableAreaInfo.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="Payment\TenpayRefundOrder.cs" />
+    <Compile Include="ThemeControl.cs" />
+    <Compile Include="ThemeControlProperty.cs" />
+    <Compile Include="ThemePage.cs" />
+    <Compile Include="ThirdPartyPaymentInfo.cs" />
+    <Compile Include="UnitInfo.cs" />
+    <Compile Include="UserComplain.cs" />
+    <Compile Include="UserLottery.cs" />
+    <Compile Include="VAEncourageConfig.cs" />
+    <Compile Include="VerificationCodeInfo.cs" />
+    <Compile Include="ViewAllocEmployeeAuthority.cs" />
+    <Compile Include="WaitingLineInfo.cs" />
+    <Compile Include="RankConnDiscount.cs" />
+    <Compile Include="ReserveInfo.cs" />
+    <Compile Include="RoleAuthority.cs" />
+    <Compile Include="RoleInfo.cs" />
+    <Compile Include="TableInfo.cs" />
+    <Compile Include="VersionInfo.cs" />
+    <Compile Include="VideoInfo.cs" />
+    <Compile Include="Thumbnail.cs" />
+    <Compile Include="WebConfig\ClientImageSize.cs" />
+    <Compile Include="WebConfig\CustomPushRecord.cs" />
+    <Compile Include="WebConfig\OfficialWebConfig.cs" />
+    <Compile Include="WebConfig\PayModeInfo.cs" />
+    <Compile Include="WebConfig\WebConfig.cs" />
+    <Compile Include="WeChatAuthorization.cs" />
+    <Compile Include="WechatComplaintReceiveInfo.cs" />
+    <Compile Include="WechatCustomerInfo.cs" />
+    <Compile Include="WechatFreeCaseInfo.cs" />
+    <Compile Include="WechatHotMenuInfo.cs" />
+    <Compile Include="WechatLandladyVoiceInfo.cs" />
+    <Compile Include="WechatMerchantSendInfo.cs" />
+    <Compile Include="Payment\WechatPayOrderInfo.cs" />
+    <Compile Include="WechatProposalReceiveInfo.cs" />
+    <Compile Include="WechatReceivedMsg.cs" />
+    <Compile Include="WechatRecommandShopInfo.cs" />
+    <Compile Include="WechatTopPriceInfo.cs" />
+    <Compile Include="WeChatUser.cs" />
+    <Compile Include="WeChatUserPrivilege.cs" />
+    <Compile Include="WechatUxianComplaintInfo.cs" />
+    <Compile Include="WechatUxianCooperationInfo.cs" />
+    <Compile Include="WechatUxianProposalInfo.cs" />
+    <Compile Include="WechatUxianQandAInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{E036CA35-50C3-4396-B643-B3CCFD8519A9}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

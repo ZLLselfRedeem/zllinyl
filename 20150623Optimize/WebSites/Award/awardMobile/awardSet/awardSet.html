@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+		<title>抽奖活动设置</title>
+		<link type="text/css" rel="stylesheet" href="css/awardSet.css" />
+		<!--jquery-2.1.3-->
+		<script type="text/javascript" src="/series/jquery/jquery-2.1.3.min.js"></script>
+		<!--iscroll-->
+		<script type="text/javascript" src="../scripts/iscroll.js"></script>
+		<script type="text/javascript" src="js/awardSet.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="hide" id="loading"><img src="img/loading.gif" /></div>
+			<div class="hide" id="tipsBg"></div>
+			<div class="hide" id="tips">不能为空</div>
+			<div class="main" id="main">
+				<div class="page" id="page0">
+					<div class="btn next" id="OpenDraw">我要开通门店抽奖功能</div>
+				</div>
+				<div class="page" id="page1">
+					<div class="pageContent">
+						<ul>
+							<li>免排队名额设置</li>
+							<li class="bgWhite">请填写您的门店经营情况：</li>
+							<li class="bgCyan">
+								<table cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="td1">高峰时段最多排队的桌数</td>
+										<td class="td2"><input type="number" id="deskNum" placeholder="请输入桌数" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" /></td>
+									</tr>
+								</table>
+							</li>
+							<li class="bgWhite">为保证您的门店线下就餐等待只需，系统建议您的门店免排队名额不超过10%：</li>
+							<li class="bgCyan">
+								<table cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="td1">每日免排队名额数量</td>
+										<td class="td2"><input type="number" id="freeQueueNum" placeholder="10个" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" /></td>
+									</tr>
+								</table>
+							</li>
+						</ul>
+					</div>
+					<div class="btns">
+						<div class="btn next">下一步</div>
+						<div id="skip">跳过</div>
+					</div>
+				</div>
+				<div class="page" id="page2">
+					<div class="title">赠送菜品设置</div>
+					<div class="pageContent" id="pageContent">
+						<table cellpadding="0" cellspacing="0" class="pcTable">
+							<tr>
+								<td class="dishs">
+									<table class="dishTable hide"></table>
+									<table class="dishTable" cellpadding="0" cellspacing="0">
+										<tr>
+											<td class="td0 borderbottom" rowspan="2"><img src="img/del.png" class="close" /></td>
+											<td class="td1">赠菜名称</td>
+											<td class="td2">
+												<div class="iptWrap" id="iptWrap0">
+													<input type="text" class="dishname" placeholder="请输入菜品名称进行查找" />
+													<ul></ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="td1 bordertop borderbottom">每日奖品分数</td>
+											<td class="td2 bordertop borderbottom"><input type="text" class="dishnum" placeholder="请设置每日奖品份数" /></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td class="add" id="addDish">新增赠送菜品</td>
+							</tr>
+						</table>
+					</div>
+					<div class="btn" id="save">保存</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

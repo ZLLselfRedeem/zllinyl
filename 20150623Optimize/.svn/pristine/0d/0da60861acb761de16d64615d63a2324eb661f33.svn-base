@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>抵扣券相关问题</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="help.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../tron/coms/jquery/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+		<section class="container faq">
+        	<ul>
+            	<li>
+                	<h4><i class="fa fa-question-circle"></i> 什么是抵扣券？</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 抵扣券是悠先点菜发放给会员，用于在特定门店消费时抵扣的优惠券，您可以在券包中查看抵扣券。
+                    </p>
+                </li>
+                
+                <li>
+                	<h4><i class="fa fa-question-circle"></i> 抵扣券在哪里领取？</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 您每在悠先平台上消费一单，就可以获得一张抵扣券，需要您将链接分享到朋友圈或组群后，点击领取。
+                    </p>
+                </li>
+                
+                <li>
+                  <h4><i class="fa fa-question-circle"></i> 抵扣券如何使用？</h4>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 当订单达到商家所设消费金额标准时，系统会自动勾选最先过期的抵扣券，您也可勾选其他金额的抵扣券。抵扣券必须在有效期内使用，每个订单只能使用一张抵扣券。
+                    </p>
+                </li>
+                
+                <li>
+                  <h4><i class="fa fa-question-circle"></i> 相同的餐厅不同的门店，抵扣券可以通用吗？</h4>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 不可以，抵扣券仅适用于当前领取的指定商户，不可跨店使用。
+                    </p>
+                </li>
+                
+                <li>
+                  <h4><i class="fa fa-question-circle"></i> 倘若退单，抵扣券是否可以退回？</h4>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 如果您在未使用的状态退单，则抵扣券原单返还，失效日期不变；如果在已使用的状态退单，则抵扣券不予返还。
+                    </p>
+                </li>
+                
+                <li>
+                  <h4><i class="fa fa-question-circle"></i> 抵扣券过期了是否还可以继续使用？</h4>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 不可以继续使用。
+                    </p>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="container zan">
+        	<div class="row">
+            	<div class="col-lg-12">
+                	<div class="a1">若还有疑问，请联系我们的微信客服</div>
+                    <div class="a2"><a href="wechat_4.html">人工服务</a></div>
+               </div>
+                <div class="col-xs-6 text-right"><button class="btn btn-success btn-zan" data-type="a1" data-value="1"><i class="fa fa-thumbs-o-up"></i> 赞</button></div>
+                <div class="col-xs-6 text-left"><button class="btn btn-warning btn-zan" data-type="a1" data-value="0"><i class="fa fa-thumbs-o-down"></i> 踩</button></div>
+            </div>
+        </section>
+  </body>
+</html>
+    <script src="on.js"></script>

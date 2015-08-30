@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>红包使用规则</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <style type="text/css">
+      body{ font-family:Microsoft YaHei,Tahoma,simsun!important;}
+      .container{ padding-top:10px;}
+      .container ul{ margin:0; padding:0; list-style:none;}
+      .container h4{ font-size:14px;}
+      .container p{ color:#777; margin-left:15px;}
+      .container ul li{ margin-bottom:15px;}
+      .zan{ border-top:1px solid #ddd; padding-bottom: 50px;}
+      .zan .col-lg-12{ padding:15px 0px; text-align:center;}
+      .zan .col-lg-12 .a2{ font-size:14px; margin-top:15px;}
+      .zan .col-lg-12 a{ text-decoration:underline; color:#ef2920;}
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../tron/coms/jquery/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+		<section class="container">
+        	<ul>
+            	<li>
+                	<h4><i class="fa fa-question-circle"></i> 红包使用规则</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 未入座订单中的任一红包过期，该笔订单过期，需要您申请退款。
+                    </p>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 如退单，订单中未过期的红包将退回红包账户，已过期的红包不予退回
+                    </p>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 仅用红包支付的订单，需多付0.01元。 
+                    </p>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 同一用户每天只能抵用1次红包（同一悠先账户、同一手机设备、同一微信/支付宝账号符合任意条件的，都是同一用户。）
+                    </p>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 如您不能抵用红包请尽快升级，6.6.1以下的版本将不再支持抵用红包。
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <!--<section class="container zan">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="a1">若还有疑问，请联系我们的微信客服</div>
+                    <div class="a2"><a href="wechat_4.html">人工服务</a></div>
+               </div>
+                <div class="col-xs-6 text-right"><button class="btn btn-success btn-zan" data-type="a2" data-value="1"><i class="fa fa-thumbs-o-up"></i> 赞</button></div>
+                <div class="col-xs-6 text-left"><button class="btn btn-warning btn-zan" data-type="a2" data-value="0"><i class="fa fa-thumbs-o-down"></i> 踩</button></div>
+            </div>
+        </section>-->
+  </body>
+</html>

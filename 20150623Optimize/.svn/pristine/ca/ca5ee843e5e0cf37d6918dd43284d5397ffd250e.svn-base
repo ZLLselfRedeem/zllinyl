@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--四折页活动二维码入口页面-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body onload="Transfer()">
+  <script>
+      function GetRequest() {
+          var url = location.search;
+          var theRequest = new Object();
+          if (url.indexOf("?") != -1) {
+              var str = url.substr(1);
+              var strs = str.split("&");
+              for (var i = 0; i < strs.length; i++) {
+                  theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+              }
+          }
+          return theRequest;
+      }
+      function Transfer() {
+          var Request = new Object();
+          Request = GetRequest();
+          var code = Request["c"];
+          switch (code) {
+              case "1":
+                  location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=69";
+                  break;
+
+              case "2":
+                  location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=70";
+                  break;
+
+              case "3":
+                  location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=71";
+                  break;
+
+              case "4":
+                  location.href = "http://u-xian.com/AppPages/RedEnvelope/TreasureChest.aspx?activityId=72";
+                  break;
+          }
+      }
+</script>  
+</body>
+</html>

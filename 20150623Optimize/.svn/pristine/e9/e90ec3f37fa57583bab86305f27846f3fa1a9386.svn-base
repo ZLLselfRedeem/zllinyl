@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>门店问题</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="help.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../tron/coms/jquery/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+		<section class="container faq">
+        	<ul>
+            	<li>
+                	<h4><i class="fa fa-question-circle"></i> 为什么我想吃的门店不能使用悠先？</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 餐厅暂未开通支付，或在调整中，请耐心等待餐厅上线。
+                    </p>
+                </li>
+            	<li>
+                	<h4><i class="fa fa-question-circle"></i> 点好单去到店里，服务员说不能使用？</h4>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 原因一：可能该店还未接受上线培训；
+                    </p>
+                    <p>
+                    	<i class="fa fa-volume-down"></i> 原因二：可能该店不合作还未及时下线。
+                    </p>
+                </li>
+              <li>
+                  <h4><i class="fa fa-question-circle"></i> 什么是门店的等级？</h4>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 悠先的每家门店都有对应等级，门店的等级越高，说明该门店受欢迎度越高、服务越好。等级的象征物为皇冠、钻石、星星，其中皇冠等级最高，星星最低。
+                    </p>
+                    <p>
+                      <i class="fa fa-volume-down"></i> 您可以根据首页与门店详情页面的门店等级，挑选您信任的餐厅就餐。
+                    </p>
+                </li>
+              <li>
+                <h4><i class="fa fa-question-circle"></i> 对门店服务评价有什么用？</h4>
+                <p>
+                  <i class="fa fa-volume-down"></i> 您在悠先每成功消费一次，即可获得一次评价的机会，您的评价将会对门店的等级产生影响，也为下一位就餐客人提供了消费依据。
+                </p>
+              </li>
+            </ul>
+        </section>
+        
+        <section class="container zan">
+        	<div class="row">
+            	<div class="col-lg-12">
+                	<div class="a1">若还有疑问，请联系我们的微信客服</div>
+                    <div class="a2"><a href="wechat_4.html">人工服务</a></div>
+               </div>
+                <div class="col-xs-6 text-right"><button class="btn btn-success btn-zan" data-type="b2" data-value="1"><i class="fa fa-thumbs-o-up"></i> 赞</button></div>
+                <div class="col-xs-6 text-left"><button class="btn btn-warning btn-zan" data-type="b2" data-value="0"><i class="fa fa-thumbs-o-down"></i> 踩</button></div>
+            </div>
+        </section>
+  </body>
+</html>
+    <script src="on.js"></script>

@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 13px;
+  line-height: 2em;
+  font-family: Microsoft YaHei, Tahoma, simsun;
+  color: #999;
+  width: 100%;
+  background: #fff;
+}
+li {
+  list-style-type: none;
+}
+.wrap {
+  position: relative;
+  width: 100%;
+}
+.wrap div {
+  width: 100%;
+}
+.wrap a {
+  text-decoration: none;
+}
+.wrap .c {
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.wrap .colorRed {
+  color: #ef2920;
+}
+.wrap .colorBlue {
+  color: #3f99d3;
+}
+.wrap .m10 {
+  margin-top: 10px;
+}
+.wrap .btn {
+  font-size: 1.3em;
+}
+/*发布抵扣劵*/
+.release ul {
+  padding-left: 15px;
+  margin-bottom: 86px;
+}
+.release ul li {
+  padding: 3px 0;
+  border-bottom: 1px solid #ccc;
+}
+.release ul li p {
+  display: inline-block;
+  color: #08bf4d;
+}
+.release ul li p input {
+  color: #08bf4d;
+}
+.release ul li input {
+  border: none;
+  padding: 13px 0;
+  font-size: 1.2em;
+}
+.release ul li #valid {
+  width: 45px;
+}
+.release ul li .iptTxtBlue {
+  width: 65px;
+  color: #3594d1;
+  text-align: right;
+  padding-right: 5px;
+}
+.release ul #li1 td:first-child {
+  width: 25%;
+}
+.release ul #li2 td:first-child,
+.release ul #li3 td:first-child {
+  width: 30%;
+}
+.release ul #li2 td:last-child,
+.release ul #li3 td:last-child {
+  overflow: hidden;
+}
+.release ul #li2 td:last-child input,
+.release ul #li3 td:last-child input {
+  padding-left: 2%;
+}
+.release ul #li4 td:first-child,
+.release ul #li5 td:first-child {
+  width: 10%;
+}
+.release .btnbg {
+  width: 100%;
+  border-top: 1px solid #d0d0d0;
+  background-color: #f9f9f9;
+  padding: 8px 0;
+  text-align: center;
+}
+.release .btnbg #completeBtn {
+  width: 90%;
+  padding: 15px 0;
+  color: #fff;
+  border: 1px solid #247fb9;
+  background: #3594d1;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+#mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+#mask #maskTitle {
+  position: absolute;
+  top: 30%;
+  left: 14%;
+  width: 70%;
+  padding: 10px 1%;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  box-shadow: 0 0 5px #000;
+}
+/*会员浏览*/
+.shopInfoFixed {
+  position: fixed;
+  left: 0;
+}
+.vipView #shopInfo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+  transition: top .5s;
+}
+.vipView .shopInfo {
+  color: #fff;
+  background-color: #3694d4;
+  padding: 25px 0 5px 0;
+}
+.vipView .shopInfo .tool {
+  font-size: 1.5em;
+}
+.vipView .shopInfo .tool span {
+  padding: 5px 0 10px 0;
+}
+.vipView .shopInfo #refresh {
+  float: left;
+  padding-right: 20px;
+}
+.vipView .shopInfo #help {
+  float: right;
+  padding-left: 20px;
+}
+.vipView .shopInfo .title {
+  font-size: 1.8em;
+  padding-bottom: 5px;
+}
+.vipView .shopInfo p {
+  padding: 0 15px;
+}
+.vipView .shopInfo p .level {
+  position: relative;
+  top: 3px;
+}
+.vipView .shopInfo p .level img {
+  width: 1.3em;
+  margin: 0 0.17em;
+}
+.vipView .shopInfo p span:first-child {
+  margin-right: 13px;
+}
+.vipView .shopInfo p:last-child {
+  margin-bottom: 5px;
+}
+.vipView .vipInfo {
+  background-color: #f1f9ff;
+  border-bottom: 1px solid #ccc;
+  padding: 18px 0;
+}
+.vipView .vipInfo .vipCount li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.vipView .vipInfo .vipCount li #newVip,
+.vipView .vipInfo .vipCount li #allVip {
+  color: #3694d4;
+  font-size: 2.5em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.vipView .vipInfo .vipCount li #newVip {
+  font-size: 3em;
+}
+.vipView .vipInfo .percentWrap {
+  position: relative;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  border-radius: 5px;
+  background-color: #ababab;
+  overflow: hidden !important;
+}
+.vipView .vipInfo .percentWrap .percentLight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px 5px 0 0;
+  background: rgba(255, 255, 255, 0.4);
+}
+.vipView .vipInfo .percentWrap .percent li {
+  float: left;
+  height: 10px;
+}
+.vipView .vipInfo .percentWrap .percent #percent0 {
+  background-color: #ef2920;
+  border-radius: 5px 0 0 5px;
+  width: 0;
+}
+.vipView .vipInfo .percentWrap .percent #percent1 {
+  background-color: #ffc119;
+  width: 0;
+}
+.vipView .vipInfo .percentWrap .percent #percent2 {
+  background-color: #ababab;
+  border-radius: 0 5px 5px 0;
+  width: 0;
+}
+.vipView .vipInfo #instr {
+  padding: 17px 15px 0 15px;
+}
+.vipView .activityNews {
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.vipView .activityNews ul li {
+  width: 100%;
+}
+.vipView .nowActivity {
+  border-bottom: 1px solid #ccc;
+}
+.vipView .nowActivity p {
+  padding: 17px 15px 0 15px;
+}
+.vipView .nowActivity ul {
+  text-align: center;
+  margin: 20px 0;
+}
+.vipView .nowActivity ul li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 4px;
+  color: #fff;
+  overflow: hidden;
+}
+.vipView .nowActivity ul #btnCount {
+  border: 1px solid #035288;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f99d3), to(#3f99d3));
+}
+.vipView .nowActivity ul #btnRelase {
+  width: 40%;
+  border: 1px solid #b00800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ef2920), to(#ef2920));
+  margin-left: 8%;
+}
+.vipView .comment {
+  background-color: #f9f9f9;
+  padding-bottom: 8px;
+}
+.vipView .comment .title {
+  background: none;
+}
+.vipView .comment ul li {
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+}
+.vipView .comment ul li i {
+  float: right;
+  font-size: 1.5em;
+  padding-top: 4px;
+}
+.vipView .comment #showMore {
+  margin: 8px auto 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 85%;
+  border-radius: 4px;
+  background: #fff;
+  color: #999;
+}
+/*活动统计*/
+.activeCount {
+  font-size: 1.2em;
+}
+.activeCount ul li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  word-break: break-all;
+}
+.activeCount ul li .status {
+  float: right;
+}
+/*status0：未开始；status1：进行中；status2：已结束；status3：未通过；status4：待审核；*/
+.activeCount ul li .status0,
+.activeCount ul li .status1 {
+  color: #3594d1;
+}
+.activeCount ul li .status2 {
+  color: #888;
+}
+.activeCount ul li .status3,
+.activeCount ul li .status4 {
+  color: #ff2938;
+}
+.activeCount ul .title {
+  background: #f0f0f0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#eee));
+}
+.activeCount ul .content {
+  height: 0;
+  display: none;
+}
+.activeCount ul .active {
+  height: auto;
+  display: block;
+}
+/*用户评价*/
+.userEvaluation ul {
+  padding-top: 20px;
+}
+.userEvaluation ul li {
+  width: 90%;
+  margin: 0 auto;
+  color: #535353;
+  padding: 7px 0;
+}
+.userEvaluation ul li span {
+  float: right;
+}
+.userEvaluation ul li span i {
+  font-size: 1.4em;
+  color: #ccc;
+  padding-left: 6px;
+}
+.userEvaluation ul li .evaluat1 {
+  color: #ef2920;
+}
+.userEvaluation ul li .evaluat0 {
+  color: #ff9519;
+}
+.userEvaluation ul li .evaluat2 {
+  color: #999;
+}
+.userEvaluation ul li ul li {
+  width: 100%;
+}
+.userEvaluation ul .time {
+  height: 1.5em;
+  line-height: 1.5em;
+  background: #ccc;
+  color: #fff;
+  width: 30%;
+  text-align: center;
+  border-radius: 0.75em;
+  /*margin: 20px auto 15px auto;*/
+  padding: 0;
+}
+.userEvaluation ul .time:first-child {
+  margin-top: 0;
+}

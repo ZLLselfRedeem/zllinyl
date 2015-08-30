@@ -1,0 +1,37 @@
+{
+	maker: {
+		web: {
+			page: contrast('views/maker.asp'),
+			compile: resolve('compiles/maker.js'),
+			type: 'html'
+		},
+		post: {
+			compile: resolve('compiles/post.js'),
+			type: 'json'
+		}
+	},
+	view: {
+		web: {
+			page: contrast('views/view.asp'),
+			compile: resolve('compiles/view.js'),
+			type: 'html'
+		}
+	},
+	web: {
+		login: {
+			page: contrast('views/login.asp'),
+			type: 'html'
+		},
+		check: {
+			page: contrast('views/check.asp'),
+			compile: resolve('compiles/check.js'),
+			type: 'html'
+		}
+	},
+	page: {
+		home: {
+			compile: resolve('compiles/jump.js'),
+			type: 'none'
+		}
+	}
+}

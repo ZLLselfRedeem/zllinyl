@@ -1,0 +1,59 @@
+2015年8月29日 星期六 
+1.T-sql 中的 isnull的用法
+select isnull(ExtendPay,0) ExtendPay from PreOrder19dianExtend where preOrder19DianId=@preOrder19DianId
+
+2.list = list.OrderBy(p=>p.OrderPagType).ToList();
+
+3.// 判断是否可以退款（申请的退款金额要小于最大可退款金额）
+    if ((canRefundSumTotal - refundsum) > -0.001)
+    为什么不直接 if(canRefundSumTotal < refundsum)
+    跟浮点数的比较大小？相等？！有关系？
+
+4.两个double类型的量进行等于比较？！
+    if (Common.ToDecimal(actualPayAmount) == Common.ToDecimal(canRefundSum))
+
+5.下单操作的业务逻辑
+PreOrder19dian 老版本的订单表
+Orders 新加的订单表
+下单 分别在Orders和PreOrder19dian中插入一条记录
+补差价 在PreOrder19dian中插入一条记录，然后修改Orders中的支付金额等值。
+
+6. 把数据库中一条记录转换为一个相应对象的方法：
+        public static T GetEntity<T>(this SqlDataReader dr) where T : class, new()
+        {
+            T value = new T();
+            for (int i = 0; i < dr.FieldCount; i++)
+            {
+                PropertyInfo prop = typeof(T).GetProperty(dr.GetName(i),
+                    BindingFlags.IgnoreCase | BindingFlags.Instance | BindingFlags.Public);
+                try
+                {
+                    if (null != prop)
+                    {
+                        if (null == dr[i] || Convert.IsDBNull(dr[i]))
+                            prop.SetValue(value, null, null);
+                        else
+                            prop.SetValue(value, dr[i], null);
+                    }
+                }
+                catch
+                {
+                    return default(T);
+                }
+            }
+
+            return value;
+        }
+
+        public static string ConvertDbNullValue(object dbObject)
+        {
+            return dbObject == DBNull.Value ? "" : Convert.ToString(dbObject);
+        }
+
+7.红包，折扣，粮票，抵扣券，然后补差价再退款。出问题
+
+8.显示退款中，是因为在判断第三方支付的时候仅仅判断了当前是否有第三方支付，如果当前没有第三方支付，
+就不会显示退款中中，但是整个订单中有第三方支付。
+  修改方案：应该在退完的时候，判断该订单是否有第三方支付，如果有第三方支付，则标记状态为第三方支付。
+9.String.Compare(Common.debugFlag, "true", StringComparison.OrdinalIgnoreCase)
+    字符串比较

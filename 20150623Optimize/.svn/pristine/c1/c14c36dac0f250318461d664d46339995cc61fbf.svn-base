@@ -1,0 +1,22 @@
+﻿body 
+{
+   font-family: Tahoma;
+}
+
+ .wrap
+        {
+            margin: 0 auto;
+            width: 960px;
+        }
+
+.button
+{
+	font-size:11pt;			
+	cursor:pointer;	
+	border-top:#d4d0c8 1px solid; 
+	border-bottom: #d4d0c8 1px solid;
+    border-right: #d4d0c8 1px solid; 
+    border-left: #d4d0c8 1px solid;
+	background-color: #ffffff
+}
+
