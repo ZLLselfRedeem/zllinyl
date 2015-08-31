@@ -1,7 +1,0 @@
-body, .ui-page {
-	text-align: center;
-	background: #000;
-}
-img {
-	max-width: 100%;
-}

@@ -1,1 +1,0 @@
-引用该dll时，在引用本程序的dll（ChineseCharacterToPinyin.dll）的同时还需同时引用ChineseConverter.dll和ChnCharInfo.dll

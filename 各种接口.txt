@@ -1,0 +1,2 @@
+客户端直接退款接口 请求参数：type=1130&msg={"cookie":"9c4fc2dd-a4d4-4f66-9943-0592b61d4b69635764648491652369","cityId":87,"orderId":"9322b763-5eda-4838-a3cb-49e65ef266c7","uuid":"d016d56274506433fc3e723103a007e034c7f708","clientBuild":"2015.08.30","type":1130,"appType":1}
+悠先服务退款接口 请求参数：type=1098&msg={"clientBuild":"2.3.4","cookie":"779266f4-7ff4-4298-8bc8-05cda0990113635525042814767109","result":1,"serviceType":3,"taskType":0,"type":1098,"orderId":"8cc1b839-e75e-400a-be7a-1edc3e9b6462","shopId":151,"refundAccount":0.01,"preOrder19dianId":575113}

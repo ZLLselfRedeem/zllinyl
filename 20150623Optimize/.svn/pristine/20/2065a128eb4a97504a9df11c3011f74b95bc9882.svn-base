@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AccountTotalOutFile.aspx.cs" Inherits="CompanyPages_AccountTotalOutFile" %>

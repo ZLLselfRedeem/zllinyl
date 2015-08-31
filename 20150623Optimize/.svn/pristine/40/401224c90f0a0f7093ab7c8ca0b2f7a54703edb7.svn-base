@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FoodDiaryDetailsOutFile.aspx.cs" Inherits="OtherStatisticalStatement_FoodDiaryDetailsOutFile" %>
