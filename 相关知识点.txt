@@ -1,0 +1,26 @@
+2015年9月1日星期二 
+1.dataTable.DefaultView的用法
+2.关于GridView的一些用法：
+Label lbURL = (Label)GridView_City.Rows[i].FindControl("lbURL");
+3. DataView dv = dtOfCity.AsDataView();
+4.ASP.NET 如何在后端写前端的代码，比如说JS代码
+5.TransactionScope  .net 事务具体用法
+6.数据库模糊查询
+7.string cityName = TextBox_CityName.Text.Trim().ToString();web页面操作的时候要注意框中的空格
+8.linq的一些使用方法
+9.一些控件的用法--DropDownList TextBox和label的用法
+10.对于数据库中的一些操作，一定要主要操作的事务性。
+如下：bool deleteReust = manager.RemoveChannel(id);
+                if (deleteReust == true && manager.DeteteRelation(id))
+                {
+
+                    Page.ClientScript.RegisterStartupScript(GetType(), "message", "<script language='javascript' defer>alert('删除成功！');</script>");
+                }
+                else
+                {
+                    Page.ClientScript.RegisterStartupScript(GetType(), "message", "<script language='javascript' defer>alert('删除失败！');</script>");
+                }
+RemoveChannel(id)和DelteRelation(id)这两个操作的事务性。
+不可以在foreach循环中进行sql语句的查询。
+11.delegate 与Delegate的用法与区别
+12.hashtable容器？！！！

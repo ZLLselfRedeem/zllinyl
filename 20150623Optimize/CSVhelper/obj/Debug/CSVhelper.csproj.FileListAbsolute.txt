@@ -1,8 +1,0 @@
-D:\MyRoom\20150623Optimize\CommonDll\CSVhelper.dll
-D:\MyRoom\20150623Optimize\CommonDll\CSVhelper.pdb
-D:\MyRoom\20150623Optimize\CSVhelper\obj\Debug\CSVhelper.dll
-D:\MyRoom\20150623Optimize\CSVhelper\obj\Debug\CSVhelper.pdb
-D:\MyRoom\Project\20150623Optimize\CommonDll\CSVhelper.dll
-D:\MyRoom\Project\20150623Optimize\CommonDll\CSVhelper.pdb
-D:\MyRoom\Project\20150623Optimize\CSVhelper\obj\Debug\CSVhelper.dll
-D:\MyRoom\Project\20150623Optimize\CSVhelper\obj\Debug\CSVhelper.pdb

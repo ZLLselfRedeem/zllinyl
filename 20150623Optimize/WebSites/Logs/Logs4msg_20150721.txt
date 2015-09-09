@@ -1,6 +1,0 @@
-2015-07-21 14:24:18,958 - 日志写入数据库出错！兄弟,干嘛呢!来一趟啥都不干有意思吗?小心哥弄你!
-
-2015-07-21 14:28:46,508 - 日志写入数据库出错！{"appType":0,"cityId":0,"clientBuild":null,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","message":null,"result":-2012,"serviceType":0,"type":1095,"uuid":null}
-
-2015-07-21 14:31:26,930 - 日志写入数据库出错！{"appType":0,"cityId":0,"clientBuild":null,"cookie":"542f74c6-2f50-47b5-bfbf-ca417dac07e0635582255097051404","message":null,"result":-2012,"serviceType":0,"type":1095,"uuid":null}
-
